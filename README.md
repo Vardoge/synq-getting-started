@@ -24,6 +24,7 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
  * References the issue this PR pertains to
  * Tests passed (is enforced)
  * Approved by a reviewer (is enforced)
+* PR should be "Squash and Merged" and the branch deleted.  All commit history can be found in the PR for historical purposes ( [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
 
 ### Values
 
@@ -34,3 +35,7 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
  * __Care about your craft__ - see a bug that needs fixing, see a broken test, a process that needs improving?  Then fix it, care that what you do is done right, and even though it won't be perfect the first time (which it should almost never be), you care about making it better
  * __Be Consistent__ - follow conventions, standards, style guides are all good things, as it makes it easier to collaborate with teammates and allows us to execute faster as we follow well known systems and frameworks
  * __Have Fun__ - work shouldn't be "work", it should be fun, you should want to come in and do great work.  You also are not too serious about yourself or your code, and you enjoy having a good time with your colleagues.  If this ever becomes a job, we're in a serious trouble
+
+ ### Resources
+
+[Main Repo](https://github.com/SYNQfm/obaku)
