@@ -8,7 +8,14 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
 
 ### Simple Repo Rules
 
+* Branch names should include first name of user
 * Create a branch for each issue, and make it as "atomic" as possible.  Don't combine multiple features into a single branch
+* Maintain no more than 1-2 active branches
+* Always deploy from/branch from master
+
+### PR Information
+
+* PRs are posted to General
 * PR requests should not be open longer than a day.
 * PR request reviews should focus on
  * Having Tests
@@ -16,9 +23,7 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
  * Code organized properly
  * References the issue this PR pertains to
  * Tests passed (is enforced)
- * Approved by an reviewer (is enforced)
-* Maintain no more than 1-2 active branches
-* Always deploy from/branch from master
+ * Approved by a reviewer (is enforced)
 
 ### Values
 
