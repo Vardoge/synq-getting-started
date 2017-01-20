@@ -36,6 +36,6 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
  * __Be Consistent__ - follow conventions, standards, style guides are all good things, as it makes it easier to collaborate with teammates and allows us to execute faster as we follow well known systems and frameworks
  * __Have Fun__ - work shouldn't be "work", it should be fun, you should want to come in and do great work.  You also are not too serious about yourself or your code, and you enjoy having a good time with your colleagues.  If this ever becomes a job, we're in a serious trouble
 
- ### Resources
+### Resources
 
 [Main Repo](https://github.com/SYNQfm/obaku)
