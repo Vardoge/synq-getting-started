@@ -26,6 +26,9 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
  * Approved by a reviewer (is enforced)
 * PR should be "Squash and Merged" and the branch deleted.  All commit history can be found in the PR for historical purposes ( [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
 
+![alt text](dev_cycle.png "Workflow")
+
+
 ### Values
 
  * __Fail (or Succeed) Fast__ - we can't be afraid to try new technologies, techniques, and if it doesn't work, we fix it fast and learn from it.  Failures are learning oppurtunities and leads to success
