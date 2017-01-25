@@ -42,3 +42,5 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
 ### Resources
 
 [Main Repo](https://github.com/SYNQfm/obaku)
+
+[Wiki](https://github.com/SYNQfm/obaku/wiki)
