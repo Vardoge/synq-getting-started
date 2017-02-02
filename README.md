@@ -13,7 +13,7 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
 * Maintain no more than 1-2 active branches
 * Always deploy from/branch from master
 
-### PR Information
+### Pull Requests for Code
 
 * PRs are posted to General
 * PR requests should not be open longer than a day.
@@ -26,7 +26,18 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
  * Approved by a reviewer (is enforced)
 * PR should be "Squash and Merged" and the branch deleted.  All commit history can be found in the PR for historical purposes ( [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
 
+__exceptions__
+* PRs for documentation do not require an issue or tests.  However, huge changes probably should be broken up into smaller chunks
+
+
 ![alt text](dev_cycle.png "Workflow")
+
+### Repositories
+
+[Obaku](https://github.com/SYNQfm/obaku) - Our main service, currently all the "microservices" are inside this one repo    
+[Synq Web Assets](https://github.com/SYNQfm/synq-web-assets.git) - this is where our documentation, apis etc are hosted
+[Synq Website]() - This is a Wordpress site    
+
 
 
 ### Values
@@ -41,6 +52,5 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
 
 ### Resources
 
-[Main Repo](https://github.com/SYNQfm/obaku)    
 [Wiki](https://github.com/SYNQfm/obaku/wiki)    
 [Links](links.md)
