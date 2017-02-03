@@ -6,6 +6,16 @@ Welcome to Synq.fm's R&D team, This is your one stop shop for getting to know ou
 
 We use a weekly delivery model here, organized by monthly milestones (more detail below).  The idea here is, we have a milestone with some key high level points, then break it down to digestable weekly deliverables, and then push code to production every week.
 
+### Simple Deploy Rules
+
+* We currently deploy every Monday at 16:00 GMT+1
+* A release should be created to a deploy to track the specific change pushed out
+* Deploys should be done with scripts and avoid manual intervention or work
+* Out of band deploys should only happen for critical outage or major security holes
+* Anyone should be able to deploy
+* Our goal is to get to continuous deploy
+
+
 ### Simple Repo Rules
 
 * Branch names should include first name of user
