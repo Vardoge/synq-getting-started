@@ -11,9 +11,9 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
 * We currently deploy every Monday at 16:00 GMT+1
 * A release should be created to a deploy to track the specific change pushed out
 * Deploys should be done with scripts and avoid manual intervention or work
-* Out of band deploys should only happen for critical outage or major security holes
+* Out of band deploys should only happen for critical outages or major security holes.  They should also be reviewed by the team lead
 * Anyone should be able to deploy
-* Our goal is to get to continuous deploy
+* Our goal is continuous deployment
 
 
 ### Simple Repo Rules
