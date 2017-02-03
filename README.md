@@ -62,5 +62,5 @@ __exceptions__
 ### Resources
 
 [Wiki](https://github.com/SYNQfm/obaku/wiki)    
-[Continuous Improvement Board](https://trello.com/b/dv0Cpcmo/continuous-improvement)
+[Continuous Improvement Board](https://trello.com/b/dv0Cpcmo/continuous-improvement)   
 [Links](links.md)
