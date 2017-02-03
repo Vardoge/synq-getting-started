@@ -46,8 +46,7 @@ __exceptions__
 
 [Obaku](https://github.com/SYNQfm/obaku) - Our main service, currently all the "microservices" are inside this one repo    
 [Synq Web Assets](https://github.com/SYNQfm/synq-web-assets.git) - this is where our documentation, apis etc are hosted
-[Synq Website]() - This is a Wordpress site    
-
+[Synq Website](https://github.com/SYNQfm/obaku/wordpress) - This is a Wordpress site, which current lives in the main repo    
 
 
 ### Values
@@ -63,4 +62,5 @@ __exceptions__
 ### Resources
 
 [Wiki](https://github.com/SYNQfm/obaku/wiki)    
+[Continuous Improvement Board](https://trello.com/b/dv0Cpcmo/continuous-improvement)
 [Links](links.md)
