@@ -19,6 +19,7 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
 
 ### [Guidelines](issue_tracker/README.md)
 
+
 ### Simple Repo Rules
 
 * Branch names should include first name of user
@@ -51,7 +52,7 @@ __exceptions__
 
 [Synq Web Assets](https://github.com/SYNQfm/synq-web-assets.git): This is where our documentation, API specification etc are hosted.
 
-[Synq Website](https://github.com/SYNQfm/obaku/wordpress): This is a Wordpress site, which currently lives in the main repo.
+[Synq Website](https://github.com/SYNQfm/obaku/wordpress): This is a Wordpress site, which currently lives in the main repo.  
 
 
 ### Values
@@ -66,6 +67,6 @@ __exceptions__
 
 ### Resources
 
-[Wiki](https://github.com/SYNQfm/obaku/wiki)
-[Continuous Improvement Board](https://trello.com/b/dv0Cpcmo/continuous-improvement)
+[Wiki](https://github.com/SYNQfm/obaku/wiki)    
+[Continuous Improvement Board](https://trello.com/b/dv0Cpcmo/continuous-improvement)   
 [Links](links.md)
