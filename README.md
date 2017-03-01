@@ -39,17 +39,12 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
 __exceptions__
 * PRs for documentation do not require an issue or tests.  However, huge changes probably should be broken up into smaller chunks
 
-
-![alt text](dev_cycle.png "Workflow")
-
 ### Repositories
 
-[Obaku](https://github.com/SYNQfm/obaku): Our main service, currently all the "microservices" are inside this one repo.
-
-[Synq Web Assets](https://github.com/SYNQfm/synq-web-assets.git): This is where our documentation, API specification etc are hosted.
-
-[Synq Website](https://github.com/SYNQfm/obaku/wordpress): This is a Wordpress site, which currently lives in the main repo.  
-
+[Obaku](https://github.com/SYNQfm/obaku): Our main service, currently all the "microservices" are inside this one repo.    
+[Synq Web Assets](https://github.com/SYNQfm/synq-web-assets.git): This is where our documentation, API specification etc are hosted.    
+[Synq Website](https://github.com/SYNQfm/obaku/wordpress): This is a Wordpress site, which currently lives in the main repo.    
+[Streamer](https://github.com/SYNQfm/streamer): Our first standalone micro-service to handle live streaming
 
 ### Values
 
@@ -66,3 +61,4 @@ __exceptions__
 [Wiki](https://github.com/SYNQfm/obaku/wiki)    
 [Continuous Improvement Board](https://trello.com/b/dv0Cpcmo/continuous-improvement)   
 [Links](links.md)
+[Previous Dev Cycle Chart](dev_cycle.png)
