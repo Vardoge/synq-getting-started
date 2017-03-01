@@ -6,13 +6,13 @@ Welcome to Synq.fm's R&D team, This is your one stop shop for getting to know ou
 
 We use a weekly delivery model here, organized by monthly milestones (more detail below).  The idea here is, we have a milestone with some key high level points, then break it down to digestable weekly deliverables, and then push code to production every week.
 
-### Dev Cycle
+### Simple Guidelines
 
-Here's a look at our complete dev cycle, from issue management, to deploy, to repo and code review process.
+Here are some useful guidelines pertaining to our dev cycle, from issue management, to deploy, to repo and code review process.
 
-__[Issues Guidelines](issue_tracker/README.md)__
+__[Issues Guideline](issue_tracker/README.md)__
 
-__Simple Deploy Rules__
+__Deploy Guideline__
 
 * Releases are tagged and finalized on mondays during/after dev meeting 14.30 GMT+1
 * Deploy to production happens every Tuesday at 16:00 GMT+1
@@ -23,26 +23,25 @@ __Simple Deploy Rules__
 * Our goal is continuous deployment and moving the deploys to monday as they get leaner
 
 
-__Simple Repo Rules__
+__Repo Guidelines__
 
 * Branch names should include first name of user
 * Create a branch for each issue, and make it as "atomic" as possible.  Don't combine multiple features into a single branch
 * Maintain no more than 1-2 active branches
 * Always deploy from/branch from master
 
-__Pull Requests for Code__
+__PR Guidelines__
 
 * PRs are posted to General
+* PRs should reference a GitHub issue (only exception is for minor doc/test fixes)
 * PR requests should not be open longer than a day.
 * PR request reviews should focus on
  * Having Tests
  * Contain atomic changes
  * Code organized properly
- * References the issue this PR pertains to
  * Tests passed (is enforced)
  * Approved by a reviewer (is enforced)
-* PR should be "Squash and Merged" and the branch deleted.  All commit history can be found in the PR for historical purposes ( [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
-* __exception__ PRs for documentation do not require an issue or tests.  However, huge changes probably should be broken up into smaller chunks
+* PR should be "Squash and Merged" and the branch deleted.  All commit history can be found in the PR for historical purposes ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
 
 ### Repositories
 
