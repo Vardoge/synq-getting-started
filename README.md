@@ -1,6 +1,15 @@
-Welcome to Synq.fm's R&D team, This is your one stop shop for getting to know our system, tools, processes and technology better.
+Welcome to Synq.fm's R&D team, This is your one stop shop for getting to values, system, tools, processes and technology better.
 
 *NOTE : This workspace is always changing to reflect our latest practices and technologies*
+
+### Our Values
+
+ * __Team Mindset__ - collaborate together, no silos, no finger pointing, no blame culture.  Also, have fun and enjoy each other's time once in a while.  *We succeed or fail together*
+ 
+ * __Execute Quickly, Improve constantly__ - Get things done quickly, and be vigilant about constant improvement.  *Don't be afraid of "failure"*
+
+ * __Care about your craft__ - Add tests as you see fit, care about quality and correctness, be consistent, follow standards.  *The little things matter*
+ 
 
 ### Development Philosphy
 
@@ -49,15 +58,6 @@ __PR Guidelines__
 [Synq Web Assets](https://github.com/SYNQfm/synq-web-assets.git): This is where our documentation, API specification etc are hosted.    
 [Synq Website](https://github.com/SYNQfm/obaku/wordpress): This is a Wordpress site, which currently lives in the main repo.    
 [Streamer](https://github.com/SYNQfm/streamer): Our first standalone micro-service to handle live streaming
-
-### Values
-
- * __Team Mindset__ - collaborate together, no silos, no finger pointing, no blame culture.  Also, have fun and enjoy each other's time once in a while.  *We succeed or fail together*
- 
- * __Execute Quickly, Improve constantly__ - Get things done quickly, and be vigilant about constant improvement.  *Don't be afraid of "failure"*
-
- * __Care about your craft__ - Add tests as you see fit, care about quality and correctness, be consistent, follow standards.  *The little things matter*
- 
 
 ### Resources
 
