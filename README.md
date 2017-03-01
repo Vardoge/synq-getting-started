@@ -16,6 +16,8 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
 * Anyone should be able to deploy
 * Our goal is continuous deployment and moving the deploys to monday as they get leaner
 
+### Guidelines for issue-tracker
+[Guidelines](issue_tracker/README.md)
 
 ### Simple Repo Rules
 
