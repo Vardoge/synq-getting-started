@@ -26,4 +26,4 @@ _Note: Issues can have other tags as well these are just the standard categories
 * Monthly review - Issues in this milestone will be reviewed on the first monday of every month.
 * Weekly review - Issues in this milestone will be reviewed every monday.
 * Weekly Milestone - Issues that have been scheduled for a specific week.
-* Uncertain - Issues that we are not sure about when or if we will do. Might need more discussion or be out of scope. (devs responsible for escalating, tech-lead responsible for cleaning up)
+* Pending - Issues that we are not sure about when or if we will do. Might need more discussion or be out of scope. (devs responsible for escalating, tech-lead responsible for cleaning up)
