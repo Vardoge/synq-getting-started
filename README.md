@@ -19,7 +19,11 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
 
 Here are some useful guidelines pertaining to our dev cycle, from issue management, to deploy, to repo and code review process.
 
-__[Issues Guideline](issue_tracker/README.md)__
+__Issue tracker__
+[Guidelines](issue_tracker/README.md)
+
+__Monday dev meeting__
+[Agenda / purpose](issue_tracker/README.md)
 
 __Deploy Guideline__
 
@@ -31,8 +35,9 @@ __Deploy Guideline__
 * Anyone should be able to deploy
 * Our goal is continuous deployment and moving the deploys to monday as they get leaner
 
-
 __Repo Guidelines__
+
+### Simple Repo Rules
 
 * Branch names should include first name of user
 * Create a branch for each issue, and make it as "atomic" as possible.  Don't combine multiple features into a single branch
