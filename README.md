@@ -20,7 +20,7 @@ We use a weekly delivery model here, organized by monthly milestones (more detai
 Here are some useful guidelines pertaining to our dev cycle, from issue management, to deploy, to repo and code review process.
 
 __Issue tracker__    
-[Issue Lifecycle](issue_tracker/README.md)
+[Issue Lifecycle](issue_tracker/README.md)    
 [Issue Creation Guidelines](issue_tracker/guidelines.md)
 
 __Monday dev meeting__    
