@@ -10,7 +10,7 @@ Issue Input -> Priority Analysis -> Schedule -> Work -> Test -> Deploy
 * He creates the issue in the `Obaku` repo, labels it a `bug` and puts it in `Weekly Milestone review`.  He puts `2` for the estimated effort
 * On the subsequent monday, Bruce suggests to do it as its a quick fix and that it's pretty critical for the metadata integrity.  This is then moved into `Midgard week 12`, the current milestone release (Midgard) and the current week.  This is assigned to `batmany13` and placed in `In Progress`, `Planning/Design` was skipped as its pretty straight forward on how to fix it (change the migration to skip displaying that info if the state is not uploaded)
 * Bruce has other issues he's working on, so the issue is placed under the one he's working on to show its priority.
-* Bruce gets to the issue and fixes it, and submits a PR, this moves the issue automatically to the `Review/QA` board
+* Bruce gets to the issue and fixes it, and submits a PR, change the issue's Pipeline to `Review/QA` board
 * After the issue is reviewed, and accepted, it is merged into master and the issue is automatically moved to the `Closed` board
 
 ### Walkthrough of a more complicated issue's life cycle
@@ -26,9 +26,9 @@ Issue Input -> Priority Analysis -> Schedule -> Work -> Test -> Deploy
 * The original issue is closed, and the two new issues are created and placed into `Pending Schedule`
 * On the subsequent Monday, the new issues are reviewed and the first one, issue 96 needs to be done first.  However, since the second issue is simple to do, they are done together.  We review the current `In Progress` board for Bruce and find that he has too many things to do, and placing these issues there would put him over 40 points.  Thus, these issues are moved to `Planning/Design`, as a "holding" areas of sorts, and will be moved over accordingly when he's finished with his other tasks.
 * Finally, he finishes his other tasks, looks at his board filtered by "Assignee" (batmany13) and finds the two issues, and moves it into In-Progress
-* After he finishes the first one 96, he issues a PR and that issue moves into the Review/QA pipeline.
+* After he finishes the first one 96, he issues a PR and moves the issue into the `Review/QA` pipeline.
 * While issue 96 is being reviewed, he starts work on issue 97.  While working on it, he finds that there's a couple of sub tasks that needs to be done, so he adds the sub-task list to the issue and begins work on it.
-* 96 is approved and merged into master, the issue is automatically moved to the `closed` column
+* 96 is approved and merged into master, the issue is automatically moved to the `Closed` column
 * 97 is completed, and is subsequently moved to `Review/QA`.  During the review, the PR specifically says that there is a deployment task that has to be done right after the deployment of code (change a setting in the database).  Thus, this issue is moved to `Post Deploy Work` to signify that it can't be closed until something is fixed on Deploy
 * On the next Deploy day, the code is pushed out and the task was completed, now 97 is moved to the `Closed` board
 
