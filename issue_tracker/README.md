@@ -58,8 +58,8 @@ Issue Input -> Priority Analysis -> Schedule -> Work -> Test -> Deploy
 
 ### What's the difference between milestones, boards and epics?
 
-__Epics__ are _what_ we should be working on, and grouped by `subject`.    
-__Milestones__ is _when_ we work on issues, and grouped around `time`
+__Epics__ are _what_ we should be working on, and grouped by `subject`    
+__Milestones__ is _when_ we work on issues, and grouped around `time`    
 __Boards__ is _how_ we track what's being actively worked on now, how much work, spanned across all Repos    
 
 Here's an [article](https://www.zenhub.com/blog/how-to-use-epics-and-milestones/) that talks about epics vs milestones
