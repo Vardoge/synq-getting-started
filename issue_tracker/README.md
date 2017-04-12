@@ -18,12 +18,12 @@ Issue Input -> Priority Analysis -> Schedule -> Work -> Test -> Deploy
 * Bruce works with a customer to find that DVR for Live Streaming isn't working. He will
  * Create the issue on `streamer` [repo](https://github.com/SYNQfm/streamer/issues/75)
  * Set the appropriate tags to `help wanted` and `question`
- * Place it in the `Pending Review` Board
-* In the Weekly Milestone Review, we look at `Weekly Milestone Review` and `Pending Review` board, and determine this needs to be fixed, so it gets moved to `Planning/Design`
+ * Place it in the `Pending Schedule` Board
+* In the Weekly Milestone Review, we look at `Weekly Milestone Review` and `Pending Schedule` board, and determine this needs to be fixed, so it gets moved to `Planning/Design`
 * The issue is assigned to `batmany13`(Bruce) to fix
 * Bruce has other issues he's working on, so he has to finish those before he can debug it, this takes 1 week before we gets to it.
 * When he has time, he investigates the issue (by emailing Nimble support) and he finds that this is actually two issues, one is we have to setup a DVR for each output [stream](https://github.com/SYNQfm/streamer/issues/96) and we have to change the playback url to use the dvr m3u8 file instead of the abr [one](https://github.com/SYNQfm/streamer/issues/97)
-* The original issue is closed, and the two new issues are created and placed into `Pending Review`
+* The original issue is closed, and the two new issues are created and placed into `Pending Schedule`
 * On the subsequent Monday, the new issues are reviewed and the first one, issue 96 needs to be done first.  However, since the second issue is simple to do, they are done together.  We review the current `In Progress` board for Bruce and find that he has too many things to do, and placing these issues there would put him over 40 points.  Thus, these issues are moved to `Planning/Design`, as a "holding" areas of sorts, and will be moved over accordingly when he's finished with his other tasks.
 * Finally, he finishes his other tasks, looks at his board filtered by "Assignee" (batmany13) and finds the two issues, and moves it into In-Progress
 * After he finishes the first one 96, he issues a PR and that issue moves into the Review/QA pipeline.
@@ -43,7 +43,7 @@ Issue Input -> Priority Analysis -> Schedule -> Work -> Test -> Deploy
 ### Board Overview
 
 * Backlog - Issues filed, the general backlog
-* Pending Review - This is what we need to look at every week
+* Pending Schedule - This is what we need to look at every week
 * Planning/Design - issues being designed or discussed.  This could be scheduled issues that require some planning or designing before starting work.  This could also be issues that are priority but require some debugging before determining course of action.
 * In Progress - These are issues being actively worked on
 * Review/QA - This typically means a PR is open for the release or it needs final testing
