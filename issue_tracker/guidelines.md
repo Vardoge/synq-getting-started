@@ -31,6 +31,6 @@ Based on those priorities, you will place the issues in the follow states
 
 * Critical - `In Progress` Pipeline, put into with current milestone, and escalate to team lead
 * Relevant - Put into `Weekly Milestone Review`
-* Normal - Put into `Major Milestone Review`
+* Normal - Put into `xxx (Next)` or  `Major Milestone Review`
 * TODO - Leave in `Backlog` with no milestones attached
 
