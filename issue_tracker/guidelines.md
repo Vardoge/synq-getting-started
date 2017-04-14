@@ -25,7 +25,7 @@ It is up to you to decide what the relative priority is of a specific issue.  Is
 * Critical - production down issue or deploy issue that requires immediate attention, and may require patching
 * Relevant/Required - This should be done in the current week or current milestone, is most likely highly reflective of what needs to be done to accomplish our epics.  This can include things like refactoring and improving tests, doesn't just have to be feature based
 * Normal - This should be done over the course of one or two milestones
-* Minor - this is small quick fixes like spelling mistakes, clean up bad referenced urls etc
+* Minor/Refactor - this is small quick fixes like spelling mistakes, clean up bad referenced urls or some minor code refactoring
 * TODO - This would be a nice to have and should be eventually done, more like tracking high level features
 
 Based on those priorities, you will place the issues in the follow states
