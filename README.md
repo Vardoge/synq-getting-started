@@ -29,7 +29,7 @@ __Monday dev meeting__
 __Deploy Guideline__
 
 * Releases are tagged and finalized on mondays during/after dev meeting 14.30 GMT+1
-* Deploy to production happens every Tuesday at 16:00 GMT+1
+* Deploy to production happens every Tuesday at 13:00-16:00 UTC
 * A release should be created to a deploy to track the specific change pushed out
 * Deploys should be done with scripts and avoid manual intervention or work
 * Out of band deploys should only happen for critical outages or major security holes
