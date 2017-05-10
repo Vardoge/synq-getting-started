@@ -11,7 +11,7 @@ Welcome to Synq.fm's R&D team, This is your one stop shop for getting to values,
  * __Care about your craft__ - Add tests as you see fit, care about quality and correctness, be consistent, follow standards.  *The little things matter*
  
 
-## Development Philosphy
+## Development Philosophy
 
 We use a weekly delivery model here, organized by monthly milestones (more detail below).  The idea here is, we have a milestone with some key high level points, then break it down to digestable weekly deliverables, and then push code to production every week.
 

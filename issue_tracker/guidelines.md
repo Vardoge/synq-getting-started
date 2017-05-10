@@ -16,7 +16,7 @@ _Note: Issues can have other tags as well these are just the standard categories
 
 ## Estimate how long it will take
 
-Issues should have an "Estimate", which is the hours/points you think this will take.  This is just an estimate, and there might be an initial stab that gets updated to reflect the real work required.  This will be required to help balance the amount of work that can be done a week.
+Issues should have an "Estimate", which is the hours/points you think this will take.  This is just an estimate, and there might be an initial stab that gets updated to reflect the real work required.  This will be required to help balance the amount of work that can be done in a week.
 
 ## Decide on the review priority
 
