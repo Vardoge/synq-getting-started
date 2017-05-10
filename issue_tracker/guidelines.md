@@ -1,6 +1,6 @@
 # Guidelines for Issue Creation
 
-Anyone in the organization can create issues (biz/sales/r&d/customer success), but they need to follow these simple guidelines below
+Anyone in the organization can create issues (biz/sales/r&d/customer success), but they need to follow these simple guidelines below.  In rare cases, an issue doesn't have to be created (very minor fix, documentation change etc), so please use your discretion.
 
 ## Tag it
 
@@ -10,6 +10,7 @@ __All issues on github _should_ have one of the following labels describing the 
 * Task
 * Improvement
 * Bug
+* Refactor
 * Discussion
 
 _Note: Issues can have other tags as well these are just the standard categories_
