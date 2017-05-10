@@ -46,7 +46,10 @@ __Repo Guidelines__
 __PR Guidelines__
 
 * PRs are posted to General
-* PRs should reference a GitHub issue (only exception is for minor doc/test fixes)
+* PRs should reference a GitHub issue.  Exceptions for below.  Use your discretion
+  * Minor doc or spelling fix
+  * Minor test cleanup
+  * Small refactoring
 * PR requests should not be open longer than a day.
 * PR request reviews should focus on
  * Having Tests
