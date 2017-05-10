@@ -45,14 +45,14 @@ Issue Input -> Priority Analysis -> Schedule -> Work -> Execute -> Deploy
 * Backlog - Issues filed, the general backlog
 * Pending Schedule - This is what we need to look at every week
 * Selected for dev. - This is a holding area for issues that are queued up that should be done.  There shouldn't be more than 3-5 issues at a time.
-* In Progress - These are issues being actively worked on.  There shouldn't be more than 1-2 issues at a time.
+* In Progress - These are issues being actively worked on.  There shouldn't be more than 2 issues at a time.
 * Review/QA - This typically means a PR is open for the release or it needs final testing
 * Post Deploy Work - Issues that require some work after a deploy (or during)
 * Closed - issue finished and ready to be deployed
 
 ### Milestones
 
-* "Milestone Name (Current)" - This is the current milestone, all epics (and maybe some issues) should live here.  The period is typically 1 - 2 months.  Example is `Midgard (Current)`
+* "Milestone Name (Current)" - This is the current milestone, all epics (and maybe some issues) should live here.  The period is typically 1-2 months.  Example is `Midgard (Current)`
 * "Milestone Name" (Next) - This is the milestone immediately proceeding the current milestone.  This should contain epics.  However, if there are a lot of issues, we should group them into a "theme" (or epic) and consolidate them.  Example is `Thule (Next)`
 
 ### What's the difference between milestones, boards and epics?

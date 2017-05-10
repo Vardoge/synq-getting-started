@@ -40,7 +40,7 @@ __Repo Guidelines__
 
 * Branch names should include first name of user
 * Create a branch for each issue, and make it as "atomic" as possible.  Don't combine multiple features into a single branch
-* Maintain no more than 1-2 active branches
+* Maintain no more than 2 active branches
 * Always deploy from/branch from master
 
 __PR Guidelines__
