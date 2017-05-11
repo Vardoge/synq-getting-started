@@ -11,7 +11,7 @@ Welcome to Synq.fm's R&D team, This is your one stop shop for getting to values,
  * __Care about your craft__ - Add tests as you see fit, care about quality and correctness, be consistent, follow standards.  *The little things matter*
  
 
-## Development Philosphy
+## Development Philosophy
 
 We use a weekly delivery model here, organized by monthly milestones (more detail below).  The idea here is, we have a milestone with some key high level points, then break it down to digestable weekly deliverables, and then push code to production every week.
 
@@ -40,13 +40,16 @@ __Repo Guidelines__
 
 * Branch names should include first name of user
 * Create a branch for each issue, and make it as "atomic" as possible.  Don't combine multiple features into a single branch
-* Maintain no more than 1-2 active branches
+* Maintain no more than 2 active branches
 * Always deploy from/branch from master
 
 __PR Guidelines__
 
 * PRs are posted to General
-* PRs should reference a GitHub issue (only exception is for minor doc/test fixes)
+* PRs should reference a GitHub issue.  Exceptions for below.  Use your discretion
+  * Minor doc or spelling fix
+  * Minor test cleanup
+  * Small refactoring
 * PR requests should not be open longer than a day.
 * PR request reviews should focus on
  * Having Tests
