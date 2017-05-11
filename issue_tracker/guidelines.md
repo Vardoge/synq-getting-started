@@ -8,7 +8,6 @@ __All issues on github _should_ have one of the following labels describing the 
 
 * Feature
 * Task
-* Improvement
 * Bug
 * Refactor
 * Discussion
