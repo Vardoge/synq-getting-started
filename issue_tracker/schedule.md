@@ -27,12 +27,12 @@ Each week there will be `30` hours of scheduled work per developer.  This is don
 
 ### Developer Rotational Role (DRR)
 
-Each week, the developer on `DevOps` Rotation is responsible for
+Each week, a developer is picked as the DRR and is responsible for :
 
 * Tagging and writing the release notes on Monday and deploying the code on Tuesday
 * Deal with any deploy issues during or after the release.  Fix issues that might come out of that
 * Working with Customer Success on addressing any `Outage` specific epics
-* Building pipeline, provisioning automation work that may be needed
-* The chance for the developer to improve on various issues and problems he or she has seen as a developer, this could include things like fixing up docker-compose, improving the docker deploys, improving code coverage, adding more Runscope/GhostInspector tests.
+* Build pipeline, provisioning automation work that may be needed
+* The chance for developers to improve on various issues and problems he or she has seen as a developer, this could include things like fixing up docker-compose, improving the docker deploys, improving code coverage, adding more Runscope/GhostInspector tests, make circleci run faster etc.
 
 Schedule listed [here](https://docs.google.com/spreadsheets/d/12d391UI6M_XgzUhdzK1K4F-ESwMZb2LfN3-FWBIA0lI/edit#gid=0)
