@@ -2,12 +2,12 @@
 
 We use GitHub issues and ZenHub to manage our work.  Here's a general flow
 
-[Issue Input](guidelines.md) -> [Schedule](schedule.md) -> [Execute](../README.md#execute) -> [Deploy](../deploymd)
+[Issue Input](guidelines.md) -> [Schedule](schedule.md) -> [Execute](../README.md#execute) -> [Deploy](../deploy.md)
 
-
-[Zenhub board](https://github.com/SYNQfm/obaku#boards?repos=83064032,79497430,79477666,80748537,74674362,81468857,90048135,81571134,79564980,81447813,84829819,79788970,81179259,88030190) 
 
 ## General Information
+
+[Zenhub board](https://github.com/SYNQfm/obaku#boards?repos=83064032,79497430,79477666,80748537,74674362,81468857,90048135,81571134,79564980,81447813,84829819,79788970,81179259,88030190)
 
 
 ### Organization
