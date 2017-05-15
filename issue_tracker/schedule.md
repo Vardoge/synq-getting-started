@@ -14,7 +14,7 @@ Each week there will be `30` hours of scheduled work per developer.  This is don
 ### Ad-hoc Scheduling
 
 * Issues can and will come up during the week.  We want to give room for this, and that is what ad-hoc scheduling is for.
-* Ad-hoc issues should either be `critical issues` found during a production impacting event or `minor fixes` which will not exceed `5` hours of work per issue.  `DevOps`, `Outage` and build pipeline issues should be referred to the person in the DevOps rotation (listed below)
+* Ad-hoc issues should either be `critical issues` found during a production impacting event or `minor fixes` which will not exceed `5` hours of work per issue.  `DevOps`, `Outage` and build pipeline issues should be referred to the DRR (listed below)
 * There should only be 2-3 ad-hoc issues scheduled a week.  They should not domniate your week's work, and if you are busy with a key task, do not schedule these in, place it in `Pending Schedule` instead.
 * Your `In Progress` and `Selected for dev.` should not exceed `45` hours.
 * _Use your own discretion!_
@@ -25,7 +25,7 @@ Each week there will be `30` hours of scheduled work per developer.  This is don
 * The first monday of the month go through next milestone to see if there's clarification, epic creation, any themes that emerge
 * The first Monday of each Quarter (Jan/April/July/Oct), review all issues in the backlog and determine if some should be closed or scheduled for next milestone review
 
-### DevOps Rotational Role
+### Developer Rotational Role (DRR)
 
 Each week, the developer on `DevOps` Rotation is responsible for
 
