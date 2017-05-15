@@ -13,19 +13,18 @@ Welcome to Synq.fm's R&D team, This is your one stop shop for getting to values,
 
 ## Development Philosophy
 
-We use a weekly delivery model here, organized by monthly milestones (more detail below).  The idea here is, we have a milestone with some key high level points, then break it down to digestable weekly deliverables, and then push code to production every week.
+We use a weekly delivery model that follows this flow:
 
-## <a name="execute"></a> Simple Guidelines
+[Issue Input](issue_tracker/guidelines.md) -> [Schedule](issue_tracker/schedule.md) -> [Execute](#execute) -> [Deploy](deploy.md)
 
-Here are some useful guidelines pertaining to our dev cycle, from issue management, to deploy, to repo and code review process.
+More details about our issue workflow [here](issue_tracker/README.md).
 
-__Issue tracker__    
-[Issue Lifecycle](issue_tracker/README.md)    
-[Issue Creation Guidelines](issue_tracker/guidelines.md)
+## Simple Guidelines
 
 __Monday Dev Meeting__    
 [Agenda / purpose](issue_tracker/schedule.md)
 
+<a name="execute"></a>
 __Repo Guidelines__
 
 * Branch names should include first name of user
@@ -48,9 +47,6 @@ __PR Guidelines__
  * Tests passed (is enforced)
  * Approved by a reviewer (is enforced)
 * PR should be "Squash and Merged" and the branch deleted.  All commit history can be found in the PR for historical purposes ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
-
-__[Deploy Guideline](deploy.md)__
-
 
 ## Setup
 
