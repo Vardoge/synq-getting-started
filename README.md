@@ -15,7 +15,7 @@ Welcome to Synq.fm's R&D team, This is your one stop shop for getting to values,
 
 We use a weekly delivery model here, organized by monthly milestones (more detail below).  The idea here is, we have a milestone with some key high level points, then break it down to digestable weekly deliverables, and then push code to production every week.
 
-## Simple Guidelines
+## <a name="execute"></a> Simple Guidelines
 
 Here are some useful guidelines pertaining to our dev cycle, from issue management, to deploy, to repo and code review process.
 
@@ -23,18 +23,8 @@ __Issue tracker__
 [Issue Lifecycle](issue_tracker/README.md)    
 [Issue Creation Guidelines](issue_tracker/guidelines.md)
 
-__Monday dev meeting__    
-[Agenda / purpose](issue_tracker/README.md)
-
-__Deploy Guideline__
-
-* Releases are tagged and finalized on mondays during/after dev meeting 14.30 GMT+1
-* Deploy to production happens every Tuesday at 13:00-16:00 UTC
-* A release should be created to a deploy to track the specific change pushed out
-* Deploys should be done with scripts and avoid manual intervention or work
-* Out of band deploys should only happen for critical outages or major security holes
-* Anyone should be able to deploy
-* Our goal is continuous deployment and moving the deploys to monday as they get leaner
+__Monday Dev Meeting__    
+[Agenda / purpose](issue_tracker/schedule.md)
 
 __Repo Guidelines__
 
@@ -58,6 +48,9 @@ __PR Guidelines__
  * Tests passed (is enforced)
  * Approved by a reviewer (is enforced)
 * PR should be "Squash and Merged" and the branch deleted.  All commit history can be found in the PR for historical purposes ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
+
+__[Deploy Guideline](deploy.md)__
+
 
 ## Setup
 

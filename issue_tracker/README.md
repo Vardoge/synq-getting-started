@@ -1,38 +1,14 @@
 ## Issue Lifecycle
 
-We use GitHub issues and ZenHub to manage our work.  Here's our major [board](https://github.com/SYNQfm/obaku#boards?repos=83064032,79477666,80748537,81571134,79564980,81447813,84829819,79788970,81179259) where you can see all of our issues across all of development repos.  Here's a helpful [guide](guidelines.md) for creating issues.
+We use GitHub issues and ZenHub to manage our work.  Here's a general flow
 
-Issue Input -> Priority Analysis -> Schedule -> Work -> Execute -> Deploy
+[Issue Input](guidelines.md) -> [Schedule](schedule.md) -> [Execute](../README.md#execute) -> [Deploy](../deploymd)
 
-### Walkthrough of a simple issue's life cycle
 
-* Bruce discovers an issue in our /video/create call where it's returning extraneous metadata [information](https://github.com/SYNQfm/obaku/issues/601).
-* He creates the issue in the `Obaku` repo, labels it a `bug` and puts it in `Backlog` column.  He puts `2` for the estimated effort.  Bruce thinks it is a quick fix and that it's pretty critical for the metadata integrity, so he places it in `Pending Schedule`
-* On the subsequent monday, the team reviews all the items in `Pending Schedule` and it's decided the issue should be fixed.  This is assigned to `batmany13` and placed in `In Progress` as Bruce has finished all his tasks.
-* Bruce fixes the issue and submits a PR, and change the issue's Pipeline to `Review/QA` board
-* After the issue is reviewed, and accepted, it is merged into master and the issue is automatically moved to the `Closed` board
-
-### Walkthrough of a more complicated issue's life cycle
-
-* Bruce works with a customer to find that DVR for Live Streaming isn't working. He will
-  * Create the issue on `streamer` [repo](https://github.com/SYNQfm/streamer/issues/75)
-  * Set the appropriate tags to `help wanted` and `question`
-  * Place it in the `Pending Schedule` Board
-* In the weekly review, we look at the `Pending Schedule` board, and determine this needs to be fixed, so it gets moved to `Selected for dev.`
-* The issue is assigned to `batmany13`(Bruce) to fix
-* Bruce has other issues he's working on, so he has to finish those before he can debug it, this takes 1 week before we gets to it.
-* When he has time, he moves the issue from `Selected for dev.` to `In Progress`.
-* He investigates the issue (by emailing Nimble support) and he finds that this is actually two issues, one is we have to setup a DVR for each output [stream](https://github.com/SYNQfm/streamer/issues/96) and we have to change the playback url to use the dvr m3u8 file instead of the abr [one](https://github.com/SYNQfm/streamer/issues/97)
-* The original issue is closed, and the two new issues are created.
-* The new issues will take a bit of time, and he has a smaller issue to work on, so he decides to place the two new issues in `Selected for dev.`
-* When he finishes the small issue, Bruce filters his Zenhub board by "Assignee" (batmany13) and finds the two issues, and moves it into In-Progress
-* After he finishes the first one 96, he issues a PR and moves the issue into the `Review/QA` pipeline.
-* While issue 96 is being reviewed, he starts work on issue 97.  While working on it, he finds that there are a couple of sub tasks that needs to be done, so he adds the sub-task list to the issue and begins work on it.
-* 96 is approved and merged into master, the issue is automatically moved to the `Closed` column
-* 97 is completed, and is subsequently moved to `Review/QA`.  During the review, the PR specifically says that there is a deployment task that has to be done right after the deployment of code (change a setting in the database).  Thus, this issue is moved to `Post Deploy Work` to signify that it can't be closed until something is fixed on Deploy
-* On the next Deploy day, the code is pushed out and the task was completed, now 97 is moved to the `Closed` board
+[Zenhub board](https://github.com/SYNQfm/obaku#boards?repos=83064032,79497430,79477666,80748537,74674362,81468857,90048135,81571134,79564980,81447813,84829819,79788970,81179259,88030190) 
 
 ## General Information
+
 
 ### Organization
 
@@ -63,12 +39,30 @@ __Boards__ is _how_ we track what's being actively worked on now, how much work,
 
 Here's an [article](https://www.zenhub.com/blog/how-to-use-epics-and-milestones/) that talks about epics vs milestones
 
-### Scheduling
+### Walkthrough of a simple issue's life cycle
 
-* Issues should now be scheduled each monday into the current week.  Also determine if we're on track for the current Milestone and what has to be adjusted
-* The first monday of the month go through next milestone to see if there's clarification, epic creation, any themes that emerge
-* The first Monday of each Quarter (Jan/April/July/Oct), review all issues in the backlog and determine if some should be closed or scheduled for next milestone review
-* Developers are responsible for moving issues into the monthly review session, this means that you have to champion your features.
-* Tech-lead is responsible for issues that non-developers wants championed.
-* Issues can be inserted quite freely into `Pending Schedule`, if someone feels that it is important that we get to an issue.
-* If an issue is broken down into smaller issues, those can be scheduled directly into the same week as parent issues was in and/or weekly/monthly review.
+* Bruce discovers an issue in our /video/create call where it's returning extraneous metadata [information](https://github.com/SYNQfm/obaku/issues/601).
+* He creates the issue in the `Obaku` repo, labels it a `bug` and puts it in `Backlog` column.  He puts `2` for the estimated effort.  Bruce thinks it is a quick fix and that it's pretty critical for the metadata integrity, so he places it in `Pending Schedule`
+* On the subsequent monday, the team reviews all the items in `Pending Schedule` and it's decided the issue should be fixed.  This is assigned to `batmany13` and placed in `In Progress` as Bruce has finished all his tasks.
+* Bruce fixes the issue and submits a PR, and change the issue's Pipeline to `Review/QA` board
+* After the issue is reviewed, and accepted, it is merged into master and the issue is automatically moved to the `Closed` board
+
+### Walkthrough of a more complicated issue's life cycle
+
+* Bruce works with a customer to find that DVR for Live Streaming isn't working. He will
+  * Create the issue on `streamer` [repo](https://github.com/SYNQfm/streamer/issues/75)
+  * Set the appropriate tags to `help wanted` and `question`
+  * Place it in the `Pending Schedule` Board
+* In the weekly review, we look at the `Pending Schedule` board, and determine this needs to be fixed, so it gets moved to `Selected for dev.`
+* The issue is assigned to `batmany13`(Bruce) to fix
+* Bruce has other issues he's working on, so he has to finish those before he can debug it, this takes 1 week before we gets to it.
+* When he has time, he moves the issue from `Selected for dev.` to `In Progress`.
+* He investigates the issue (by emailing Nimble support) and he finds that this is actually two issues, one is we have to setup a DVR for each output [stream](https://github.com/SYNQfm/streamer/issues/96) and we have to change the playback url to use the dvr m3u8 file instead of the abr [one](https://github.com/SYNQfm/streamer/issues/97)
+* The original issue is closed, and the two new issues are created.
+* The new issues will take a bit of time, and he has a smaller issue to work on, so he decides to place the two new issues in `Selected for dev.`
+* When he finishes the small issue, Bruce filters his Zenhub board by "Assignee" (batmany13) and finds the two issues, and moves it into In-Progress
+* After he finishes the first one 96, he issues a PR and moves the issue into the `Review/QA` pipeline.
+* While issue 96 is being reviewed, he starts work on issue 97.  While working on it, he finds that there are a couple of sub tasks that needs to be done, so he adds the sub-task list to the issue and begins work on it.
+* 96 is approved and merged into master, the issue is automatically moved to the `Closed` column
+* 97 is completed, and is subsequently moved to `Review/QA`.  During the review, the PR specifically says that there is a deployment task that has to be done right after the deployment of code (change a setting in the database).  Thus, this issue is moved to `Post Deploy Work` to signify that it can't be closed until something is fixed on Deploy
+* On the next Deploy day, the code is pushed out and the task was completed, now 97 is moved to the `Closed` board
