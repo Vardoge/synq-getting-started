@@ -17,8 +17,8 @@ Each week there will be `30` hours of scheduled work per developer.  This is don
 * Ad-hoc issues should either be `critical issues` found during a production impacting event or `minor fixes` which will not exceed `5` hours of work per issue.  `DevOps`, `Outage` and build pipeline issues should be referred to the DRR (listed below)
 * There should be no more than 3 ad-hoc issues scheduled a week.  They should not domniate your week's work, and if you are busy with a key task, do not schedule these in, place it in `Pending Schedule` instead.
 * Your individual `In Progress` and `Selected for dev.` boards should not exceed `45` hours.
-* _Use your own discretion!_
 * If a `critical issue` will cause your weekly scheduled issues to be delayed, let the `team lead` know
+* _Use your own discretion!_
 
 ### Daily Standups
 
