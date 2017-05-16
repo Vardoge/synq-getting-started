@@ -28,6 +28,8 @@ This is conducted daily either in person or via slack using `geekbot`.  The ques
 * what we plan to do today
 * what blocks us from making progress
 
+Standups can be viewed in the #standup room or on the Geekbot [dashboard](https://geekbot.io/dashboard/login/usr_591a1bbe104d47.81828829)
+
 ### Monthly and Quarterly Reviews
 
 * The first monday of the month go through next milestone to see if there's clarification, epic creation, any themes that emerge
