@@ -1,8 +1,8 @@
 ## Deployment
 
-* Releases are tagged and finalized on mondays during/after dev meeting 14.30 GMT+1
-* Deploy to production happens every Tuesday at 13:00-16:00 UTC
-* A release should be created to a deploy to track the specific change pushed out
+* Releases are tagged and finalized on Mondays by 15:00 local Oslo time
+* Deploy to production happens every Tuesday at 13:00-16:00 local Oslo time
+* Only officialy created "releases" can be deployed to production
 * Deploys should be done with scripts and avoid manual intervention or work
 * Out of band deploys should only happen for critical outages or major security holes
 * Anyone should be able to deploy

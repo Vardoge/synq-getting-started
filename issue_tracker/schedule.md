@@ -20,6 +20,14 @@ Each week there will be `30` hours of scheduled work per developer.  This is don
 * _Use your own discretion!_
 * If a `critical issue` will cause your weekly scheduled issues to be delayed, let the `team lead` know
 
+### Daily Standups
+
+This is conducted daily either in person or via slack using `geekbot`.  The questions are
+
+* what we did yesterday (and did it differ than what we planned)
+* what we plan to do today
+* what blocks us from making progress
+
 ### Monthly and Quarterly Reviews
 
 * The first monday of the month go through next milestone to see if there's clarification, epic creation, any themes that emerge
