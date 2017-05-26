@@ -16,6 +16,8 @@ __Core Service (Obaku)__ - Release for [2017-05-09](https://github.com/SYNQfm/ob
 __Thumbnail__ - This lives inside the Obaku workspace, but it runs on a separate server, so its upgrade will be described in the Obaku release notes.    
 __Streamer__ - Release for [v0.3.0](https://github.com/SYNQfm/streamer/releases/tag/v0.3.0)    
 
+[Post Deploying Testing Template](https://github.com/SYNQfm/obaku/wiki/Post-Deployment-Testing-Template)    
+
 ### Versioning
 
 Current we have two models, one is "date" based, and one is "version" based.  We still need to finalize on one and standardize it.
