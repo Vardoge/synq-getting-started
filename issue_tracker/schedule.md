@@ -22,7 +22,7 @@ Each week there will be `30` hours of scheduled work per developer.  This is don
 
 ### Daily Standups
 
-This is conducted daily either in person or via slack using `geekbot`.  The questions are
+This is conducted daily on slack using `geekbot` and in person at SYNQ HQ in Oslo at 1pm (Tues-Fri).  The questions are
 
 * what we did yesterday (and did it differ than what we planned)
 * what we plan to do today
