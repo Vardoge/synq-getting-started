@@ -68,8 +68,8 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 
 ### How we test / deploy
 
-* Use CircleCI for Continous Integration
-* Use Coveralls to monitor test coverage
+* Use [CircleCI](https://circleci.com/dashboard) for Continous Integration
+* Use [Coveralls](https://coveralls.io/) to monitor test coverage
 * Aim for continuous deployment.
   * Each repo maintainer determines the schedule of the deployments but should be no longer than 1 week (unless no changes were made)
 
