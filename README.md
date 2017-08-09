@@ -59,17 +59,18 @@ Note : Naming scheme looks at [creatures](https://en.wikipedia.org/wiki/Lists_of
 * Daily "Standups" on Slack via Geekbot (#standup channel)
 * Via Slack primarily in #general or #developers
 * Weekly Dev Meetings
- * Review Epics and Progress of Milestone
- * Go over "Help Wanted" issues
- * Discuss any major architecture decisions, changes, concerns
+  * Review Epics and Progress of Milestone
+  * Go over "Help Wanted" issues
+  * Discuss any major architecture decisions, changes, concerns
 * Milestone Kickoff Meeting
- * Discuss "theme" of the milestone and schedule high level epics and assign them to developers
+  * Discuss "theme" of the milestone and schedule high level epics and assign them to developers
 
 ### How we test / deploy
 
 * Use CircleCI for Continous Integration
 * Use Coveralls to monitor test coverage
-* Aim for continuous deployment.  Each repo maintainer determines the schedule of the deployments but should be no longer than 1 week (unless no changes were made)
+* Aim for continuous deployment.
+  * Each repo maintainer determines the schedule of the deployments but should be no longer than 1 week (unless no changes were made)
 
 ## Best Practices
 
@@ -82,11 +83,11 @@ __Branching / PR__
 * PRs should reference an issue (unless its minor fixes)
 * Maintain as few personal branches as possible
 * Keep the number of open PRs low.
- * Before starting your work, do you notice a pile up of PRs?  Chip in and help clear it out!
+  * Before starting your work, do you notice a pile up of PRs?  Chip in and help clear it out!
 * PRs should have
- * Passing tests (is enforced)
- * Minimum code coverage (is enforced)
- * Reviewed by at least one person (is enforced)
+  * Passing tests (is enforced)
+  * Minimum code coverage (is enforced)
+  * Reviewed by at least one person (is enforced)
 *  Be "Squash and Merged" and the branch deleted.  All commit history can be found in the PR for historical purposes ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
 
 __Meetings__
