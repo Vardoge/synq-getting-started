@@ -29,7 +29,7 @@ Concepts borrowed from Patreon's [culture](https://patreonhq.com/how-to-build-cu
 ## Give me the code!!
 
  Name                                                         | Description  |  Maintainer(s)
- :----------------------------------------------------------- | ------------ |
+ :----------------------------------------------------------- | ------------ | --------------
  [Core](https://github.com/SYNQfm/obaku)                      | Our core service, contains our data store, APIs, query and webhook execution engine.  This also contains misc services required to run api.synq.fm. |  Martin, Bruce
  [Transcode](https://github.com/SYNQfm/hydra)                 | Transcode jobs service | Bruce
  [Player](https://github.com/SYNQfm/ballivian)                | Videojs player service | Srod
