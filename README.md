@@ -73,8 +73,9 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 
 * Use [CircleCI](https://circleci.com/dashboard) for Continous Integration
 * Use [Coveralls](https://coveralls.io/) to monitor test coverage
-* Aim for continuous deployment.
-  * Each repo maintainer determines the schedule of the deployments but should be no longer than 1 week (unless no changes were made)
+* Aim for continuous deployment. Maintainers determine the release cadence but changes should be deployed at least once a week
+  * Some services use [Heroku](https://dashboard.heroku.com/teams/synqfm/apps) with automatic deploys on changes to `master`
+  * "Core" runs on DigitalOcean with a manual "tag and build" model, here's an example [release](https://github.com/SYNQfm/obaku/releases/tag/2017-07-11)
 
 ## Best Practices
 
