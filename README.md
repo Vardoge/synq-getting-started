@@ -39,7 +39,7 @@ Be the easiest and fastest way to integrate video technology/content into your a
  [Synq Website](https://github.com/SYNQfm/obaku/wordpress)    | This is a Wordpress site, which currently lives in "Core" repo. | Halvard
  [Legacy Docs](https://github.com/SYNQfm/synq-web-assets.git) | This is where our documentation, API specification etc are hosted. | Srod
 
-Note : Naming scheme looks at [creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the same first few letters of the service "Thumbnails -> Tylwythteg"
+Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
  
 ## Software Development Lifecycle
 
