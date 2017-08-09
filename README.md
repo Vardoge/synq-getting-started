@@ -8,8 +8,6 @@ Be the easiest and fastest way to integrate video technology/content into your a
 
 ## Core Behaviors
 
-Concepts borrowed from Patreon's [culture](https://patreonhq.com/how-to-build-culture-that-lasts-dc25b086cefd) doc
-
  * __Work as a team__ - collaborate together, no silos, no finger pointing, no blame culture.  Also, have fun and enjoy each other's time once in a while.  *We succeed or fail together*
  
  * __Execute Quickly, Improve constantly__ - Get things done quickly, and be vigilant about constant improvement.  *Don't be afraid of "failure"*
