@@ -106,7 +106,7 @@ __Meetings__
 
 ## Resources
 
-[Wiki](https://github.com/SYNQfm/getting-started/wiki)    
 [Technologies to Explore](https://github.com/SYNQfm/getting-started/wiki/Technologies-to-Explore) - if you read something cool, put it here   
-[Links](links.md)    
+[Useful Links](links.md)    
+[General Wiki](https://github.com/SYNQfm/getting-started/wiki)    
 [Previous Dev Cycle Chart](dev_cycle.png)
