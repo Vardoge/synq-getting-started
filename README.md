@@ -2,68 +2,104 @@ Welcome to Synq.fm's R&D team, This is your one stop shop for getting to values,
 
 *NOTE : This workspace is always changing to reflect our latest practices and technologies*
 
-## Our Values
+## Our Mission
 
- * __Team Mindset__ - collaborate together, no silos, no finger pointing, no blame culture.  Also, have fun and enjoy each other's time once in a while.  *We succeed or fail together*
+Be the easiest and fastest way to integrate video technology/content into your app or service
+
+## Core Behaviors
+
+Concepts borrowed from Patreon's [culture](https://patreonhq.com/how-to-build-culture-that-lasts-dc25b086cefd) doc
+
+ * __Work as a team__ - collaborate together, no silos, no finger pointing, no blame culture.  Also, have fun and enjoy each other's time once in a while.  *We succeed or fail together*
  
  * __Execute Quickly, Improve constantly__ - Get things done quickly, and be vigilant about constant improvement.  *Don't be afraid of "failure"*
 
- * __Care about your craft__ - Add tests as you see fit, care about quality and correctness, be consistent, follow standards.  *The little things matter*
- 
+ * __Care about your craft__ - Add tests as you see fit, care about quality and correctness, be consistent, follow standards, add documentation.  *The little things matter*
 
-## Development Philosophy
+## Getting Started :)
 
-We use a weekly delivery model that follows this flow:
-
-[Issue Input](issue_tracker/guidelines.md) -> [Schedule](issue_tracker/schedule.md) -> [Execute](#execute) -> [Deploy](deploy.md)
-
-More details about our issue workflow [here](issue_tracker/README.md).
-
-## Simple Guidelines
-
-__Monday Dev Meeting__    
-[Agenda / purpose](issue_tracker/schedule.md)
-
-<a name="execute"></a>
-__Repo Guidelines__
-
-* Branch names should include first name of user
-* Create a branch for each issue, and make it as "atomic" as possible.  Don't combine multiple features into a single branch
-* Maintain no more than 2 active branches
-* Always deploy from/branch from master
-
-__PR Guidelines__
-
-* PRs are posted to General
-* PRs should reference a GitHub issue.  Exceptions for below.  Use your discretion
-  * Minor doc or spelling fix
-  * Minor test cleanup
-  * Small refactoring
-* PR requests should not be open longer than a day.
-* PR request reviews should focus on
- * Having Tests
- * Contain atomic changes
- * Code organized properly
- * Tests passed (is enforced)
- * Approved by a reviewer (is enforced)
-* PR should be "Squash and Merged" and the branch deleted.  All commit history can be found in the PR for historical purposes ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
-
-## Setup
-
+* Get Access to 1Password - password manager for various shared services
+* Read our online [API docs](api.synq.fm/docs)
+* Get Acccess to and review API design on [Stoplight](https://app.stoplight.io/)
 * Get Access to Slack - install Slack or use the web browser.  We are at [synqfm.slack.com](https://synqfm.slack.com)
 * Get Access to GitHub - Our repo is at [https://github.com/SYNQfm](https://github.com/SYNQfm)
 * Get Access to Zenhub - This is a tool that sits on top of GitHub.   You will need a license where you can request one on Slack, and install the plugin [here]([here](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd?hl=en-US))
+* Reivew our open source [SDKs](https://github.com/SYNQfm?utf8=%E2%9C%93&q=SYNQ%20sdk&type=&language=)
 
-## Repositories
+## Give me the code!!
 
-[Obaku](https://github.com/SYNQfm/obaku): Our main service, currently all the "microservices" are inside this one repo.    
-[Synq Web Assets](https://github.com/SYNQfm/synq-web-assets.git): This is where our documentation, API specification etc are hosted.    
-[Synq Website](https://github.com/SYNQfm/obaku/wordpress): This is a Wordpress site, which currently lives in the main repo.    
-[Streamer](https://github.com/SYNQfm/streamer): Our first standalone micro-service to handle live streaming
+|  Name                                                        | Description  |  Maintainer(s)  |
+| :----------------------------------------------------------- | ------------ |
+| [Core](https://github.com/SYNQfm/obaku)                      | Our core service, contains our data store, APIs, query and webhook execution engine.  This also contains misc services required to run api.synq.fm. |  Martin, Bruce |
+| [Transcode](https://github.com/SYNQfm/hydra)                 | transcode jobs service | Bruce |
+| [Player](https://github.com/SYNQfm/ballivian)                | videojs player service | Srod |
+| [Thumbnails](https://github.com/SYNQfm/tylwythteg)           | thumbnail generator service | Srod |
+| [Metadata](https://github.com/SYNQfm/monopod)                | Public Schedule 2/4 Metadata parser | Halvard |
+| [Importer](https://github.com/SYNQfm/importer)               | import large amount of files from disk | Julian |
+| [Streamer](https://github.com/SYNQfm/streamer)               | handles live streaming | Bruce |
+| [Core V2](https://github.com/SYNQfm/aerico)                  | Service to support proposed [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) of our API | Julian, Martin |
+| [Synq Website](https://github.com/SYNQfm/obaku/wordpress)    | This is a Wordpress site, which currently lives in "Core" repo. | Halvard |
+| [Legacy Docs](https://github.com/SYNQfm/synq-web-assets.git) | This is where our documentation, API specification etc are hosted. | Srod |
+
+Note : Naming scheme looks at [creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the same first few letters of the service "Thumbnails -> Tylwythteg"
+ 
+## Software Development Lifecycle
+
+### How we track work
+
+* GitHub Milestones - created for each project, shoudl be 3-5 weeks long
+* Zenhub "Epics" - created as high level place holders in the milestones
+* GitHub Issues - specific work needed to accomplish epics and achieve our goal in the milestones.  Also can be one off bugs, devop tasks, cleanup etc that is required for routine maintenance
+
+### How we schedule work
+
+* Issues are all self scheduled.  Use the "Selected for dev" and "In progress" zenhub pipelines to manage your own workload
+* Epics are created and scheduled during each Milestone Kick off meeting
+
+### How we communicate
+
+* Daily "Standups" on Slack via Geekbot (#standup channel)
+* Via Slack primarily in #general or #developers
+* Weekly Dev Meetings
+ * Review Epics and Progress of Milestone
+ * Go over "Help Wanted" issues
+ * Discuss any major architecture decisions, changes, concerns
+* Milestone Kickoff Meeting
+ * Discuss "theme" of the milestone and schedule high level epics and assign them to developers
+
+### How we test / deploy
+
+* Use CircleCI for Continous Integration
+* Use Coveralls to monitor test coverage
+* Aim for continuous deployment.  Each repo maintainer determines the schedule of the deployments but should be no longer than 1 week (unless no changes were made)
+
+## Best Practices
+
+Below is some good best practices for getting the most out of your time
+
+__ Branching / PR __
+
+* Use good naming convention such as `bruce-fix-s3-bug`
+* Strive for atomic changes per branch, try to limit it to 2 fixes max
+* PRs should reference an issue (unless its minor fixes)
+* Maintain as few personal branches as possible
+* Keep the number of open PRs low.
+ * Before starting your work, do you notice a pile up of PRs?  Chip in and help clear it out!
+* PRs should have
+ * Passing tests (is enforced)
+ * Minimum code coverage (is enforced)
+ * Reviewed by at least one person (is enforced)
+*  Be "Squash and Merged" and the branch deleted.  All commit history can be found in the PR for historical purposes ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
+
+__ Meetings __
+
+* Should come with an agenda, the organizer should keep it focused
+* Keep it as short as possible
+* Think if you could do this over slack?  If so, why call the meeting?
 
 ## Resources
 
-[Wiki](https://github.com/SYNQfm/obaku/wiki)    
-[Continuous Improvement Board](https://trello.com/b/dv0Cpcmo/continuous-improvement)   
+[Wiki](https://github.com/SYNQfm/getting-started/wiki)    
+[Technologies to Explore](https://github.com/SYNQfm/getting-started/wiki/Technologies-to-Explore) - if you read something cool, put it here   
 [Links](links.md)    
 [Previous Dev Cycle Chart](dev_cycle.png)
