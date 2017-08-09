@@ -45,8 +45,8 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 
 ### How we track work
 
-* GitHub Milestones - created for each project, shoudl be 3-5 weeks long
-* Zenhub "Epics" - created as high level place holders in the milestones
+* GitHub Milestones - created for each project, should be 3-6 weeks long
+* Zenhub "Epics" - created as high level place holders in the milestones.  Grouping for multiple issues
 * GitHub Issues - specific work needed to accomplish epics and achieve our goal in the milestones.  Also can be one off bugs, devop tasks, cleanup etc that is required for routine maintenance
 
 ### How we schedule work
@@ -56,8 +56,9 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 
 ### How we communicate
 
-* Daily "Standups" on Slack via Geekbot (#standup channel)
-* Via Slack primarily in #general or #developers
+* Using Slack
+  * Primarily in #general or #developers
+  * Daily "Standups" via Geekbot (posted to #standup)
 * Weekly Dev Meetings
   * Review Epics and Progress of Milestone
   * Go over "Help Wanted" issues
