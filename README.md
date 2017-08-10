@@ -96,7 +96,8 @@ __Branching / PR__
   * Passing tests (is enforced)
   * Minimum code coverage (is enforced)
   * Reviewed by at least one person (is enforced)
-*  Be "Squash and Merged" and the branch deleted.  All commit history can be found in the PR for historical purposes ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
+*  "Squash and Merge" branches into master, and its a good habit to delete the merged branch at that time
+  * If you need to see the commit history, it can be found in the original PR ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
 
 __Meetings__
 
