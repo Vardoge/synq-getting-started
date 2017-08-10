@@ -75,7 +75,7 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 * Use [Coveralls](https://coveralls.io/) to monitor test coverage
 * Aim for continuous deployment. Maintainers determine the release cadence but changes should be deployed at least once a week
   * Some services use [Heroku](https://dashboard.heroku.com/teams/synqfm/apps) with automatic deploys on changes to `master`
-  * "Core" runs on DigitalOcean with a manual "tag and build" model, here's an example [release](https://github.com/SYNQfm/obaku/releases/tag/2017-07-11)
+  * "Core" runs on DigitalOcean with a manual "tag and build" [deploy](deploy.md) model
 * Use [Runscope](https://www.runscope.com/radar/si8c3oxplpmd) to continuously monitor our APIs
 * Use [PagerDuty](https://app.pagerduty.com/) to manage on call and alerts
 * Use [StatusPage](https://manage.statuspage.io/pages/x9f990zglm69) to communicate public API [status](https://synq.statuspage.io/) information to customers
@@ -96,7 +96,7 @@ __Branching / PR__
   * Passing tests (is enforced)
   * Minimum code coverage (is enforced)
   * Reviewed by at least one person (is enforced)
-*  "Squash and Merge" branches into master, and its a good habit to delete the merged branch at that time
+* "Squash and Merge" branches into master, and its a good habit to delete the merged branch at that time
   * If you need to see the commit history, it can be found in the original PR ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
 
 __Meetings__
