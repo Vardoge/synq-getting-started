@@ -66,6 +66,7 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
   * Review Epics and Progress of Milestone
   * Go over "Help Wanted" issues
   * Discuss any major architecture decisions, changes, concerns
+  * Review Outage Epics and schedule them accordingly
 * Milestone Kickoff Meeting
   * Discuss "theme" of the milestone and schedule high level epics and assign them to developers
 
