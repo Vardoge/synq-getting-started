@@ -83,7 +83,7 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 
 ## Be kind, Rewind!
 
-Below is some best practices for various topics
+Below are some best practices for various topics
 
 __Branching / PR__
 
