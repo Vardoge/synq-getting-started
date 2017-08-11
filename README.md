@@ -44,7 +44,7 @@ Be the easiest and fastest way to integrate video technology/content into your a
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
  
-## Software Development Lifecycle
+## How we software
 
 ### How we track work
 
@@ -81,9 +81,9 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 * Use [PagerDuty](https://app.pagerduty.com/) to manage on call and alerts
 * Use [StatusPage](https://manage.statuspage.io/pages/x9f990zglm69) to communicate public API [status](https://synq.statuspage.io/) information to customers
 
-## Best Practices
+## Be kind, Rewind!
 
-Below is some good best practices for getting the most out of your time
+Below is some best practices for various topics
 
 __Branching / PR__
 
