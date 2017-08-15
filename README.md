@@ -106,9 +106,10 @@ __Meetings__
 * Keep it as short as possible
 * Think if you could do this over slack?  If so, why call the meeting?
 
+[__Deploy__](deploy.md)
+
 ## Resources
 
 [Technologies to Explore](https://github.com/SYNQfm/getting-started/wiki/Technologies-to-Explore) - if you read something cool, put it here   
 [Useful Links](links.md)    
 [General Wiki](https://github.com/SYNQfm/getting-started/wiki)    
-[Previous Dev Cycle Chart](dev_cycle.png)
