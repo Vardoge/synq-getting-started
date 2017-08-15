@@ -61,6 +61,7 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
  * Issues associated with Epics usually are higher priority
  * Issues to remediate outage problems should have higher priority (even overriding Epic work depending on severity)
 * Issues can be created by anyone at the company
+* Issues should be culled aggressively and if you don't think we're going to work on it in the next 3 months, you should just close it
 
 ### How we communicate
 
@@ -101,6 +102,7 @@ __Branching / PR__
 * Use good naming convention such as `bruce-fix-s3-bug`
 * Strive for atomic changes per branch, try to limit it to 2 fixes max
 * PRs should reference an issue (unless its minor fixes)
+* More complicated workspaces should include a PR [template](https://github.com/SYNQfm/obaku/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
 * Maintain as few personal branches as possible
 * Keep the number of open PRs low.
   * Before starting your work, do you notice a pile up of PRs?  Chip in and help clear it out!
