@@ -55,11 +55,11 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 ### How we schedule work
 
 * Epics are created and scheduled during each Milestone Kick off meeting
- * This should be used to group key functionality we want to implement
- * An owner will be assigned to an epic and it will be up to the owner to create the appropriate individual issues.
+  * This should be used to group key functionality we want to implement
+  * An owner will be assigned to an epic and it will be up to the owner to create the appropriate individual issues.
 * Issues are self scheduled.  Use the "Selected for dev" and "In progress" zenhub pipelines to manage your own workload
- * Issues associated with Epics usually are higher priority
- * Issues to remediate outage problems should have higher priority (even overriding Epic work depending on severity)
+  * Issues associated with Epics usually are higher priority
+  * Issues to remediate outage problems should have higher priority (even overriding Epic work depending on severity)
 * Issues can be created by anyone at the company
 * Issues should be culled aggressively and if you don't think we're going to work on it in the next 3 months, you should just close it
 
