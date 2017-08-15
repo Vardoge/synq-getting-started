@@ -106,7 +106,9 @@ __Meetings__
 * Keep it as short as possible
 * Think if you could do this over slack?  If so, why call the meeting?
 
-[__Deploy__](deploy.md)
+__Deploy__
+
+* [Procedures](deploy.md) for repos that require a bit more manual work (ie Core)
 
 ## Resources
 
