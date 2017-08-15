@@ -13,7 +13,6 @@ We will create release notes for the specific workspace, and copy the deploy pro
 
 __Core Service (Obaku)__ - Example Release on [2017-05-09](https://github.com/SYNQfm/obaku/releases/tag/2017-05-09) and [2017-07-11](https://github.com/SYNQfm/obaku/releases/tag/2017-07-11)    
 __Thumbnail__ - This lives inside Core, and is upgraded sometimes [2017-06-06](https://github.com/SYNQfm/obaku/releases/tag/2017-06-06)    
-
 __Streamer__ - Release for [v0.3.0](https://github.com/SYNQfm/streamer/releases/tag/v0.3.0)    
 
 [Post Deploying Testing Template](https://github.com/SYNQfm/obaku/wiki/Post-Deployment-Testing-Template)    
