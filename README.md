@@ -49,13 +49,19 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 ### How we track work
 
 * GitHub Milestones - created for each project, should be 3-6 weeks long
-* Zenhub "Epics" - created as high level place holders in the milestones.  Grouping for multiple issues
+* Zenhub "Epics" - created as high level place holders in the milestones.  Grouping for multiple issues.  These are also used to group outage information
 * GitHub Issues - specific work needed to accomplish epics and achieve our goal in the milestones.  Also can be one off bugs, devop tasks, cleanup etc that is required for routine maintenance
 
 ### How we schedule work
 
-* Issues are all self scheduled.  Use the "Selected for dev" and "In progress" zenhub pipelines to manage your own workload
 * Epics are created and scheduled during each Milestone Kick off meeting
+  * This should be used to group key functionality we want to implement
+  * An owner will be assigned to an epic and it will be up to the owner to create the appropriate individual issues.
+* Issues are self scheduled.  Use the "Selected for dev" and "In progress" zenhub pipelines to manage your own workload
+  * Issues associated with Epics usually are higher priority
+  * Issues to remediate outage problems should have higher priority (even overriding Epic work depending on severity)
+* Issues can be created by anyone at the company
+* Issues should be culled aggressively and if you don't think we're going to work on it in the next 3 months, you should just close it
 
 ### How we communicate
 
@@ -72,14 +78,20 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 
 ### How we test / deploy / run
 
-* Use [CircleCI](https://circleci.com/dashboard) for Continous Integration
-* Use [Coveralls](https://coveralls.io/) to monitor test coverage
+* We use [CircleCI](https://circleci.com/dashboard) for Continous Integration
+* We use [Coveralls](https://coveralls.io/) to monitor test coverage
 * Aim for continuous deployment. Maintainers determine the release cadence but changes should be deployed at least once a week
   * Some services use [Heroku](https://dashboard.heroku.com/teams/synqfm/apps) with automatic deploys on changes to `master`
   * "Core" runs on DigitalOcean with a manual "tag and build" [deploy](deploy.md) model
-* Use [Runscope](https://www.runscope.com/radar/si8c3oxplpmd) to continuously monitor our APIs
-* Use [PagerDuty](https://app.pagerduty.com/) to manage on call and alerts
-* Use [StatusPage](https://manage.statuspage.io/pages/x9f990zglm69) to communicate public API [status](https://synq.statuspage.io/) information to customers
+* We use [Runscope](https://www.runscope.com/radar/si8c3oxplpmd) to continuously monitor our APIs
+* We use [PagerDuty](https://app.pagerduty.com/) to manage on call and alerts
+* We use [StatusPage](https://manage.statuspage.io/pages/x9f990zglm69) to communicate public API [status](https://synq.statuspage.io/) information to customers
+
+### How we support our customers
+
+* We use [Zendesk](https://synqsupport.zendesk.com) for support email and chat.  Notifications are sent to the #zendesk Slack channel
+* The customer success team will handle initial requests but any one can chip into issues and help to resolve customer problems
+* There is no Synq without customers and the customer success team is the eyes and ears of our customers and their requests should be taken seriously!
 
 ## Be kind, Rewind!
 
@@ -90,6 +102,7 @@ __Branching / PR__
 * Use good naming convention such as `bruce-fix-s3-bug`
 * Strive for atomic changes per branch, try to limit it to 2 fixes max
 * PRs should reference an issue (unless its minor fixes)
+* More complicated workspaces should include a PR [template](https://github.com/SYNQfm/obaku/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
 * Maintain as few personal branches as possible
 * Keep the number of open PRs low.
   * Before starting your work, do you notice a pile up of PRs?  Chip in and help clear it out!
