@@ -97,21 +97,30 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 
 Below are some best practices for various topics
 
-__Branching / PR__
+__Branching / PRs__
 
 * Use good naming convention such as `bruce-fix-s3-bug`
 * Strive for atomic changes per branch, try to limit it to 2 fixes max
-* PRs should reference an issue (unless its minor fixes)
-* More complicated workspaces should include a PR [template](https://github.com/SYNQfm/obaku/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
-* Maintain as few personal branches as possible
-* Keep the number of open PRs low.
-  * Before starting your work, do you notice a pile up of PRs?  Chip in and help clear it out!
+* PRs should reference an issue (unless its a minor fixes)
 * PRs should have
   * Passing tests (is enforced)
   * Minimum code coverage (is enforced)
-  * Reviewed by at least one person (is enforced)
+  * Minimum one person tagged to review the code
+* PR Reviews should
+  * Be short and usually take less than an hour
+  * Cleared out quickly to avoid a pile up
+  * Be tagged with at least one reviewer
+  * Be reviewed within a day, otherwise the issuer can merge it without an approval
 * "Squash and Merge" branches into master, and its a good habit to delete the merged branch at that time
   * If you need to see the commit history, it can be found in the original PR ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
+* Maintain as few personal branches as possible
+* More complicated workspaces should include a PR [template](https://github.com/SYNQfm/obaku/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
+
+__Code Reviews__
+
+* Anyone can nominate a code area to review, and the code owner would run the review
+* Code reviews should take 2-3 hours and be done at one time
+* We should do at most one review every 2 weeks
 
 __Meetings__
 
