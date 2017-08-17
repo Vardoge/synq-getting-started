@@ -118,7 +118,7 @@ __Branching / PRs__
 __Code Reviews__
 
 * Anyone can nominate a code area to review, and the code owner would run the review
-* Code reviews should take 2-3 hours and be done at one time
+* Code reviews should take 1-3 hours and be done at one time
 * We should do at most one review every 2 weeks
 
 __Meetings__
