@@ -33,7 +33,7 @@ Be the easiest and fastest way to integrate video technology/content into your a
  [Player](https://github.com/SYNQfm/ballivian)                | Videojs player service | Srod
  [Thumbnails](https://github.com/SYNQfm/tylwythteg)           | Thumbnail generator service | Srod
  [Metadata](https://github.com/SYNQfm/monopod)                | Public Schedule 2/4 Metadata parser | Halvard
- [Importer](https://github.com/SYNQfm/importer)               | Import large amount of files from disk | Julian
+ [Importer](https://github.com/SYNQfm/ifrit)                  | Import large amount of files from disk | Julian
  [Uploader](https://github.com/SYNQfm/obaku/uploader)         | Uploader and multi-part signing, currently lives in "Core" | Srod
  [File States](https://github.com/SYNQfm/obaku/file-states)      | S3 Upload queue processing, currently lives in "Core" | Martin
  [Streamer](https://github.com/SYNQfm/streamer)               | Handles live streaming | Bruce
@@ -101,15 +101,14 @@ __Branching / PRs__
 
 * Use good naming convention such as `bruce-fix-s3-bug`
 * Strive for atomic changes per branch, try to limit it to 2 fixes max
-* PRs should reference an issue (unless its a minor fixes)
 * PRs should have
+  * An issue attached, unless its a minor fix
   * Passing tests (is enforced)
   * Minimum code coverage (is enforced)
   * Minimum one person tagged to review the code
 * PR Reviews should
   * Be short and usually take less than an hour
   * Cleared out quickly to avoid a pile up
-  * Be tagged with at least one reviewer
   * Be reviewed within a day, otherwise the issuer can merge it without an approval
 * "Squash and Merge" branches into master, and its a good habit to delete the merged branch at that time
   * If you need to see the commit history, it can be found in the original PR ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
