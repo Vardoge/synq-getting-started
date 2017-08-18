@@ -33,7 +33,7 @@ Be the easiest and fastest way to integrate video technology/content into your a
  [Player](https://github.com/SYNQfm/ballivian)                | Videojs player service | Srod
  [Thumbnails](https://github.com/SYNQfm/tylwythteg)           | Thumbnail generator service | Srod
  [Metadata](https://github.com/SYNQfm/monopod)                | Public Schedule 2/4 Metadata parser | Halvard
- [Importer](https://github.com/SYNQfm/importer)               | Import large amount of files from disk | Julian
+ [Importer](https://github.com/SYNQfm/ifrit)                  | Import large amount of files from disk | Julian
  [Uploader](https://github.com/SYNQfm/obaku/uploader)         | Uploader and multi-part signing, currently lives in "Core" | Srod
  [File States](https://github.com/SYNQfm/obaku/file-states)      | S3 Upload queue processing, currently lives in "Core" | Martin
  [Streamer](https://github.com/SYNQfm/streamer)               | Handles live streaming | Bruce
@@ -97,21 +97,29 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 
 Below are some best practices for various topics
 
-__Branching / PR__
+__Branching / PRs__
 
 * Use good naming convention such as `bruce-fix-s3-bug`
 * Strive for atomic changes per branch, try to limit it to 2 fixes max
-* PRs should reference an issue (unless its minor fixes)
-* More complicated workspaces should include a PR [template](https://github.com/SYNQfm/obaku/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
-* Maintain as few personal branches as possible
-* Keep the number of open PRs low.
-  * Before starting your work, do you notice a pile up of PRs?  Chip in and help clear it out!
 * PRs should have
+  * An issue attached, unless its a minor fix
   * Passing tests (is enforced)
   * Minimum code coverage (is enforced)
-  * Reviewed by at least one person (is enforced)
+  * Minimum one person tagged to review the code
+* PR Reviews should
+  * Be short and usually take less than an hour
+  * Cleared out quickly to avoid a pile up
+  * Be reviewed within a day, otherwise the issuer can merge it without an approval
 * "Squash and Merge" branches into master, and its a good habit to delete the merged branch at that time
   * If you need to see the commit history, it can be found in the original PR ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
+* Maintain as few personal branches as possible
+* More complicated workspaces should include a PR [template](https://github.com/SYNQfm/obaku/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
+
+__Code Reviews__
+
+* Anyone can nominate a code area to review, and the code owner would run the review
+* Code reviews should take 1-3 hours and be done at one time
+* We should do at most one review every 2 weeks
 
 __Meetings__
 
