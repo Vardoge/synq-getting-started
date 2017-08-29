@@ -82,9 +82,10 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 
 * We use [CircleCI](https://circleci.com/dashboard) for Continous Integration
 * We use [Coveralls](https://coveralls.io/) to monitor test coverage
-* Aim for continuous deployment. Maintainers determine the release cadence but changes should be deployed at least once a week
+* Aim for continuous deployment. Maintainers determine the release cadence but changes _should_ be deployed at least once a week
   * Some services use [Heroku](https://dashboard.heroku.com/teams/synqfm/apps) with automatic deploys on changes to `master`
   * "Core" runs on DigitalOcean with a manual "tag and build" [deploy](deploy.md) model
+  * if no changes have been merged into master since the last deployment, the current deployment can be skipped
 * We use [Runscope](https://www.runscope.com/radar/si8c3oxplpmd) to continuously monitor our APIs
 * We use [PagerDuty](https://app.pagerduty.com/) to manage on call and alerts
 * We use [StatusPage](https://manage.statuspage.io/pages/x9f990zglm69) to communicate public API [status](https://synq.statuspage.io/) information to customers
