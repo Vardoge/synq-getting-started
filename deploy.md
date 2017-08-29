@@ -6,6 +6,7 @@
 * Out of band deploys should only happen for critical outages or major security holes
 * Anyone should be able to deploy
 * Our goal is continuous deployment  so aim for more automation
+* If no changes have been merged into master since the last deployment, the current deployment can be skipped
 
 ### Deploy Procedures
 
