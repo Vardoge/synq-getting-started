@@ -110,6 +110,7 @@ __Branching / PRs__
   * Minimum code coverage (is enforced)
   * Minimum one person tagged to review the code
 * PR Reviews should
+  * check out the [code review checklist](https://github.com/SYNQfm/obaku/wiki/Guide:-code-review-(checklist))
   * Be short and usually take less than an hour
   * Cleared out quickly to avoid a pile up
   * Be reviewed within a day, otherwise the issuer can merge it without an approval
