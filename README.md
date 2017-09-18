@@ -110,7 +110,7 @@ __Branching / PRs__
   * Minimum code coverage (is enforced)
   * Minimum one person tagged to review the code
 * PR Reviews should
-  * check out the [code review checklist](https://github.com/SYNQfm/obaku/wiki/Guide:-code-review-(checklist))
+  * conform to the [code review checklist](https://github.com/SYNQfm/obaku/wiki/Guide:-code-review-(checklist))
   * Be short and usually take less than an hour
   * Cleared out quickly to avoid a pile up
   * Be reviewed within a day, otherwise the issuer can merge it without an approval
@@ -118,6 +118,7 @@ __Branching / PRs__
   * If you need to see the commit history, it can be found in the original PR ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
 * Maintain as few personal branches as possible
 * More complicated workspaces should include a PR [template](https://github.com/SYNQfm/obaku/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
+* should pass the coveralls code coverage & unit tests (you can adjust the coveralls code coverage thresholds here https://coveralls.io/github/SYNQfm/obaku/settings. Note, this is just for the 'obaku' repositories, and assumes you have the correct access privileges to make changes!)
 
 __Code Reviews__
 
