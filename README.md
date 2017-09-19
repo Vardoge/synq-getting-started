@@ -17,7 +17,7 @@ Be the easiest and fastest way to integrate video technology/content into your a
 ## Getting Started :)
 
 * Get Access to 1Password - password manager for various shared services
-* Read our online [API docs](api.synq.fm/docs)
+* Read our online [API docs](https://synq.api-docs.io/1.9.1/video-apis)
 * Get Acccess to and review API design on [Stoplight](https://app.stoplight.io/) (or read our OAS [spec](https://github.com/SYNQfm/spec-documentation/tree/master/obaku-specification))
 * Get Access to Slack - install Slack or use the web browser.  We are at [synqfm.slack.com](https://synqfm.slack.com)
 * Get Access to GitHub - Our repo is at [https://github.com/SYNQfm](https://github.com/SYNQfm)
