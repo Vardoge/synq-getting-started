@@ -43,6 +43,7 @@ Be the easiest and fastest way to integrate video technology/content into your a
  [Synq Website](https://github.com/SYNQfm/obaku/wordpress)    | This is a Wordpress site, which currently lives in "Core" | Halvard
  [Infrastructure](https://github.com/SYNQfm/obaku/infrastructure)    | DNS, Ansible, automation, currently lives in "Core" | Halvard
  [Legacy Docs](https://github.com/SYNQfm/synq-web-assets.git) | This is where our documentation, API specification etc are hosted. | Srod
+ [CDN logs](https://github.com/SYNQfm/Cadejo) | CDN log store & parse | Julian
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
  
