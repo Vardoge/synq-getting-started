@@ -22,6 +22,7 @@ Be the easiest and fastest way to integrate video technology/content into your a
 * Get Access to Slack - install Slack or use the web browser.  We are at [synqfm.slack.com](https://synqfm.slack.com)
 * Get Access to GitHub - Our repo is at [https://github.com/SYNQfm](https://github.com/SYNQfm)
 * Get Access to Zenhub - This is a tool that sits on top of GitHub.   You will need a license where you can request one on Slack, and install the [plugin](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd?hl=en-US))
+* Get Access to [Trello](https://trello.com/synq) - This is the tool Product Management uses to track features and milestones
 * Review our open source [SDKs](https://github.com/SYNQfm?utf8=%E2%9C%93&q=SYNQ%20sdk&type=&language=)
 * Look at our [gosample](https://github.com/SYNQfm/gosample.git) app to see how we structure certain things
 
@@ -32,18 +33,19 @@ Be the easiest and fastest way to integrate video technology/content into your a
  :----------------------------------------------------------- | ------------ | --------------
  [Core](https://github.com/SYNQfm/obaku)                      | Main service including our APIs, datastore, query and webhook execution engine.                                                   |  Martin, Bruce
  [Transcode](https://github.com/SYNQfm/hydra)                 | Transcode jobs service | Bruce
- [Player](https://github.com/SYNQfm/ballivian)                | Videojs player service | Srod
- [Thumbnails](https://github.com/SYNQfm/tylwythteg)           | Thumbnail generator service | Srod
+ [Player](https://github.com/SYNQfm/ballivian)                | Videojs player service | Jessica
+ [Thumbnails](https://github.com/SYNQfm/tylwythteg)           | Thumbnail generator service | Jessica
  [Metadata](https://github.com/SYNQfm/monopod)                | Public Schedule 2/4 Metadata parser | Halvard
  [Importer](https://github.com/SYNQfm/ifrit)                  | Import large amount of files from disk | Julian
- [Uploader](https://github.com/SYNQfm/obaku/uploader)         | Uploader and multi-part signing, currently lives in "Core" | Srod
+ [CDN logs](https://github.com/SYNQfm/cadejo) | CDN log store & parse | Julian
+ [Uploader](https://github.com/SYNQfm/obaku/uploader)         | Uploader and multi-part signing, currently lives in "Core" | Jessica
  [File States](https://github.com/SYNQfm/obaku/file-states)      | S3 Upload queue processing, currently lives in "Core" | Martin
  [Streamer](https://github.com/SYNQfm/streamer)               | Handles live streaming | Bruce
- [Core V2](https://github.com/SYNQfm/aerico)                  | Service to support proposed [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) of our API | Julian, Martin
- [Synq Website](https://github.com/SYNQfm/obaku/wordpress)    | This is a Wordpress site, which currently lives in "Core" | Halvard
+ [Core V2](https://github.com/SYNQfm/anubis)                  | Experimental Elixir/Phoenix backend for our [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs | Mike, Bruce |
+ [V1 -> V2 ETL](https://github.com/SYNQfm/aerico)                  | Queries V1 and converts to V2 Video JSON format | Bruce
+ [Synq Website](https://github.com/SYNQfm/wyvern)    | This is a Wordpress site for www.synq.fm | Halvard
  [Infrastructure](https://github.com/SYNQfm/obaku/infrastructure)    | DNS, Ansible, automation, currently lives in "Core" | Halvard
  [Legacy Docs](https://github.com/SYNQfm/synq-web-assets.git) | This is where our documentation, API specification etc are hosted. | Srod
- [CDN logs](https://github.com/SYNQfm/Cadejo) | CDN log store & parse | Julian
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
  
