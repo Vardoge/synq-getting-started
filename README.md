@@ -107,8 +107,7 @@ __Branching / PRs__
 * Strive for atomic changes per branch, try to limit it to 2 fixes max
 * PRs should have
   * An issue attached, unless its a minor fix
-  * Passing tests (is enforced)
-  * Minimum code coverage (is enforced)
+  * Passing tests that covers relevant parts of the code (should be enforced by CI)
   * Minimum one person tagged to review the code
 * PR Reviews should
   * conform to the [code review checklist](https://github.com/SYNQfm/obaku/wiki/Guide:-code-review-(checklist))
