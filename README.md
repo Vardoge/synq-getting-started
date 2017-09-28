@@ -45,7 +45,6 @@ Be the easiest and fastest way to integrate video technology/content into your a
  [V1 -> V2 ETL](https://github.com/SYNQfm/aerico)                  | Queries V1 and converts to V2 Video JSON format | Bruce
  [Synq Website](https://github.com/SYNQfm/wyvern)    | This is a Wordpress site for www.synq.fm | Halvard
  [Infrastructure](https://github.com/SYNQfm/obaku/infrastructure)    | DNS, Ansible, automation, currently lives in "Core" | Halvard
- [Legacy Docs](https://github.com/SYNQfm/synq-web-assets.git) | This is where our documentation, API specification etc are hosted. | Srod
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
  
