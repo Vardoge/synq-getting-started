@@ -29,23 +29,23 @@ Be the easiest and fastest way to integrate video technology/content into your a
 
 ## Give me the code!!
 
- Name                                                         | Description  |  Maintainer(s)
- :----------------------------------------------------------- | ------------ | --------------
- [Core](https://github.com/SYNQfm/obaku)                      | Main service including our APIs, datastore, query and webhook execution engine.                                                   |  Martin, Bruce
- [Transcode](https://github.com/SYNQfm/hydra)                 | Transcode jobs service | Bruce
- [Player](https://github.com/SYNQfm/ballivian)                | Videojs player service | Jessica
- [Thumbnails](https://github.com/SYNQfm/tylwythteg)           | Thumbnail generator service | Jessica
- [Metadata](https://github.com/SYNQfm/monopod)                | Public Schedule 2/4 Metadata parser | Halvard
- [Importer](https://github.com/SYNQfm/ifrit)                  | Import large amount of files from disk | Julian
- [Charybdis](https://github.com/SYNQfm/charybdis) | CDN log store | Julian
- [Calingi](https://github.com/SYNQfm/calingi) | CDN log parse | Julian
- [Uploader](https://github.com/SYNQfm/obaku/uploader)         | Uploader and multi-part signing, currently lives in "Core" | Jessica
- [File States](https://github.com/SYNQfm/obaku/file-states)      | S3 Upload queue processing, currently lives in "Core" | Martin
- [Streamer](https://github.com/SYNQfm/streamer)               | Handles live streaming | Bruce
- [Core V2](https://github.com/SYNQfm/anubis)                  | Experimental Elixir/Phoenix backend for our [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs | Mike, Bruce |
- [V1 -> V2 ETL](https://github.com/SYNQfm/aerico)                  | Queries V1 and converts to V2 Video JSON format | Bruce
- [Synq Website](https://github.com/SYNQfm/wyvern)    | This is a Wordpress site for www.synq.fm | Halvard
- [Infrastructure](https://github.com/SYNQfm/obaku/infrastructure)    | DNS, Ansible, automation, currently lives in "Core" | Halvard
+ Name                                                        | Build | Description  |  Maintainer(s)
+ :-----------------------------------------------------------|------ | ------------ | --------------
+ [Core](https://github.com/SYNQfm/obaku)                 | [![CircleCI](https://circleci.com/gh/SYNQfm/obaku.svg?style=svg&circle-token=9b25c63acb32232a9a7f9da2fa7240919d335cb0)](https://circleci.com/gh/SYNQfm/obaku)   | Main service including our APIs, datastore, query and webhook execution engine.                | Martin, Bruce
+ [Transcode](https://github.com/SYNQfm/hydra)            | [![CircleCI](https://circleci.com/gh/SYNQfm/hydra.svg?style=svg&circle-token=3bb209f5fceb013cfe5bdffed8867fb84693c789)](https://circleci.com/gh/SYNQfm/hydra)    | Transcode jobs service | Bruce
+ [Player](https://github.com/SYNQfm/ballivian)           | [![CircleCI](https://circleci.com/gh/SYNQfm/ballivian.svg?style=svg&circle-token=48d2d9d54880593f3335c5f07752fca21a514ef8)](https://circleci.com/gh/SYNQfm/ballivian)    | Videojs player service | Jessica
+ [Thumbnails](https://github.com/SYNQfm/tylwythteg)      |     | Thumbnail generator service | Jessica
+ [Metadata](https://github.com/SYNQfm/monopod)           |     | Public Schedule 2/4 Metadata parser | Halvard
+ [Ifrit](https://github.com/SYNQfm/ifrit)             | [![CircleCI](https://circleci.com/gh/SYNQfm/ifrit.svg?style=svg&circle-token=c4b769d9df0c236f89eb90a4e5413307a152665f)](https://circleci.com/gh/SYNQfm/ifrit)     | Import large amount of files from disk | Julian
+ [Charybdis](https://github.com/SYNQfm/charybdis) | [![CircleCI](https://circleci.com/gh/SYNQfm/charybdis.svg?style=svg&circle-token=07d34336bd24df048b532ed90e2b0b9cf9fea46c)](https://circleci.com/gh/SYNQfm/charybdis)| CDN log store | Julian
+ [Calingi](https://github.com/SYNQfm/calingi) | [![CircleCI](https://circleci.com/gh/SYNQfm/calingi.svg?style=svg&circle-token=35f2b9d5ba20859dfee3af32129b8f746645f665)](https://circleci.com/gh/SYNQfm/calingi)| CDN log parse | Julian
+ [Uploader](https://github.com/SYNQfm/obaku/uploader)|          | Uploader and multi-part signing, currently lives in "Core" | Jessica
+ [File States](https://github.com/SYNQfm/obaku/file-states) |       | S3 Upload queue processing, currently lives in "Core" | Martin
+ [Streamer](https://github.com/SYNQfm/streamer) | [![CircleCI](https://circleci.com/gh/SYNQfm/streamer.svg?style=svg&circle-token=b5519ed34ec02fcaa30e6b61c2098d7b0f3fd571)](https://circleci.com/gh/SYNQfm/streamer)               | Handles live streaming | Bruce
+ [Core V2](https://github.com/SYNQfm/anubis) |                   | Experimental Elixir/Phoenix backend for our [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
+ [V1 -> V2 ETL](https://github.com/SYNQfm/aerico) | [![CircleCI](https://circleci.com/gh/SYNQfm/aerico.svg?style=svg&circle-token=6bf28fed9b7e034017e2c7229049f774b3e80bc3)](https://circleci.com/gh/SYNQfm/aerico)                 | Queries V1 and converts to V2 Video JSON format | Bruce
+ [Synq Website](https://github.com/SYNQfm/wyvern) |     | This is a Wordpress site for www.synq.fm | Halvard
+ [Infrastructure](https://github.com/SYNQfm/obaku/infrastructure) |    | DNS, Ansible, automation, currently lives in "Core" | Halvard
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
  
