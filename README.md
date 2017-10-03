@@ -37,7 +37,8 @@ Be the easiest and fastest way to integrate video technology/content into your a
  [Thumbnails](https://github.com/SYNQfm/tylwythteg)           | Thumbnail generator service | Jessica
  [Metadata](https://github.com/SYNQfm/monopod)                | Public Schedule 2/4 Metadata parser | Halvard
  [Importer](https://github.com/SYNQfm/ifrit)                  | Import large amount of files from disk | Julian
- [CDN logs](https://github.com/SYNQfm/cadejo) | CDN log store & parse | Julian
+ [Charybdis](https://github.com/SYNQfm/charybdis) | CDN log store | Julian
+ [Calingi](https://github.com/SYNQfm/calingi) | CDN log parse | Julian
  [Uploader](https://github.com/SYNQfm/obaku/uploader)         | Uploader and multi-part signing, currently lives in "Core" | Jessica
  [File States](https://github.com/SYNQfm/obaku/file-states)      | S3 Upload queue processing, currently lives in "Core" | Martin
  [Streamer](https://github.com/SYNQfm/streamer)               | Handles live streaming | Bruce
