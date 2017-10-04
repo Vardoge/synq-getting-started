@@ -36,7 +36,7 @@ Be the easiest and fastest way to integrate video technology/content into your a
  [Player](https://github.com/SYNQfm/ballivian)           | [![CircleCI](https://circleci.com/gh/SYNQfm/ballivian.svg?style=svg&circle-token=48d2d9d54880593f3335c5f07752fca21a514ef8)](https://circleci.com/gh/SYNQfm/ballivian)    | Videojs player service | Jessica
  [Thumbnails](https://github.com/SYNQfm/tylwythteg)      |     | Thumbnail generator service | Jessica
  [Metadata](https://github.com/SYNQfm/monopod)           |     | Public Schedule 2/4 Metadata parser | Halvard
- [Ifrit](https://github.com/SYNQfm/ifrit)             | [![CircleCI](https://circleci.com/gh/SYNQfm/ifrit.svg?style=svg&circle-token=c4b769d9df0c236f89eb90a4e5413307a152665f)](https://circleci.com/gh/SYNQfm/ifrit)     | Import large amount of files from disk | Julian
+ [Ifrit](https://github.com/SYNQfm/ifrit)             | [![CircleCI](https://circleci.com/gh/SYNQfm/ifrit.svg?style=svg&circle-token=c4b769d9df0c236f89eb90a4e5413307a152665f)](https://circleci.com/gh/SYNQfm/ifrit)     | Import large amount of files from disk | Julian, Bruce
  [Charybdis](https://github.com/SYNQfm/charybdis) | [![CircleCI](https://circleci.com/gh/SYNQfm/charybdis.svg?style=svg&circle-token=07d34336bd24df048b532ed90e2b0b9cf9fea46c)](https://circleci.com/gh/SYNQfm/charybdis)| CDN log store | Julian
  [Calingi](https://github.com/SYNQfm/calingi) | [![CircleCI](https://circleci.com/gh/SYNQfm/calingi.svg?style=svg&circle-token=35f2b9d5ba20859dfee3af32129b8f746645f665)](https://circleci.com/gh/SYNQfm/calingi)| CDN log parse | Julian
  [Uploader V1](https://github.com/SYNQfm/obaku/uploader)|          | Uploader and multi-part signing, currently lives in "Core" | Jessica
