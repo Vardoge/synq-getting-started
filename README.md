@@ -42,7 +42,6 @@ Be the easiest and fastest way to integrate video technology/content into your a
  [Uploader V1](https://github.com/SYNQfm/obaku/uploader)|          | Uploader and multi-part signing, currently lives in "Core" | Jessica
  [File States](https://github.com/SYNQfm/obaku/file-states) |       | S3 Upload queue processing, currently lives in "Core" | Martin
  [Streamer](https://github.com/SYNQfm/streamer) | [![CircleCI](https://circleci.com/gh/SYNQfm/streamer.svg?style=svg&circle-token=b5519ed34ec02fcaa30e6b61c2098d7b0f3fd571)](https://circleci.com/gh/SYNQfm/streamer)               | Handles live streaming | Bruce
- [V1 -> V2 ETL](https://github.com/SYNQfm/aerico) | [![CircleCI](https://circleci.com/gh/SYNQfm/aerico.svg?style=svg&circle-token=6bf28fed9b7e034017e2c7229049f774b3e80bc3)](https://circleci.com/gh/SYNQfm/aerico)                 | Queries V1 and converts to V2 Video JSON format | Bruce
  [Synq Website](https://github.com/SYNQfm/wyvern) |     | This is a Wordpress site for www.synq.fm | Halvard
  [Infrastructure](https://github.com/SYNQfm/obaku/infrastructure) |    | DNS, Ansible, automation, currently lives in "Core" | Halvard
 
@@ -50,7 +49,8 @@ __V2 Micro services__
 
  Name                                                        | Build | Description  |  Maintainer(s)
  :-----------------------------------------------------------|------ | ------------ | --------------
- [Core](https://github.com/SYNQfm/anubis) |                   | Experimental Elixir/Phoenix backend for our [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
+ [Anubis](https://github.com/SYNQfm/anubis) |                   | Experimental Elixir/Phoenix backend for our [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
+ [Aerico](https://github.com/SYNQfm/aerico) | [![CircleCI](https://circleci.com/gh/SYNQfm/aerico.svg?style=svg&circle-token=6bf28fed9b7e034017e2c7229049f774b3e80bc3)](https://circleci.com/gh/SYNQfm/aerico)                 | Queries and converts Obaku V1 JSON to V2 Video JSON format | Bruce
  [Uploader](https://github.com/SYNQfm/unicorn) |                | V2 Uploader service that will upload anything | Jessica |
 
 
