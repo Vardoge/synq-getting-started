@@ -52,8 +52,8 @@ __V2 Micro services__
  [Anubis](https://github.com/SYNQfm/anubis) |                   | Experimental Elixir/Phoenix backend for our [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
  [Aerico](https://github.com/SYNQfm/aerico) | [![CircleCI](https://circleci.com/gh/SYNQfm/aerico.svg?style=svg&circle-token=6bf28fed9b7e034017e2c7229049f774b3e80bc3)](https://circleci.com/gh/SYNQfm/aerico)                 | Queries and converts Obaku V1 JSON to V2 Video JSON format | Bruce
  [Uploader](https://github.com/SYNQfm/unicorn) |                | V2 Uploader service that will upload anything | Jessica |
-[Dashboard](https://github.com/SYNQfm/doppelganger) | ReactJS based Dashboard for SYNQ | Halvard, Josh |
-[UI Components](https://github.com/SYNQfm/synq-ui) | Re-usable ReactJS components | Halvard, Josh |
+[Dashboard](https://github.com/SYNQfm/doppelganger) | | ReactJS based Dashboard for SYNQ | Halvard, Josh |
+[UI Components](https://github.com/SYNQfm/synq-ui) | | Re-usable ReactJS components | Halvard, Josh |
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
  
