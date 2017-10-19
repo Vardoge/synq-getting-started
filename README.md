@@ -9,7 +9,7 @@ Be the easiest and fastest way to integrate video technology/content into your a
 ## Core Behaviors
 
  * __Work as a team__ - collaborate together, no silos, no finger pointing, no blame culture.  Also, have fun and enjoy each other's time once in a while.  *We succeed or fail together*
- 
+
  * __Execute Quickly, Improve constantly__ - Get things done quickly, and be vigilant about constant improvement.  *Don't be afraid of "failure"*
 
  * __Care about your craft__ - Add tests as you see fit, care about quality and correctness, be consistent, follow standards, add documentation.  *The little things matter*
@@ -49,14 +49,16 @@ __V2 Micro services__
 
  Name                                                        | Build | Description  |  Maintainer(s)
  :-----------------------------------------------------------|------ | ------------ | --------------
+ [Akka](https://github.com/SYNQfm/akka) |                   | Elixir/Phoenix Video CRUD APIs [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
  [Anubis](https://github.com/SYNQfm/anubis) |                   | Experimental Elixir/Phoenix backend for our [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
  [Aerico](https://github.com/SYNQfm/aerico) | [![CircleCI](https://circleci.com/gh/SYNQfm/aerico.svg?style=svg&circle-token=6bf28fed9b7e034017e2c7229049f774b3e80bc3)](https://circleci.com/gh/SYNQfm/aerico)                 | Queries and converts Obaku V1 JSON to V2 Video JSON format | Bruce
  [Uploader](https://github.com/SYNQfm/unicorn) |                | V2 Uploader service that will upload anything | Jessica |
 [Dashboard](https://github.com/SYNQfm/doppelganger) | | ReactJS based Dashboard for SYNQ | Halvard, Josh |
 [UI Components](https://github.com/SYNQfm/synq-ui) | | Re-usable ReactJS components | Halvard, Josh |
+[Wraith](https://github.com/SYNQfm/wraith) |                   | Elixir/Phoenix Webhooks [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
- 
+
 ## How we software
 
 ### How we track work
@@ -148,6 +150,6 @@ __Deploy__
 
 ## Resources
 
-[Technologies to Explore](https://github.com/SYNQfm/getting-started/wiki/Technologies-to-Explore) - if you read something cool, put it here   
-[Useful Links](links.md)    
-[General Wiki](https://github.com/SYNQfm/getting-started/wiki)    
+[Technologies to Explore](https://github.com/SYNQfm/getting-started/wiki/Technologies-to-Explore) - if you read something cool, put it here
+[Useful Links](links.md)
+[General Wiki](https://github.com/SYNQfm/getting-started/wiki)
