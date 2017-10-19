@@ -49,7 +49,7 @@ __V2 Micro services__
 
  Name                                                        | Build | Description  |  Maintainer(s)
  :-----------------------------------------------------------|------ | ------------ | --------------
- [Akka](https://github.com/SYNQfm/akka) |                   | Elixir/Phoenix Video CRUD APIs [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
+ [Akka](https://github.com/SYNQfm/akka) |                   | Elixir/Phoenix Video CRUD [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
  [Anubis](https://github.com/SYNQfm/anubis) |                   | Experimental Elixir/Phoenix backend for our [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
  [Aerico](https://github.com/SYNQfm/aerico) | [![CircleCI](https://circleci.com/gh/SYNQfm/aerico.svg?style=svg&circle-token=6bf28fed9b7e034017e2c7229049f774b3e80bc3)](https://circleci.com/gh/SYNQfm/aerico)                 | Queries and converts Obaku V1 JSON to V2 Video JSON format | Bruce
  [Uploader](https://github.com/SYNQfm/unicorn) |                | V2 Uploader service that will upload anything | Jessica |
