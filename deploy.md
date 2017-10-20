@@ -1,12 +1,10 @@
 ## Deployment (for Obaku)
 
-* Releases are tagged and finalized on Mondays by 17:00 CET/CEST (Note, summer time ends and starts differently in Europe than in the US, we will follow the CET/CEST time)
-* Deploy to production happens every Tuesday at 17:00 - 20:00 CET/CEST
+* Deploy to production happens Tuesday at 17:00 - 20:00 CET/CEST if there are changes to be deployed
 * Only officialy created "releases" should be deployed to production
 * Out of band deploys should only happen for critical outages or major security holes
 * Anyone should be able to deploy
-* Our goal is continuous deployment  so aim for more automation
-* If no changes have been merged into master since the last deployment, the current deployment can be skipped
+* Our goal is continuous deployment so aim for more automation
 
 ### Deploy Procedures
 
