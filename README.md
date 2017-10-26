@@ -43,8 +43,8 @@ Be the easiest and fastest way to integrate video technology/content into your a
  [File States](https://github.com/SYNQfm/obaku/file-states) |       | S3 Upload queue processing, currently lives in "Core" | Martin
  [Streamer](https://github.com/SYNQfm/streamer) | [![CircleCI](https://circleci.com/gh/SYNQfm/streamer.svg?style=svg&circle-token=b5519ed34ec02fcaa30e6b61c2098d7b0f3fd571)](https://circleci.com/gh/SYNQfm/streamer)               | Handles live streaming | Bruce
  [Synq Website](https://github.com/SYNQfm/wyvern) |     | This is a Wordpress site for www.synq.fm | Halvard, Josh
+ [Imp](https://github.com/SYNQfm/imp) |    | DNS, Ansible | Bruce
  [Infrastructure (Deprecated)](https://github.com/SYNQfm/obaku/infrastructure) |    | Previous Ansible, automation tools, currently lives in "Core" | Martin, Bruce
- [Imp](https://github.com/SYNQfm/imp) |    | DNS, Ansible | Halvard
  
 
 __V2 Micro services__
