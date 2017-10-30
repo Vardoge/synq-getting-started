@@ -102,15 +102,17 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
   * Some services use [Heroku](https://dashboard.heroku.com/teams/synqfm/apps) with automatic deploys on changes to `master`
   * "Core" runs on DigitalOcean with a manual "tag and build" [deploy](deploy.md) model
   * if no changes have been merged into master since the last deployment, the current deployment can be skipped
-* We use [Runscope](https://www.runscope.com/radar/si8c3oxplpmd) to continuously monitor our APIs
+* We use [Runscope](https://www.runscope.com/radar/si8c3oxplpmd) to continuously monitor our APIs 
 * We use [PagerDuty](https://app.pagerduty.com/) to manage on call and alerts
 * We use [StatusPage](https://manage.statuspage.io/pages/x9f990zglm69) to communicate public API [status](https://synq.statuspage.io/) information to customers
 
 ### How we support our customers
 
-* We use [Zendesk](https://synqsupport.zendesk.com) for support email and chat.  Notifications are sent to the #zendesk Slack channel
-* The customer success team will handle initial requests but any one can chip into issues and help to resolve customer problems
+* We use [Zendesk](https://synqsupport.zendesk.com) for support email, [Chatlio](https://chatlio.com/) for chat support and our [community](https://community.synq.fm) forum for forum based support.   Notifications for support tickets are sent to the #zendesk Slack channel and to Pagerduty if a support ticket is open for more than 2 hours. Notifications for chat support requests are sent to the #chatliosupport Slack channel. 
+* In addition to the support channels mentioned, we use the [synq-onboarding](https://onboarding.synq.fm/) slack channel to help customers while they are onboarding and [Gitter.im](https://gitter.im/SYNQfm/Lobby) for any questions on our services from developers.
+* The customer success team will handle initial requests but any one can chip into issues and help to resolve customer problems. 
 * There is no Synq without customers and the customer success team is the eyes and ears of our customers and their requests should be taken seriously!
+
 
 ## Be kind, Rewind!
 
