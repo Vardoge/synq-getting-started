@@ -155,6 +155,6 @@ __Deploy__
 
 ## Resources
 
-[Technologies to Explore](https://github.com/SYNQfm/getting-started/wiki/Technologies-to-Explore) - if you read something cool, put it here
-[Useful Links](links.md)
+[Technologies to Explore](https://github.com/SYNQfm/getting-started/wiki/Technologies-to-Explore) - if you read something cool, put it here    
+[Useful Links](links.md)    
 [General Wiki](https://github.com/SYNQfm/getting-started/wiki)
