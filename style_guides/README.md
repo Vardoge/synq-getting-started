@@ -11,4 +11,5 @@
 
 ## Golang
 
-It has a built in formatting, but if you use sublime, you should install GoSublime, as well as integrating this [tool](https://michaelwhatcott.com/gosublime-goimports/)
+- If you use sublime, install GoSublime, as well as integrating this [tool](https://michaelwhatcott.com/gosublime-goimports/)
+  Otherwise, use https://github.com/golang/lint
