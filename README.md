@@ -59,6 +59,7 @@ __V2 Micro services__
 [UI Components](https://github.com/SYNQfm/synq-ui) | | Re-usable ReactJS components | Halvard, Josh |
 [Wraith](https://github.com/SYNQfm/wraith) |                   | Elixir/Phoenix Webhooks [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
  [Manticore](https://github.com/SYNQfm/manticore) |                   | Lambda monitoring script(s)  | Josh |
+  [Doppelganger](https://github.com/SYNQfm/doppelganger) |                   | ReactJS Frontend  | Josh |
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
 
