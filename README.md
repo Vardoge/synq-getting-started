@@ -17,7 +17,8 @@ Be the easiest and fastest way to integrate video technology/content into your a
 ## Getting Started :)
 
 * Get Access to [Trello](https://trello.com/synq) - This is the tool Product Management uses to track features and milestones
- * Review our [Product Roadmap](https://trello.com/b/2YvamUq6/product-roadmap)
+ * Review our [Product Roadmap](https://trello.com/b/2YvamUq6/product-roadmap) trello board
+ * Review our [Business Overview](https://trello.com/b/r0MwBrn2/synq-getting-started) trello board
 * Get Acccess to and review API design on [Stoplight](https://app.stoplight.io/) (or read our OAS [spec](https://github.com/SYNQfm/spec-documentation/tree/master/obaku-specification))
 * Get Access to 1Password - password manager for various shared services
 * Get Access to Slack - install Slack or use the web browser.  We are at [synqfm.slack.com](https://synqfm.slack.com)
@@ -26,6 +27,7 @@ Be the easiest and fastest way to integrate video technology/content into your a
 ### Getting started for non-employees
 
 * Get access to our [Synq Hiring](https://join.slack.com/t/synq-hiring/shared_invite/enQtMjc5MjQ5NTg1ODExLWVhNWYxOTY0OTQ1M2JiZDBlZWJiMGViN2JmZGMyMTMzZWQxY2ExOGMyMTM3YzU2ZGRiZWMzZWVlYWY4ODkyMjQ) Slack team
+* Review [Mini Projects](https://trello.com/b/YmdoqTFZ/mini-projects) that you'd like to work on
 * Read our online [API docs](https://synq.api-docs.io/1.9.1/video-apis)
 * Review our open source [SDKs](https://github.com/SYNQfm?utf8=%E2%9C%93&q=SYNQ%20sdk&type=&language=)
 * Look at our [gosample](https://github.com/SYNQfm/gosample.git) app to see how we structure certain things
@@ -41,8 +43,8 @@ Name                                                        | Build | Code Cover
 [Wraith](https://github.com/SYNQfm/wraith) | | | V2 Webhooks  | Mike, Bruce |
 [Unicorn](https://github.com/SYNQfm/unicorn) | [![CircleCI](https://circleci.com/gh/SYNQfm/unicorn.svg?style=svg&circle-token=0690b087ca33c31694a3dcea2d9e4bf9a04df3a2)](https://circleci.com/gh/SYNQfm/unicorn) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/unicorn/badge.svg?branch=master&t=u0kNmw)](https://coveralls.io/github/SYNQfm/unicorn?branch=master) | V2 Uploader service that will upload anything | Jessica |
 [Hydra](https://github.com/SYNQfm/hydra)            | [![CircleCI](https://circleci.com/gh/SYNQfm/hydra.svg?style=svg&circle-token=3bb209f5fceb013cfe5bdffed8867fb84693c789)](https://circleci.com/gh/SYNQfm/hydra) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/hydra/badge.svg?t=xMnp9a)](https://coveralls.io/github/SYNQfm/hydra) | Transcode jobs service | Bruce
- [Pixie](https://github.com/SYNQfm/pixie)           | [![CircleCI](https://circleci.com/gh/SYNQfm/ballivian.svg?style=svg&circle-token=48d2d9d54880593f3335c5f07752fca21a514ef8)](https://circleci.com/gh/SYNQfm/ballivian) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/ballivian/badge.svg?branch=master&t=ruXp97)](https://coveralls.io/github/SYNQfm/ballivian?branch=master) | Videojs player service | Jessica
- [Monopod](https://github.com/SYNQfm/monopod)           | | | Public Schedule 2/4 Metadata parser | Josh
+[Pixie](https://github.com/SYNQfm/pixie)           | [![CircleCI](https://circleci.com/gh/SYNQfm/pixie.svg?style=svg&circle-token=48d2d9d54880593f3335c5f07752fca21a514ef8)](https://circleci.com/gh/SYNQfm/pixie) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/pixie/badge.svg?t=njYMm6)](https://coveralls.io/github/SYNQfm/pixie) | Videojs player service | Jessica
+[Monopod](https://github.com/SYNQfm/monopod)           | | | Public Schedule 2/4 Metadata parser | Josh
 
 
 __Processing Services__
@@ -53,7 +55,7 @@ Name                                                        | Build | Code Cover
 [Charybdis](https://github.com/SYNQfm/charybdis) | [![CircleCI](https://circleci.com/gh/SYNQfm/charybdis.svg?style=svg&circle-token=07d34336bd24df048b532ed90e2b0b9cf9fea46c)](https://circleci.com/gh/SYNQfm/charybdis)| [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/charybdis/badge.svg?t=cuzDts)](https://coveralls.io/github/SYNQfm/charybdis) | CDN log store | Arnstein
 [Calingi](https://github.com/SYNQfm/calingi) | [![CircleCI](https://circleci.com/gh/SYNQfm/calingi.svg?style=svg&circle-token=35f2b9d5ba20859dfee3af32129b8f746645f665)](https://circleci.com/gh/SYNQfm/calingi)| [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/calingi/badge.svg?t=AgvRqu)](https://coveralls.io/github/SYNQfm/calingi) | CDN log parse | Arnstein
 [Aerico](https://github.com/SYNQfm/aerico) | [![CircleCI](https://circleci.com/gh/SYNQfm/aerico.svg?style=svg&circle-token=6bf28fed9b7e034017e2c7229049f774b3e80bc3)](https://circleci.com/gh/SYNQfm/aerico) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/aerico/badge.svg?t=Go4IJe)](https://coveralls.io/github/SYNQfm/aerico) | Imports V1 Videos to V2 | Bruce
-[Anansi](https://github.com/SYNQfm/anansi) | [![CircleCI](https://circleci.com/gh/SYNQfm/anansi.svg?style=svg&circle-token=85d81001ef156fe3d431b47181bcc8bfa27bfb57)](https://circleci.com/gh/SYNQfm/anansi) | | Metadata / Video quality analsysi tool | Shan
+[Anansi](https://github.com/SYNQfm/anansi) | [![CircleCI](https://circleci.com/gh/SYNQfm/anansi.svg?style=svg&circle-token=85d81001ef156fe3d431b47181bcc8bfa27bfb57)](https://circleci.com/gh/SYNQfm/anansi) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/anansi/badge.svg?t=QZb3mG)](https://coveralls.io/github/SYNQfm/anansi) | Metadata / Video quality analsysi tool | Shan
 
 __Frontend__
 
@@ -78,57 +80,58 @@ Name                                                         | Build | Descripti
 [Core](https://github.com/SYNQfm/obaku)                 | [![CircleCI](https://circleci.com/gh/SYNQfm/obaku.svg?style=svg&circle-token=9b25c63acb32232a9a7f9da2fa7240919d335cb0)](https://circleci.com/gh/SYNQfm/obaku)   | Main service including our APIs, datastore, query and webhook execution engine.                | Martin, Bruce
 [Tylwythteg](https://github.com/SYNQfm/tylwythteg)      |     | Thumbnail generator service | Jessica
 [Streamer](https://github.com/SYNQfm/streamer) | [![CircleCI](https://circleci.com/gh/SYNQfm/streamer.svg?style=svg&circle-token=b5519ed34ec02fcaa30e6b61c2098d7b0f3fd571)](https://circleci.com/gh/SYNQfm/streamer)               | Handles live streaming | Bruce
-[Infrastructure (Deprecated)](https://github.com/SYNQfm/obaku/infrastructure) |    | Previous Ansible, automation tools, currently lives in "Core" | Martin, Bruce
+[Infrastructure](https://github.com/SYNQfm/obaku/infrastructure) |    | Previous Ansible, automation tools, currently lives in "Core" | Martin, Bruce
 [File States](https://github.com/SYNQfm/obaku/file-states) |       | S3 Upload queue processing, currently lives in "Core" | Martin
 [Uploader V1](https://github.com/SYNQfm/obaku/uploader)|          | Uploader and multi-part signing, currently lives in "Core" | Jessica
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
 
-## How we software
+## How we software ;)
 
-### How we track work
+### Maintaining code
 
-* GitHub Milestones - created for each project, should be 3-6 weeks long
-* Zenhub "Epics" - created as high level place holders in the milestones.  Grouping for multiple issues.  These are also used to group outage information
-* GitHub Issues - specific work needed to accomplish epics and achieve our goal in the milestones.  Also can be one off bugs, devop tasks, cleanup etc that is required for routine maintenance
+* Each repo has a main maintainer and a co-owner that would be their backup.  We use the CODEOWNERS settings in GitHub to track this (first name is the main maintainer)
+* The Main Maintainer is responsible for
+  * Naming of the repo
+  * Selecting the co-owner for that repo
+  * Keep tests and code coverage high
+  * Maintenance of the issues, README, and ensuring others can contribute to the repo easily (without the maintainer being there).
+  * Ensuring proper PR reviews and periodic code reviews
+  * Come up with ideas to improve the system, repo or process
+* Cleanup Thursdays - set aside half a day per week for owners to fix various things, clean up workspaces/readmes, conduct code reviews etc.  Key is to STOP WHAT YOU'RE DOING and take the time to breathe and do some much needed cleanup :)
 
-### How we schedule work
+### Scheduling and Tracking work
 
-* Epics are created and scheduled during each Milestone Kick off meeting
-  * This should be used to group key functionality we want to implement
-  * An owner will be assigned to an epic and it will be up to the owner to create the appropriate individual issues.
-* Issues are self scheduled.  Use the "Selected for dev" and "In progress" zenhub pipelines to manage your own workload
-  * Issues associated with Epics usually are higher priority
-  * Issues to remediate outage problems should have higher priority (even overriding Epic work depending on severity)
-* Issues can be created by anyone at the company
-* Issues should be culled aggressively and if you don't think we're going to work on it in the next 3 months, you should just close it
+* [Trello Roadmap](https://trello.com/b/2YvamUq6/product-roadmap) - This is where we track high level things to work on.  Business decides on key features and R&D will review those and assign developers to own a "card", which will then produce n issues in GitHub.  Dev will also add to the roadmap as well.
+* GitHub Issues - specific work needed to accomplish and are usually tied to a Trello card.  We'll also have one off bugs, devop tasks, cleanup etc that is required for routine maintenance
+* Once cards are assigned, each owner will be in charge of creating the issues needed to implement the card, so everything is driven by the owner.  Cards would be assigned based on the code it touches and who maintains and the time that person has.
 
-### How we communicate
+### Communicating
 
 * Using Slack
   * Primarily in #general or #developers
   * Daily "Standups" via Geekbot (posted to #standup)
-* Weekly Dev Meetings
-  * Review Epics and Progress of Milestone
-  * Go over "Help Wanted" issues
-  * Discuss any major architecture decisions, changes, concerns
-  * Review Outage Epics and schedule them accordingly
-* Milestone Kickoff Meeting
-  * Discuss "theme" of the milestone and schedule high level epics and assign them to developers
-
-### How we test / deploy / run
+* [Weekly Dev Meetings](https://trello.com/b/ShiJG8T8/dev-meetings)
+  * Review current status of Milestones
+  * Discuss any issues/blockers concerning the team
+  * Go over major features/architecture/design decisions
+  * Review future milestones, planning and discussions
+* Yearly Dev Summit Meeting
+  * Time to get together and enjoy each other in real life
+  * Intense 4 day planning sessions to go over key iniatitives for the new year
+  
+### Test / Deploy / Run
 
 * We use [CircleCI](https://circleci.com/dashboard) for Continous Integration
 * We use [Coveralls](https://coveralls.io/) to monitor test coverage
 * Aim for continuous deployment. Maintainers determine the release cadence but changes _should_ be deployed at least once a week
   * Some services use [Heroku](https://dashboard.heroku.com/teams/synqfm/apps) with automatic deploys on changes to `master`
-  * "Core" runs on DigitalOcean with a manual "tag and build" [deploy](deploy.md) model
-  * if no changes have been merged into master since the last deployment, the current deployment can be skipped
+  * Some services use [Nanobox](https://dashboard.nanobox.io/)
 * We use [Runscope](https://www.runscope.com/radar/si8c3oxplpmd) to continuously monitor our APIs 
 * We use [PagerDuty](https://app.pagerduty.com/) to manage on call and alerts
 * We use [StatusPage](https://manage.statuspage.io/pages/x9f990zglm69) to communicate public API [status](https://synq.statuspage.io/) information to customers
 
-### How we support our customers
+### Supporting customers
 
 * We use [Zendesk](https://synqsupport.zendesk.com) for support email, [Chatlio](https://chatlio.com/) for chat support and our [community](https://community.synq.fm) forum for forum based support.   Notifications for support tickets are sent to the #zendesk Slack channel and to Pagerduty if a support ticket is open for more than 2 hours. Notifications for chat support requests are sent to the #chatliosupport Slack channel. 
 * In addition to the support channels mentioned, we use the [synq-onboarding](https://onboarding.synq.fm/) slack channel to help customers while they are onboarding and [Gitter.im](https://gitter.im/SYNQfm/Lobby) for any questions on our services from developers.
@@ -138,7 +141,7 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 
 ## Be kind, Rewind!
 
-Below are some best practices for various topics
+Here are some best practices for various topics
 
 __Branching / PRs__
 
@@ -149,7 +152,6 @@ __Branching / PRs__
   * Passing tests that covers relevant parts of the code (should be enforced by CI)
   * Minimum one person tagged to review the code
 * PR Reviews should
-  * conform to the [code review checklist](https://github.com/SYNQfm/obaku/wiki/Guide:-code-review-(checklist))
   * Be short and usually take less than an hour
   * Cleared out quickly to avoid a pile up
   * Be reviewed within a day, otherwise the issuer can merge it without an approval
@@ -171,9 +173,6 @@ __Meetings__
 * Keep it as short as possible
 * Think if you could do this over slack?  If so, why call the meeting?
 
-__Deploy__
-
-* [Procedures](deploy.md) for repos that require a bit more manual work (ie Core)
 
 ## Resources
 
