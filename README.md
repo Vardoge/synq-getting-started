@@ -35,51 +35,52 @@ Be the easiest and fastest way to integrate video technology/content into your a
 
 __Core Services__
 
- Name                                                        | Build | Code Coverage | Description  |  Maintainer(s)
- :-----------------------------------------------------------|------ | ------------- | ------------ | --------------
-[Akka](https://github.com/SYNQfm/akka)  |  |  | V2 Core | Mike, Bruce
-[Wraith](https://github.com/SYNQfm/wraith) | | | Elixir/Phoenix Webhooks [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
+Name                                                        | Build | Code Coverage | Description  |  Maintainer(s)
+:-----------------------------------------------------------|------ | ------------- | ------------ | --------------
+[Akka](https://github.com/SYNQfm/akka)  |  |  | V2 API Core | Mike, Bruce
+[Wraith](https://github.com/SYNQfm/wraith) | | | V2 Webhooks  | Mike, Bruce |
 [Unicorn](https://github.com/SYNQfm/unicorn) | [![CircleCI](https://circleci.com/gh/SYNQfm/unicorn.svg?style=svg&circle-token=0690b087ca33c31694a3dcea2d9e4bf9a04df3a2)](https://circleci.com/gh/SYNQfm/unicorn) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/unicorn/badge.svg?branch=master&t=u0kNmw)](https://coveralls.io/github/SYNQfm/unicorn?branch=master) | V2 Uploader service that will upload anything | Jessica |
 [Hydra](https://github.com/SYNQfm/hydra)            | [![CircleCI](https://circleci.com/gh/SYNQfm/hydra.svg?style=svg&circle-token=3bb209f5fceb013cfe5bdffed8867fb84693c789)](https://circleci.com/gh/SYNQfm/hydra) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/hydra/badge.svg?t=xMnp9a)](https://coveralls.io/github/SYNQfm/hydra) | Transcode jobs service | Bruce
- [Ballivian](https://github.com/SYNQfm/ballivian)           | [![CircleCI](https://circleci.com/gh/SYNQfm/ballivian.svg?style=svg&circle-token=48d2d9d54880593f3335c5f07752fca21a514ef8)](https://circleci.com/gh/SYNQfm/ballivian) | | Videojs player service | Jessica
+ [Pixie](https://github.com/SYNQfm/pixie)           | [![CircleCI](https://circleci.com/gh/SYNQfm/ballivian.svg?style=svg&circle-token=48d2d9d54880593f3335c5f07752fca21a514ef8)](https://circleci.com/gh/SYNQfm/ballivian) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/ballivian/badge.svg?branch=master&t=ruXp97)](https://coveralls.io/github/SYNQfm/ballivian?branch=master) | Videojs player service | Jessica
  [Monopod](https://github.com/SYNQfm/monopod)           | | | Public Schedule 2/4 Metadata parser | Josh
 
 
 __Processing Services__
 
- Name                                                        | Build | Code Coverage | Description  |  Maintainer(s)
- :-----------------------------------------------------------|------ | ------------- | ------------ | --------------
- [Ifrit](https://github.com/SYNQfm/ifrit) | [![CircleCI](https://circleci.com/gh/SYNQfm/ifrit.svg?style=svg&circle-token=c4b769d9df0c236f89eb90a4e5413307a152665f)](https://circleci.com/gh/SYNQfm/ifrit) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/ifrit/badge.svg?t=izPz3O)](https://coveralls.io/github/SYNQfm/ifrit) | Import large amount of files from disk | Bruce
- [Charybdis](https://github.com/SYNQfm/charybdis) | [![CircleCI](https://circleci.com/gh/SYNQfm/charybdis.svg?style=svg&circle-token=07d34336bd24df048b532ed90e2b0b9cf9fea46c)](https://circleci.com/gh/SYNQfm/charybdis)| [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/charybdis/badge.svg?t=cuzDts)](https://coveralls.io/github/SYNQfm/charybdis) | CDN log store | Arnstein
- [Calingi](https://github.com/SYNQfm/calingi) | [![CircleCI](https://circleci.com/gh/SYNQfm/calingi.svg?style=svg&circle-token=35f2b9d5ba20859dfee3af32129b8f746645f665)](https://circleci.com/gh/SYNQfm/calingi)| [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/calingi/badge.svg?t=AgvRqu)](https://coveralls.io/github/SYNQfm/calingi) | CDN log parse | Arnstein
-[Aerico](https://github.com/SYNQfm/aerico) | [![CircleCI](https://circleci.com/gh/SYNQfm/aerico.svg?style=svg&circle-token=6bf28fed9b7e034017e2c7229049f774b3e80bc3)](https://circleci.com/gh/SYNQfm/aerico) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/aerico/badge.svg?t=Go4IJe)](https://coveralls.io/github/SYNQfm/aerico) | Imports from V1 Obaku to V2 Akka | Bruce
+Name                                                        | Build | Code Coverage | Description  |  Maintainer(s)
+:-----------------------------------------------------------|------ | ------------- | ------------ | --------------
+[Ifrit](https://github.com/SYNQfm/ifrit) | [![CircleCI](https://circleci.com/gh/SYNQfm/ifrit.svg?style=svg&circle-token=c4b769d9df0c236f89eb90a4e5413307a152665f)](https://circleci.com/gh/SYNQfm/ifrit) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/ifrit/badge.svg?t=izPz3O)](https://coveralls.io/github/SYNQfm/ifrit) | Import large amount of files from disk | Bruce
+[Charybdis](https://github.com/SYNQfm/charybdis) | [![CircleCI](https://circleci.com/gh/SYNQfm/charybdis.svg?style=svg&circle-token=07d34336bd24df048b532ed90e2b0b9cf9fea46c)](https://circleci.com/gh/SYNQfm/charybdis)| [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/charybdis/badge.svg?t=cuzDts)](https://coveralls.io/github/SYNQfm/charybdis) | CDN log store | Arnstein
+[Calingi](https://github.com/SYNQfm/calingi) | [![CircleCI](https://circleci.com/gh/SYNQfm/calingi.svg?style=svg&circle-token=35f2b9d5ba20859dfee3af32129b8f746645f665)](https://circleci.com/gh/SYNQfm/calingi)| [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/calingi/badge.svg?t=AgvRqu)](https://coveralls.io/github/SYNQfm/calingi) | CDN log parse | Arnstein
+[Aerico](https://github.com/SYNQfm/aerico) | [![CircleCI](https://circleci.com/gh/SYNQfm/aerico.svg?style=svg&circle-token=6bf28fed9b7e034017e2c7229049f774b3e80bc3)](https://circleci.com/gh/SYNQfm/aerico) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/aerico/badge.svg?t=Go4IJe)](https://coveralls.io/github/SYNQfm/aerico) | Imports V1 Videos to V2 | Bruce
+[Anansi](https://github.com/SYNQfm/anansi) | [![CircleCI](https://circleci.com/gh/SYNQfm/anansi.svg?style=svg&circle-token=85d81001ef156fe3d431b47181bcc8bfa27bfb57)](https://circleci.com/gh/SYNQfm/anansi) | | Metadata / Video quality analsysi tool | Shan
 
 __Frontend__
 
- Name                                                        | Build | Code Coverage | Description  |  Maintainer(s)
- :-----------------------------------------------------------|------ | ------------- | ------------ | --------------
- [Doppelganger](https://github.com/SYNQfm/doppelganger) | | | ReactJS based Dashboard for SYNQ | Josh |
- [Synq UI](https://github.com/SYNQfm/synq-ui) | | | Re-usable ReactJS components | Josh |
- [Wyvern](https://github.com/SYNQfm/wyvern) | | | This is a Wordpress site for www.synq.fm | Josh
+Name                                                        | Build | Code Coverage | Description  |  Maintainer(s)
+:-----------------------------------------------------------|------ | ------------- | ------------ | --------------
+[Doppelganger](https://github.com/SYNQfm/doppelganger) | | | ReactJS based Dashboard for SYNQ | Josh |
+[Synq UI](https://github.com/SYNQfm/synq-ui) | | | Re-usable ReactJS components | Josh |
+[Wyvern](https://github.com/SYNQfm/wyvern) | | | This is a Wordpress site for www.synq.fm | Josh
 
 
 __Ops Services__
  
- Name                                                         | Description  |  Maintainer(s)
- :----------------------------------------------------------- | ------------ | --------------
- [Manticore](https://github.com/SYNQfm/manticore) | Lambda monitoring script(s)  | Josh |
- [Imp](https://github.com/SYNQfm/imp) | DNS, Ansible | Bruce
+Name                                                         | Description  |  Maintainer(s)
+:----------------------------------------------------------- | ------------ | --------------
+[Manticore](https://github.com/SYNQfm/manticore) | Lambda monitoring script(s)  | Josh, Glen
+[Imp](https://github.com/SYNQfm/imp) | DNS, Ansible | Glen, Bruce
 
 __Legacy Services__
 
 Name                                                         | Build | Description  |  Maintainer(s)
- :-----------------------------------------------------------|------ | ------------ | --------------
- [Core](https://github.com/SYNQfm/obaku)                 | [![CircleCI](https://circleci.com/gh/SYNQfm/obaku.svg?style=svg&circle-token=9b25c63acb32232a9a7f9da2fa7240919d335cb0)](https://circleci.com/gh/SYNQfm/obaku)   | Main service including our APIs, datastore, query and webhook execution engine.                | Martin, Bruce
- [Tylwythteg](https://github.com/SYNQfm/tylwythteg)      |     | Thumbnail generator service | Jessica
- [Streamer](https://github.com/SYNQfm/streamer) | [![CircleCI](https://circleci.com/gh/SYNQfm/streamer.svg?style=svg&circle-token=b5519ed34ec02fcaa30e6b61c2098d7b0f3fd571)](https://circleci.com/gh/SYNQfm/streamer)               | Handles live streaming | Bruce
- [Infrastructure (Deprecated)](https://github.com/SYNQfm/obaku/infrastructure) |    | Previous Ansible, automation tools, currently lives in "Core" | Martin, Bruce
- [File States](https://github.com/SYNQfm/obaku/file-states) |       | S3 Upload queue processing, currently lives in "Core" | Martin
- [Uploader V1](https://github.com/SYNQfm/obaku/uploader)|          | Uploader and multi-part signing, currently lives in "Core" | Jessica
+:-----------------------------------------------------------|------ | ------------ | --------------
+[Core](https://github.com/SYNQfm/obaku)                 | [![CircleCI](https://circleci.com/gh/SYNQfm/obaku.svg?style=svg&circle-token=9b25c63acb32232a9a7f9da2fa7240919d335cb0)](https://circleci.com/gh/SYNQfm/obaku)   | Main service including our APIs, datastore, query and webhook execution engine.                | Martin, Bruce
+[Tylwythteg](https://github.com/SYNQfm/tylwythteg)      |     | Thumbnail generator service | Jessica
+[Streamer](https://github.com/SYNQfm/streamer) | [![CircleCI](https://circleci.com/gh/SYNQfm/streamer.svg?style=svg&circle-token=b5519ed34ec02fcaa30e6b61c2098d7b0f3fd571)](https://circleci.com/gh/SYNQfm/streamer)               | Handles live streaming | Bruce
+[Infrastructure (Deprecated)](https://github.com/SYNQfm/obaku/infrastructure) |    | Previous Ansible, automation tools, currently lives in "Core" | Martin, Bruce
+[File States](https://github.com/SYNQfm/obaku/file-states) |       | S3 Upload queue processing, currently lives in "Core" | Martin
+[Uploader V1](https://github.com/SYNQfm/obaku/uploader)|          | Uploader and multi-part signing, currently lives in "Core" | Jessica
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
 
