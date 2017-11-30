@@ -16,50 +16,70 @@ Be the easiest and fastest way to integrate video technology/content into your a
 
 ## Getting Started :)
 
-* Get Access to 1Password - password manager for various shared services
-* Read our online [API docs](https://synq.api-docs.io/1.9.1/video-apis)
+* Get Access to [Trello](https://trello.com/synq) - This is the tool Product Management uses to track features and milestones
+ * Review our [Product Roadmap](https://trello.com/b/2YvamUq6/product-roadmap)
 * Get Acccess to and review API design on [Stoplight](https://app.stoplight.io/) (or read our OAS [spec](https://github.com/SYNQfm/spec-documentation/tree/master/obaku-specification))
+* Get Access to 1Password - password manager for various shared services
 * Get Access to Slack - install Slack or use the web browser.  We are at [synqfm.slack.com](https://synqfm.slack.com)
 * Get Access to GitHub - Our repo is at [https://github.com/SYNQfm](https://github.com/SYNQfm)
-* Get Access to Zenhub - This is a tool that sits on top of GitHub.   You will need a license where you can request one on Slack, and install the [plugin](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd?hl=en-US))
-* Get Access to [Trello](https://trello.com/synq) - This is the tool Product Management uses to track features and milestones
+
+### Getting started for non-employees
+
+* Get access to our [Synq Hiring](https://join.slack.com/t/synq-hiring/shared_invite/enQtMjc5MjQ5NTg1ODExLWVhNWYxOTY0OTQ1M2JiZDBlZWJiMGViN2JmZGMyMTMzZWQxY2ExOGMyMTM3YzU2ZGRiZWMzZWVlYWY4ODkyMjQ) Slack team
+* Read our online [API docs](https://synq.api-docs.io/1.9.1/video-apis)
 * Review our open source [SDKs](https://github.com/SYNQfm?utf8=%E2%9C%93&q=SYNQ%20sdk&type=&language=)
 * Look at our [gosample](https://github.com/SYNQfm/gosample.git) app to see how we structure certain things
 
 
 ## Give me the code!!
 
- Name                                                        | Build | Description  |  Maintainer(s)
+__Core Services__
+
+ Name                                                        | Build | Code Coverage | Description  |  Maintainer(s)
+ :-----------------------------------------------------------|------ | ------------- | ------------ | --------------
+[Akka](https://github.com/SYNQfm/akka)  |  |  | V2 Core | Mike, Bruce
+[Wraith](https://github.com/SYNQfm/wraith) | | | Elixir/Phoenix Webhooks [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
+[Unicorn](https://github.com/SYNQfm/unicorn) | [![CircleCI](https://circleci.com/gh/SYNQfm/unicorn.svg?style=svg&circle-token=0690b087ca33c31694a3dcea2d9e4bf9a04df3a2)](https://circleci.com/gh/SYNQfm/unicorn) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/unicorn/badge.svg?branch=master&t=u0kNmw)](https://coveralls.io/github/SYNQfm/unicorn?branch=master) | V2 Uploader service that will upload anything | Jessica |
+[Hydra](https://github.com/SYNQfm/hydra)            | [![CircleCI](https://circleci.com/gh/SYNQfm/hydra.svg?style=svg&circle-token=3bb209f5fceb013cfe5bdffed8867fb84693c789)](https://circleci.com/gh/SYNQfm/hydra) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/hydra/badge.svg?t=xMnp9a)](https://coveralls.io/github/SYNQfm/hydra) | Transcode jobs service | Bruce
+ [Ballivian](https://github.com/SYNQfm/ballivian)           | [![CircleCI](https://circleci.com/gh/SYNQfm/ballivian.svg?style=svg&circle-token=48d2d9d54880593f3335c5f07752fca21a514ef8)](https://circleci.com/gh/SYNQfm/ballivian) | | Videojs player service | Jessica
+ [Monopod](https://github.com/SYNQfm/monopod)           | | | Public Schedule 2/4 Metadata parser | Josh
+
+
+__Processing Services__
+
+ Name                                                        | Build | Code Coverage | Description  |  Maintainer(s)
+ :-----------------------------------------------------------|------ | ------------- | ------------ | --------------
+ [Ifrit](https://github.com/SYNQfm/ifrit) | [![CircleCI](https://circleci.com/gh/SYNQfm/ifrit.svg?style=svg&circle-token=c4b769d9df0c236f89eb90a4e5413307a152665f)](https://circleci.com/gh/SYNQfm/ifrit) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/ifrit/badge.svg?t=izPz3O)](https://coveralls.io/github/SYNQfm/ifrit) | Import large amount of files from disk | Bruce
+ [Charybdis](https://github.com/SYNQfm/charybdis) | [![CircleCI](https://circleci.com/gh/SYNQfm/charybdis.svg?style=svg&circle-token=07d34336bd24df048b532ed90e2b0b9cf9fea46c)](https://circleci.com/gh/SYNQfm/charybdis)| [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/charybdis/badge.svg?t=cuzDts)](https://coveralls.io/github/SYNQfm/charybdis) | CDN log store | Arnstein
+ [Calingi](https://github.com/SYNQfm/calingi) | [![CircleCI](https://circleci.com/gh/SYNQfm/calingi.svg?style=svg&circle-token=35f2b9d5ba20859dfee3af32129b8f746645f665)](https://circleci.com/gh/SYNQfm/calingi)| [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/calingi/badge.svg?t=AgvRqu)](https://coveralls.io/github/SYNQfm/calingi) | CDN log parse | Arnstein
+[Aerico](https://github.com/SYNQfm/aerico) | [![CircleCI](https://circleci.com/gh/SYNQfm/aerico.svg?style=svg&circle-token=6bf28fed9b7e034017e2c7229049f774b3e80bc3)](https://circleci.com/gh/SYNQfm/aerico) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/aerico/badge.svg?t=Go4IJe)](https://coveralls.io/github/SYNQfm/aerico) | Imports from V1 Obaku to V2 Akka | Bruce
+
+__Frontend__
+
+ Name                                                        | Build | Code Coverage | Description  |  Maintainer(s)
+ :-----------------------------------------------------------|------ | ------------- | ------------ | --------------
+ [Doppelganger](https://github.com/SYNQfm/doppelganger) | | | ReactJS based Dashboard for SYNQ | Josh |
+ [Synq UI](https://github.com/SYNQfm/synq-ui) | | | Re-usable ReactJS components | Josh |
+ [Wyvern](https://github.com/SYNQfm/wyvern) | | | This is a Wordpress site for www.synq.fm | Josh
+
+
+__Ops Services__
+ 
+ Name                                                         | Description  |  Maintainer(s)
+ :----------------------------------------------------------- | ------------ | --------------
+ [Manticore](https://github.com/SYNQfm/manticore) | Lambda monitoring script(s)  | Josh |
+ [Imp](https://github.com/SYNQfm/imp) | DNS, Ansible | Bruce
+
+__Legacy Services__
+
+Name                                                         | Build | Description  |  Maintainer(s)
  :-----------------------------------------------------------|------ | ------------ | --------------
  [Core](https://github.com/SYNQfm/obaku)                 | [![CircleCI](https://circleci.com/gh/SYNQfm/obaku.svg?style=svg&circle-token=9b25c63acb32232a9a7f9da2fa7240919d335cb0)](https://circleci.com/gh/SYNQfm/obaku)   | Main service including our APIs, datastore, query and webhook execution engine.                | Martin, Bruce
- [Transcode](https://github.com/SYNQfm/hydra)            | [![CircleCI](https://circleci.com/gh/SYNQfm/hydra.svg?style=svg&circle-token=3bb209f5fceb013cfe5bdffed8867fb84693c789)](https://circleci.com/gh/SYNQfm/hydra)    | Transcode jobs service | Bruce
- [Player](https://github.com/SYNQfm/ballivian)           | [![CircleCI](https://circleci.com/gh/SYNQfm/ballivian.svg?style=svg&circle-token=48d2d9d54880593f3335c5f07752fca21a514ef8)](https://circleci.com/gh/SYNQfm/ballivian)    | Videojs player service | Jessica
- [Thumbnails](https://github.com/SYNQfm/tylwythteg)      |     | Thumbnail generator service | Jessica
- [Metadata](https://github.com/SYNQfm/monopod)           |     | Public Schedule 2/4 Metadata parser | Halvard
- [Ifrit](https://github.com/SYNQfm/ifrit)             | [![CircleCI](https://circleci.com/gh/SYNQfm/ifrit.svg?style=svg&circle-token=c4b769d9df0c236f89eb90a4e5413307a152665f)](https://circleci.com/gh/SYNQfm/ifrit)     | Import large amount of files from disk | Bruce
- [Charybdis](https://github.com/SYNQfm/charybdis) | [![CircleCI](https://circleci.com/gh/SYNQfm/charybdis.svg?style=svg&circle-token=07d34336bd24df048b532ed90e2b0b9cf9fea46c)](https://circleci.com/gh/SYNQfm/charybdis)| CDN log store | Arnstein
- [Calingi](https://github.com/SYNQfm/calingi) | [![CircleCI](https://circleci.com/gh/SYNQfm/calingi.svg?style=svg&circle-token=35f2b9d5ba20859dfee3af32129b8f746645f665)](https://circleci.com/gh/SYNQfm/calingi)| CDN log parse | Arnstein
- [Uploader V1](https://github.com/SYNQfm/obaku/uploader)|          | Uploader and multi-part signing, currently lives in "Core" | Jessica
- [File States](https://github.com/SYNQfm/obaku/file-states) |       | S3 Upload queue processing, currently lives in "Core" | Martin
+ [Tylwythteg](https://github.com/SYNQfm/tylwythteg)      |     | Thumbnail generator service | Jessica
  [Streamer](https://github.com/SYNQfm/streamer) | [![CircleCI](https://circleci.com/gh/SYNQfm/streamer.svg?style=svg&circle-token=b5519ed34ec02fcaa30e6b61c2098d7b0f3fd571)](https://circleci.com/gh/SYNQfm/streamer)               | Handles live streaming | Bruce
- [Synq Website](https://github.com/SYNQfm/wyvern) |     | This is a Wordpress site for www.synq.fm | Halvard, Josh
- [Imp](https://github.com/SYNQfm/imp) |    | DNS, Ansible | Bruce
  [Infrastructure (Deprecated)](https://github.com/SYNQfm/obaku/infrastructure) |    | Previous Ansible, automation tools, currently lives in "Core" | Martin, Bruce
- 
-
-__V2 Micro services__
-
- Name                                                        | Build | Description  |  Maintainer(s)
- :-----------------------------------------------------------|------ | ------------ | --------------
- [Akka](https://github.com/SYNQfm/akka) |                   | Elixir/Phoenix Video CRUD [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
- [Anubis](https://github.com/SYNQfm/anubis) |                   | Experimental Elixir/Phoenix backend for our [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
- [Aerico](https://github.com/SYNQfm/aerico) | [![CircleCI](https://circleci.com/gh/SYNQfm/aerico.svg?style=svg&circle-token=6bf28fed9b7e034017e2c7229049f774b3e80bc3)](https://circleci.com/gh/SYNQfm/aerico)                 | Queries and converts Obaku V1 JSON to V2 Video JSON format | Bruce
- [Uploader](https://github.com/SYNQfm/unicorn) | [![CircleCI](https://circleci.com/gh/SYNQfm/unicorn.svg?style=svg&circle-token=0690b087ca33c31694a3dcea2d9e4bf9a04df3a2)](https://circleci.com/gh/SYNQfm/unicorn)                 | V2 Uploader service that will upload anything | Jessica |
-[Dashboard](https://github.com/SYNQfm/doppelganger) | | ReactJS based Dashboard for SYNQ | Halvard, Josh |
-[UI Components](https://github.com/SYNQfm/synq-ui) | | Re-usable ReactJS components | Halvard, Josh |
-[Wraith](https://github.com/SYNQfm/wraith) |                   | Elixir/Phoenix Webhooks [V2](https://github.com/SYNQfm/obaku/wiki/Design:-Video-object-design-(present-&-future)) APIs  | Mike, Bruce |
- [Manticore](https://github.com/SYNQfm/manticore) |                   | Lambda monitoring script(s)  | Josh |
-  [Doppelganger](https://github.com/SYNQfm/doppelganger) |                   | ReactJS Frontend  | Josh |
+ [File States](https://github.com/SYNQfm/obaku/file-states) |       | S3 Upload queue processing, currently lives in "Core" | Martin
+ [Uploader V1](https://github.com/SYNQfm/obaku/uploader)|          | Uploader and multi-part signing, currently lives in "Core" | Jessica
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
 
