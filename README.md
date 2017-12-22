@@ -68,10 +68,10 @@ Name                                                        | Build | Code Cover
 
 __Ops Services__
  
-Name                                                         | Description  |  Maintainer(s)
-:----------------------------------------------------------- | ------------ | --------------
-[Manticore](https://github.com/SYNQfm/manticore) | Lambda monitoring script(s)  | Josh, Glen
-[Imp](https://github.com/SYNQfm/imp) | DNS, Ansible | Glen, Bruce
+Name                                                         | Description  |  Maintainer(s) |  Wiki Link  
+:----------------------------------------------------------- | ------------ | -------------- | ----------- 
+[Manticore](https://github.com/SYNQfm/manticore) | Lambda monitoring script(s)  | Josh, Glen  | [here](https://github.com/SYNQfm/manticore/wiki) 
+[Imp](https://github.com/SYNQfm/imp) | DNS, Ansible | Glen, Bruce | [here](https://github.com/SYNQfm/obaku/wiki) 
 
 __Legacy Services__
 
