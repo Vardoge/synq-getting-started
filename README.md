@@ -16,9 +16,9 @@ Be the easiest and fastest way to integrate video technology/content into your a
 
 ## Getting Started :)
 
-* Get Access to [Trello](https://trello.com/synq) - This is the tool Product Management uses to track features and milestones
- * Review our [Product Roadmap](https://trello.com/b/2YvamUq6/product-roadmap) trello board
- * Review our [Business Overview](https://trello.com/b/r0MwBrn2/synq-getting-started) trello board
+* Get Access to [Trello](https://trello.com/synq) - This is the tool Business and Development uses to track high level work
+ * Review [Dev Roadmap](https://trello.com/b/2YvamUq6/dev-roadmap) board
+ * Review [Dev Team Info](https://trello.com/b/ShiJG8T8/dev-team-info) board
 * Get Acccess to and review API design on [Stoplight](https://app.stoplight.io/) (or read our OAS [spec](https://github.com/SYNQfm/spec-documentation/tree/master/obaku-specification))
 * Get Access to 1Password - password manager for various shared services
 * Get Access to Slack - install Slack or use the web browser.  We are at [synqfm.slack.com](https://synqfm.slack.com)
@@ -44,8 +44,8 @@ Name                                                        | Build | Code Cover
 [Unicorn](https://github.com/SYNQfm/unicorn) | [![CircleCI](https://circleci.com/gh/SYNQfm/unicorn.svg?style=svg&circle-token=0690b087ca33c31694a3dcea2d9e4bf9a04df3a2)](https://circleci.com/gh/SYNQfm/unicorn) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/unicorn/badge.svg?branch=master&t=u0kNmw)](https://coveralls.io/github/SYNQfm/unicorn?branch=master) | V2 Uploader service that will upload anything | Jessica | [here](https://github.com/SYNQfm/unicorn/wiki)
 [Hydra](https://github.com/SYNQfm/hydra)            | [![CircleCI](https://circleci.com/gh/SYNQfm/hydra.svg?style=svg&circle-token=3bb209f5fceb013cfe5bdffed8867fb84693c789)](https://circleci.com/gh/SYNQfm/hydra) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/hydra/badge.svg?t=xMnp9a)](https://coveralls.io/github/SYNQfm/hydra) | Transcode jobs service | Bruce | [here](https://github.com/SYNQfm/hydra/wiki)
 [Pixie](https://github.com/SYNQfm/pixie)           | [![CircleCI](https://circleci.com/gh/SYNQfm/pixie.svg?style=svg&circle-token=48d2d9d54880593f3335c5f07752fca21a514ef8)](https://circleci.com/gh/SYNQfm/pixie) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/pixie/badge.svg?t=njYMm6)](https://coveralls.io/github/SYNQfm/pixie) | Videojs player service | Jessica | [here](https://github.com/SYNQfm/pixie/wiki)
-[Monopod](https://github.com/SYNQfm/monopod)           | | | Public Schedule 2/4 Metadata parser | Josh | [here](https://github.com/SYNQfm/monopod/wiki)
-
+[Monopod](https://github.com/SYNQfm/monopod)           | ![CircleCI](https://circleci.com/gh/SYNQfm/monopod/tree/master.svg?style=svg&circle-token=c18f5508984072ffde683c71cfde2fcb6e7fbc29) | | Public Schedule 2/4 Metadata parser | Josh | [here](https://github.com/SYNQfm/monopod/wiki)
+[Ibong Adarna](https://github.com/SYNQfm/ibong-adarna) | | | Insights Services | Jessica |
 
 __Processing Services__
 
@@ -61,10 +61,8 @@ __Frontend__
 
 Name                                                        | Build | Code Coverage | Description  |  Maintainer(s) | Wiki Link
 :-----------------------------------------------------------|------ | ------------- | ------------ | -------------- | -----------
-[Doppelganger](https://github.com/SYNQfm/doppelganger) | | | ReactJS based Dashboard for SYNQ | Josh | [here](https://github.com/SYNQfm/doppelganger/wiki)
-[Synq UI](https://github.com/SYNQfm/synq-ui) | | | Re-usable ReactJS components | Josh | [here](https://github.com/SYNQfm/synq-ui/wiki) 
-[Wyvern](https://github.com/SYNQfm/wyvern) | | | This is a Wordpress site for www.synq.fm | Josh | [here](https://github.com/SYNQfm/wyvern/wiki)
-
+[Duwende](https://github.com/SYNQfm/duwende) | | | ReactJS based Dashboard for SYNQ | Fiona, Josh | 
+[Harpy](https://github.com/SYNQfm/harpy) | | | Static HTML Homepage | Josh | |
 
 __Ops Services__
  
@@ -77,6 +75,9 @@ __Legacy Services__
 
 Name                                                         | Build | Description  |  Maintainer(s)
 :-----------------------------------------------------------|------ | ------------ | --------------
+[Doppelganger](https://github.com/SYNQfm/doppelganger) | | | ReactJS based Dashboard for SYNQ | Josh | [here](https://github.com/SYNQfm/doppelganger/wiki)
+[Synq UI](https://github.com/SYNQfm/synq-ui) | | | Re-usable ReactJS components | Josh | [here](https://github.com/SYNQfm/synq-ui/wiki) 
+[Wyvern](https://github.com/SYNQfm/wyvern) | | | This is a Wordpress site for www.synq.fm | Josh | [here](https://github.com/SYNQfm/wyvern/wiki)
 [Core](https://github.com/SYNQfm/obaku)                 | [![CircleCI](https://circleci.com/gh/SYNQfm/obaku.svg?style=svg&circle-token=9b25c63acb32232a9a7f9da2fa7240919d335cb0)](https://circleci.com/gh/SYNQfm/obaku)   | Main service including our APIs, datastore, query and webhook execution engine.                | Bruce
 [Tylwythteg](https://github.com/SYNQfm/tylwythteg)      |     | Thumbnail generator service | Jessica
 [Streamer](https://github.com/SYNQfm/streamer) | [![CircleCI](https://circleci.com/gh/SYNQfm/streamer.svg?style=svg&circle-token=b5519ed34ec02fcaa30e6b61c2098d7b0f3fd571)](https://circleci.com/gh/SYNQfm/streamer)               | Handles live streaming | Bruce
@@ -98,11 +99,11 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
   * Maintenance of the issues, README, and ensuring others can contribute to the repo easily (without the maintainer being there).
   * Ensuring proper PR reviews and periodic code reviews
   * Come up with ideas to improve the system, repo or process
-* Cleanup Thursdays - set aside half a day per week for owners to fix various things, clean up workspaces/readmes, conduct code reviews etc.  Key is to STOP WHAT YOU'RE DOING and take the time to breathe and do some much needed cleanup :)
+* [Cleanup Thursdays](https://trello.com/b/ZI68fM9w/cleanup-thursdays) - set aside half a day per week for owners to fix various things, clean up workspaces/readmes, conduct code reviews etc.  Key is to STOP WHAT YOU'RE DOING and take the time to breathe and do some much needed cleanup :).
 
 ### Scheduling and Tracking work
 
-* [Trello Roadmap](https://trello.com/b/2YvamUq6/product-roadmap) - This is where we track high level things to work on.  Business decides on key features and R&D will review those and assign developers to own a "card", which will then produce n issues in GitHub.  Dev will also add to the roadmap as well.
+* [Dev Roadmap](https://trello.com/b/2YvamUq6/product-roadmap) - This is where we track high level things to work on.  Business decides on key features and R&D will review those and assign developers to own a "card", which will then produce n issues in GitHub.  Dev will also add to the roadmap as well.
 * GitHub Issues - specific work needed to accomplish and are usually tied to a Trello card.  We'll also have one off bugs, devop tasks, cleanup etc that is required for routine maintenance
 * Once cards are assigned, each owner will be in charge of creating the issues needed to implement the card, so everything is driven by the owner.  Cards would be assigned based on the code it touches and who maintains and the time that person has.
 
