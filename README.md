@@ -88,8 +88,13 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
   * Maintenance of the issues, README, and ensuring others can contribute to the repo easily (without the maintainer being there).
   * Ensuring proper PR reviews and periodic code reviews
   * Come up with ideas to improve the system, repo or process
-* [Cleanup Thursdays](https://trello.com/b/ZI68fM9w/cleanup-thursdays) - set aside half a day per week for owners to fix various things, clean up workspaces/readmes, conduct code reviews etc.  Key is to STOP WHAT YOU'RE DOING and take the time to breathe and do some much needed cleanup :).
-
+* [Cleanup Thursdays](https://trello.com/b/ZI68fM9w/cleanup-thursdays) - Set aside half a day per week for owners to fix various things. The key is to STOP WHAT YOU'RE DOING and take the time to breathe and do some much needed cleanup :). Here's a small list of things that could be done:
+  - clean up workspaces/readmes 
+  - conduct code reviews
+  - refactor
+  - increase testing
+  - fix all "#TODOS"
+  
 ### Scheduling and Tracking work
 
 * [Product Board](https://trello.com/b/obntC0BM/product-board) - High level requirements come into here and business and dev figure out whats possible, scope, and cards required.  This is where all the vetting goes and by the time it hits the development roadmap, most things are hashed out.
