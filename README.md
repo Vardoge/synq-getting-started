@@ -17,21 +17,17 @@ Be the easiest and fastest way to integrate video technology/content into your a
 ## Getting Started :)
 
 * Get Access to [Trello](https://trello.com/synq) - This is the tool Business and Development uses to track high level work
- * Review [Dev Roadmap](https://trello.com/b/2YvamUq6/dev-roadmap) board
- * Review [Dev Team Info](https://trello.com/b/ShiJG8T8/dev-team-info) board
+  * Review [Dev Roadmap](https://trello.com/b/2YvamUq6/dev-roadmap) board
+  * Review [Dev Team Info](https://trello.com/b/ShiJG8T8/dev-team-info) board
 * Get Acccess to and review API design on [Stoplight](https://app.stoplight.io/) (or read our OAS [spec](https://github.com/SYNQfm/spec-documentation/tree/master/obaku-specification))
+* Get Access to [Slack](https://synqfm.slack.com)
+* Get Access to [GitHub](https://github.com/SYNQfm)
 * Get Access to 1Password - password manager for various shared services
-* Get Access to Slack - install Slack or use the web browser.  We are at [synqfm.slack.com](https://synqfm.slack.com)
-* Get Access to GitHub - Our repo is at [https://github.com/SYNQfm](https://github.com/SYNQfm)
 
 ### Getting started for non-employees
 
 * Get access to our [Synq Hiring](https://join.slack.com/t/synq-hiring/shared_invite/enQtMjc5MjQ5NTg1ODExLWVhNWYxOTY0OTQ1M2JiZDBlZWJiMGViN2JmZGMyMTMzZWQxY2ExOGMyMTM3YzU2ZGRiZWMzZWVlYWY4ODkyMjQ) Slack team
 * Review [Mini Projects](https://trello.com/b/YmdoqTFZ/mini-projects) that you'd like to work on
-* Read our online [API docs](https://synq.api-docs.io/1.9.1/video-apis)
-* Review our open source [SDKs](https://github.com/SYNQfm?utf8=%E2%9C%93&q=SYNQ%20sdk&type=&language=)
-* Look at our [gosample](https://github.com/SYNQfm/gosample.git) app to see how we structure certain things
-
 
 ## Give me the code!!
 
@@ -75,15 +71,8 @@ __Legacy Services__
 
 Name                                                         | Build | Description  |  Maintainer(s)
 :-----------------------------------------------------------|------ | ------------ | --------------
-[Doppelganger](https://github.com/SYNQfm/doppelganger) | | | ReactJS based Dashboard for SYNQ | Josh | [here](https://github.com/SYNQfm/doppelganger/wiki)
-[Synq UI](https://github.com/SYNQfm/synq-ui) | | | Re-usable ReactJS components | Josh | [here](https://github.com/SYNQfm/synq-ui/wiki) 
-[Wyvern](https://github.com/SYNQfm/wyvern) | | | This is a Wordpress site for www.synq.fm | Josh | [here](https://github.com/SYNQfm/wyvern/wiki)
-[Core](https://github.com/SYNQfm/obaku)                 | [![CircleCI](https://circleci.com/gh/SYNQfm/obaku.svg?style=svg&circle-token=9b25c63acb32232a9a7f9da2fa7240919d335cb0)](https://circleci.com/gh/SYNQfm/obaku)   | Main service including our APIs, datastore, query and webhook execution engine.                | Bruce
 [Tylwythteg](https://github.com/SYNQfm/tylwythteg)      |     | Thumbnail generator service | Jessica
-[Streamer](https://github.com/SYNQfm/streamer) | [![CircleCI](https://circleci.com/gh/SYNQfm/streamer.svg?style=svg&circle-token=b5519ed34ec02fcaa30e6b61c2098d7b0f3fd571)](https://circleci.com/gh/SYNQfm/streamer)               | Handles live streaming | Bruce
 [Infrastructure](https://github.com/SYNQfm/obaku/infrastructure) |    | Previous Ansible, automation tools, currently lives in "Core" | Bruce
-[File States](https://github.com/SYNQfm/obaku/file-states) |       | S3 Upload queue processing, currently lives in "Core" | Bruce
-[Uploader V1](https://github.com/SYNQfm/obaku/uploader)|          | Uploader and multi-part signing, currently lives in "Core" | Jessica
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
 
