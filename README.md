@@ -128,7 +128,7 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 
 ### Supporting Prospects/Customers
 
-* We use [Zendesk](https://synqsupport.zendesk.com) for support email and [synq-onboarding](https://onboarding.synq.fm/) slack channel to help customers.
+* We use [Zendesk](https://synqsupport.zendesk.com) for support email and the [synq-onboarding](https://synq-onboarding.slack.com) slack channel to help customers.
 * We use Hubspot to track our customers and various interactions and converting our leads into signed deals.
 
 ## Be kind, Rewind!
