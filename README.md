@@ -4,7 +4,7 @@ Welcome to Synq.fm's R&D team, This is your one stop shop for getting to values,
 
 ## Our Mission
 
-Be the easiest and fastest way to integrate video technology/content into your app or service
+Be the fastest, most cost effective way to connect licensed video content between owners/licensors and distributors.
 
 ## Core Behaviors
 
@@ -24,7 +24,7 @@ Be the easiest and fastest way to integrate video technology/content into your a
 * Get Access to [GitHub](https://github.com/SYNQfm)
 * Get Access to 1Password - password manager for various shared services
 
-### Getting started for non-employees
+### For non-employees
 
 * Get access to our [Synq Hiring](https://join.slack.com/t/synq-hiring/shared_invite/enQtMjc5MjQ5NTg1ODExLWVhNWYxOTY0OTQ1M2JiZDBlZWJiMGViN2JmZGMyMTMzZWQxY2ExOGMyMTM3YzU2ZGRiZWMzZWVlYWY4ODkyMjQ) Slack team
 * Review [Mini Projects](https://trello.com/b/YmdoqTFZ/mini-projects) that you'd like to work on
@@ -92,9 +92,9 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 
 ### Scheduling and Tracking work
 
-* [Dev Roadmap](https://trello.com/b/2YvamUq6/product-roadmap) - This is where we track high level things to work on.  Business decides on key features and R&D will review those and assign developers to own a "card", which will then produce n issues in GitHub.  Dev will also add to the roadmap as well.
-* GitHub Issues - specific work needed to accomplish and are usually tied to a Trello card.  We'll also have one off bugs, devop tasks, cleanup etc that is required for routine maintenance
-* Once cards are assigned, each owner will be in charge of creating the issues needed to implement the card, so everything is driven by the owner.  Cards would be assigned based on the code it touches and who maintains and the time that person has.
+* [Product Board](https://trello.com/b/obntC0BM/product-board) - High level requirements come into here and business and dev figure out whats possible, scope, and cards required.  This is where all the vetting goes and by the time it hits the development roadmap, most things are hashed out.
+* [Dev Roadmap](https://trello.com/b/2YvamUq6/dev-roadmap) - This is where we track our milestones, epics and week to week tasks.
+* GitHub Issues - specific work needed to accomplish and are usually tied to a Trello card
 
 ### Communicating
 
@@ -121,13 +121,10 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 * We use [PagerDuty](https://app.pagerduty.com/) to manage on call and alerts
 * We use [StatusPage](https://manage.statuspage.io/pages/x9f990zglm69) to communicate public API [status](https://synq.statuspage.io/) information to customers
 
-### Supporting customers
+### Supporting Prospects/Customers
 
-* We use [Zendesk](https://synqsupport.zendesk.com) for support email, [Chatlio](https://chatlio.com/) for chat support and our [community](https://community.synq.fm) forum for forum based support.   Notifications for support tickets are sent to the #zendesk Slack channel and to Pagerduty if a support ticket is open for more than 2 hours. Notifications for chat support requests are sent to the #chatliosupport Slack channel. 
-* In addition to the support channels mentioned, we use the [synq-onboarding](https://onboarding.synq.fm/) slack channel to help customers while they are onboarding and [Gitter.im](https://gitter.im/SYNQfm/Lobby) for any questions on our services from developers.
-* The customer success team will handle initial requests but any one can chip into issues and help to resolve customer problems. 
-* There is no Synq without customers and the customer success team is the eyes and ears of our customers and their requests should be taken seriously!
-
+* We use [Zendesk](https://synqsupport.zendesk.com) for support email and [synq-onboarding](https://onboarding.synq.fm/) slack channel to help customers.
+* We use Hubspot to track our customers and various interactions and converting our leads into signed deals.
 
 ## Be kind, Rewind!
 
@@ -137,19 +134,9 @@ __Branching / PRs__
 
 * Use good naming convention such as `bruce-fix-s3-bug`
 * Strive for atomic changes per branch, try to limit it to 2 fixes max
-* PRs should have
-  * An issue attached, unless its a minor fix
-  * Passing tests that covers relevant parts of the code (should be enforced by CI)
-  * Minimum one person tagged to review the code
-* PR Reviews should
-  * Be short and usually take less than an hour
-  * Cleared out quickly to avoid a pile up
-  * Be reviewed within a day, otherwise the issuer can merge it without an approval
-* "Squash and Merge" branches into master, and its a good habit to delete the merged branch at that time
-  * If you need to see the commit history, it can be found in the original PR ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
-* Maintain as few personal branches as possible
-* More complicated workspaces should include a PR [template](https://github.com/SYNQfm/obaku/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
-* should pass the coveralls code coverage & unit tests (you can adjust the coveralls code coverage thresholds here https://coveralls.io/github/SYNQfm/obaku/settings. Note, this is just for the 'obaku' repositories, and assumes you have the correct access privileges to make changes!)
+* PRs should have passing testing and good code coverage (>70%) before they are merged (these are usually enforced)
+* "Squash and Merge" branches into master, and delete the merged branch at that time
+* Delete unused branches, maintain as few working branches as possible
 
 __Code Reviews__
 
@@ -162,7 +149,6 @@ __Meetings__
 * Should come with an agenda, the organizer should keep it focused
 * Keep it as short as possible
 * Think if you could do this over slack?  If so, why call the meeting?
-
 
 ## Resources
 
