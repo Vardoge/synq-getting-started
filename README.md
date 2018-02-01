@@ -4,7 +4,7 @@ Welcome to Synq.fm's R&D team, This is your one stop shop for getting to values,
 
 ## Our Mission
 
-Be the easiest and fastest way to integrate video technology/content into your app or service
+Be the fastest, most cost effective way to connect licensed video content between owners/licensors and distributors.
 
 ## Core Behaviors
 
@@ -16,22 +16,18 @@ Be the easiest and fastest way to integrate video technology/content into your a
 
 ## Getting Started :)
 
-* Get Access to [Trello](https://trello.com/synq) - This is the tool Product Management uses to track features and milestones
- * Review our [Product Roadmap](https://trello.com/b/2YvamUq6/product-roadmap) trello board
- * Review our [Business Overview](https://trello.com/b/r0MwBrn2/synq-getting-started) trello board
+* Get Access to [Trello](https://trello.com/synq) - This is the tool Business and Development uses to track high level work
+  * Review [Dev Roadmap](https://trello.com/b/2YvamUq6/dev-roadmap) board
+  * Review [Dev Team Info](https://trello.com/b/ShiJG8T8/dev-team-info) board
 * Get Acccess to and review API design on [Stoplight](https://app.stoplight.io/) (or read our OAS [spec](https://github.com/SYNQfm/spec-documentation/tree/master/obaku-specification))
+* Get Access to [Slack](https://synqfm.slack.com)
+* Get Access to [GitHub](https://github.com/SYNQfm)
 * Get Access to 1Password - password manager for various shared services
-* Get Access to Slack - install Slack or use the web browser.  We are at [synqfm.slack.com](https://synqfm.slack.com)
-* Get Access to GitHub - Our repo is at [https://github.com/SYNQfm](https://github.com/SYNQfm)
 
-### Getting started for non-employees
+### For non-employees
 
 * Get access to our [Synq Hiring](https://join.slack.com/t/synq-hiring/shared_invite/enQtMjc5MjQ5NTg1ODExLWVhNWYxOTY0OTQ1M2JiZDBlZWJiMGViN2JmZGMyMTMzZWQxY2ExOGMyMTM3YzU2ZGRiZWMzZWVlYWY4ODkyMjQ) Slack team
 * Review [Mini Projects](https://trello.com/b/YmdoqTFZ/mini-projects) that you'd like to work on
-* Read our online [API docs](https://synq.api-docs.io/1.9.1/video-apis)
-* Review our open source [SDKs](https://github.com/SYNQfm?utf8=%E2%9C%93&q=SYNQ%20sdk&type=&language=)
-* Look at our [gosample](https://github.com/SYNQfm/gosample.git) app to see how we structure certain things
-
 
 ## Give me the code!!
 
@@ -44,8 +40,8 @@ Name                                                        | Build | Code Cover
 [Unicorn](https://github.com/SYNQfm/unicorn) | [![CircleCI](https://circleci.com/gh/SYNQfm/unicorn.svg?style=svg&circle-token=0690b087ca33c31694a3dcea2d9e4bf9a04df3a2)](https://circleci.com/gh/SYNQfm/unicorn) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/unicorn/badge.svg?branch=master&t=u0kNmw)](https://coveralls.io/github/SYNQfm/unicorn?branch=master) | V2 Uploader service that will upload anything | Jessica | [here](https://github.com/SYNQfm/unicorn/wiki)
 [Hydra](https://github.com/SYNQfm/hydra)            | [![CircleCI](https://circleci.com/gh/SYNQfm/hydra.svg?style=svg&circle-token=3bb209f5fceb013cfe5bdffed8867fb84693c789)](https://circleci.com/gh/SYNQfm/hydra) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/hydra/badge.svg?t=xMnp9a)](https://coveralls.io/github/SYNQfm/hydra) | Transcode jobs service | Bruce | [here](https://github.com/SYNQfm/hydra/wiki)
 [Pixie](https://github.com/SYNQfm/pixie)           | [![CircleCI](https://circleci.com/gh/SYNQfm/pixie.svg?style=svg&circle-token=48d2d9d54880593f3335c5f07752fca21a514ef8)](https://circleci.com/gh/SYNQfm/pixie) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/pixie/badge.svg?t=njYMm6)](https://coveralls.io/github/SYNQfm/pixie) | Videojs player service | Jessica | [here](https://github.com/SYNQfm/pixie/wiki)
-[Monopod](https://github.com/SYNQfm/monopod)           | | | Public Schedule 2/4 Metadata parser | Josh | [here](https://github.com/SYNQfm/monopod/wiki)
-
+[Monopod](https://github.com/SYNQfm/monopod)           | ![CircleCI](https://circleci.com/gh/SYNQfm/monopod/tree/master.svg?style=svg&circle-token=c18f5508984072ffde683c71cfde2fcb6e7fbc29) | | Public Schedule 2/4 Metadata parser | Josh | [here](https://github.com/SYNQfm/monopod/wiki)
+[Ibong Adarna](https://github.com/SYNQfm/ibong-adarna) | | | Insights Services | Jessica |
 
 __Processing Services__
 
@@ -61,10 +57,8 @@ __Frontend__
 
 Name                                                        | Build | Code Coverage | Description  |  Maintainer(s) | Wiki Link
 :-----------------------------------------------------------|------ | ------------- | ------------ | -------------- | -----------
-[Doppelganger](https://github.com/SYNQfm/doppelganger) | | | ReactJS based Dashboard for SYNQ | Josh | [here](https://github.com/SYNQfm/doppelganger/wiki)
-[Synq UI](https://github.com/SYNQfm/synq-ui) | | | Re-usable ReactJS components | Josh | [here](https://github.com/SYNQfm/synq-ui/wiki) 
-[Wyvern](https://github.com/SYNQfm/wyvern) | | | This is a Wordpress site for www.synq.fm | Josh | [here](https://github.com/SYNQfm/wyvern/wiki)
-
+[Duwende](https://github.com/SYNQfm/duwende) | | | ReactJS based Dashboard for SYNQ | Fiona, Josh | 
+[Harpy](https://github.com/SYNQfm/harpy) | | | Static HTML Homepage | Josh | |
 
 __Ops Services__
  
@@ -77,12 +71,8 @@ __Legacy Services__
 
 Name                                                         | Build | Description  |  Maintainer(s)
 :-----------------------------------------------------------|------ | ------------ | --------------
-[Core](https://github.com/SYNQfm/obaku)                 | [![CircleCI](https://circleci.com/gh/SYNQfm/obaku.svg?style=svg&circle-token=9b25c63acb32232a9a7f9da2fa7240919d335cb0)](https://circleci.com/gh/SYNQfm/obaku)   | Main service including our APIs, datastore, query and webhook execution engine.                | Bruce
 [Tylwythteg](https://github.com/SYNQfm/tylwythteg)      |     | Thumbnail generator service | Jessica
-[Streamer](https://github.com/SYNQfm/streamer) | [![CircleCI](https://circleci.com/gh/SYNQfm/streamer.svg?style=svg&circle-token=b5519ed34ec02fcaa30e6b61c2098d7b0f3fd571)](https://circleci.com/gh/SYNQfm/streamer)               | Handles live streaming | Bruce
 [Infrastructure](https://github.com/SYNQfm/obaku/infrastructure) |    | Previous Ansible, automation tools, currently lives in "Core" | Bruce
-[File States](https://github.com/SYNQfm/obaku/file-states) |       | S3 Upload queue processing, currently lives in "Core" | Bruce
-[Uploader V1](https://github.com/SYNQfm/obaku/uploader)|          | Uploader and multi-part signing, currently lives in "Core" | Jessica
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Thumbnails -> Tylwythteg"
 
@@ -98,13 +88,18 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
   * Maintenance of the issues, README, and ensuring others can contribute to the repo easily (without the maintainer being there).
   * Ensuring proper PR reviews and periodic code reviews
   * Come up with ideas to improve the system, repo or process
-* Cleanup Thursdays - set aside half a day per week for owners to fix various things, clean up workspaces/readmes, conduct code reviews etc.  Key is to STOP WHAT YOU'RE DOING and take the time to breathe and do some much needed cleanup :)
-
+* [Cleanup Thursdays](https://trello.com/b/ZI68fM9w/cleanup-thursdays) - Set aside half a day per week for owners to fix various things. The key is to STOP WHAT YOU'RE DOING and take the time to breathe and do some much needed cleanup :). Here's a small list of things that could be done:
+  - clean up workspaces/readmes 
+  - conduct code reviews
+  - refactor
+  - increase testing
+  - fix all "#TODOS"
+  
 ### Scheduling and Tracking work
 
-* [Trello Roadmap](https://trello.com/b/2YvamUq6/product-roadmap) - This is where we track high level things to work on.  Business decides on key features and R&D will review those and assign developers to own a "card", which will then produce n issues in GitHub.  Dev will also add to the roadmap as well.
-* GitHub Issues - specific work needed to accomplish and are usually tied to a Trello card.  We'll also have one off bugs, devop tasks, cleanup etc that is required for routine maintenance
-* Once cards are assigned, each owner will be in charge of creating the issues needed to implement the card, so everything is driven by the owner.  Cards would be assigned based on the code it touches and who maintains and the time that person has.
+* [Product Board](https://trello.com/b/obntC0BM/product-board) - High level requirements come into here and business and dev figure out whats possible, scope, and cards required.  This is where all the vetting goes and by the time it hits the development roadmap, most things are hashed out.
+* [Dev Roadmap](https://trello.com/b/2YvamUq6/dev-roadmap) - This is where we track our milestones, epics and week to week tasks.
+* GitHub Issues - specific work needed to accomplish and are usually tied to a Trello card
 
 ### Communicating
 
@@ -131,13 +126,10 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 * We use [PagerDuty](https://app.pagerduty.com/) to manage on call and alerts
 * We use [StatusPage](https://manage.statuspage.io/pages/x9f990zglm69) to communicate public API [status](https://synq.statuspage.io/) information to customers
 
-### Supporting customers
+### Supporting Prospects/Customers
 
-* We use [Zendesk](https://synqsupport.zendesk.com) for support email, [Chatlio](https://chatlio.com/) for chat support and our [community](https://community.synq.fm) forum for forum based support.   Notifications for support tickets are sent to the #zendesk Slack channel and to Pagerduty if a support ticket is open for more than 2 hours. Notifications for chat support requests are sent to the #chatliosupport Slack channel. 
-* In addition to the support channels mentioned, we use the [synq-onboarding](https://onboarding.synq.fm/) slack channel to help customers while they are onboarding and [Gitter.im](https://gitter.im/SYNQfm/Lobby) for any questions on our services from developers.
-* The customer success team will handle initial requests but any one can chip into issues and help to resolve customer problems. 
-* There is no Synq without customers and the customer success team is the eyes and ears of our customers and their requests should be taken seriously!
-
+* We use [Zendesk](https://synqsupport.zendesk.com) for support email and [synq-onboarding](https://onboarding.synq.fm/) slack channel to help customers.
+* We use Hubspot to track our customers and various interactions and converting our leads into signed deals.
 
 ## Be kind, Rewind!
 
@@ -147,19 +139,9 @@ __Branching / PRs__
 
 * Use good naming convention such as `bruce-fix-s3-bug`
 * Strive for atomic changes per branch, try to limit it to 2 fixes max
-* PRs should have
-  * An issue attached, unless its a minor fix
-  * Passing tests that covers relevant parts of the code (should be enforced by CI)
-  * Minimum one person tagged to review the code
-* PR Reviews should
-  * Be short and usually take less than an hour
-  * Cleared out quickly to avoid a pile up
-  * Be reviewed within a day, otherwise the issuer can merge it without an approval
-* "Squash and Merge" branches into master, and its a good habit to delete the merged branch at that time
-  * If you need to see the commit history, it can be found in the original PR ( ex: [PR 6](https://github.com/SYNQfm/obaku/pull/6) )
-* Maintain as few personal branches as possible
-* More complicated workspaces should include a PR [template](https://github.com/SYNQfm/obaku/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
-* should pass the coveralls code coverage & unit tests (you can adjust the coveralls code coverage thresholds here https://coveralls.io/github/SYNQfm/obaku/settings. Note, this is just for the 'obaku' repositories, and assumes you have the correct access privileges to make changes!)
+* PRs should have passing testing and good code coverage (>70%) before they are merged (these are usually enforced)
+* "Squash and Merge" branches into master, and delete the merged branch at that time
+* Delete unused branches, maintain as few working branches as possible
 
 __Code Reviews__
 
@@ -172,7 +154,6 @@ __Meetings__
 * Should come with an agenda, the organizer should keep it focused
 * Keep it as short as possible
 * Think if you could do this over slack?  If so, why call the meeting?
-
 
 ## Resources
 
