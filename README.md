@@ -1,4 +1,4 @@
-Welcome to Synq.fm's R&D team, This is your one stop shop for getting to values, system, tools, processes and technology better.
+Welcome to Synq.fm's R&D team. This is your one stop shop for getting to values, system, tools, processes and technology better.
 
 *NOTE : This workspace is always changing to reflect our latest practices and technologies*
 
@@ -10,16 +10,16 @@ Be the fastest, most cost effective way to connect licensed video content betwee
 
  * __Work as a team__ - collaborate together, no silos, no finger pointing, no blame culture.  Also, have fun and enjoy each other's time once in a while.  *We succeed or fail together*
 
- * __Execute Quickly, Improve constantly__ - Get things done quickly, and be vigilant about constant improvement.  *Don't be afraid of "failure"*
+ * __Execute Quickly, Improve constantly__ - Get things done quickly and be vigilant about constant improvement.  *Don't be afraid of "failure"*
 
  * __Care about your craft__ - Add tests as you see fit, care about quality and correctness, be consistent, follow standards, add documentation.  *The little things matter*
 
 ## Getting Started :)
 
-* Get Access to [Trello](https://trello.com/synq) - This is the tool Business and Development uses to track high level work
+* Get Access to [Trello](https://trello.com/synq) - This is the tool Business and Development use to track high level work
   * Review [Dev Roadmap](https://trello.com/b/2YvamUq6/dev-roadmap) board
   * Review [Dev Team Info](https://trello.com/b/ShiJG8T8/dev-team-info) board
-* Get Acccess to and review API design on [Stoplight](https://app.stoplight.io/) (or read our OAS [spec](https://github.com/SYNQfm/spec-documentation/tree/master/obaku-specification))
+* Get Access to and review API design on [Stoplight](https://app.stoplight.io/) (or read our OAS [spec](https://github.com/SYNQfm/spec-documentation/tree/master/obaku-specification))
 * Get Access to [Slack](https://synqfm.slack.com)
 * Get Access to [GitHub](https://github.com/SYNQfm)
 * Get Access to 1Password - password manager for various shared services
@@ -51,7 +51,7 @@ Name                                                        | Build | Code Cover
 [Charybdis](https://github.com/SYNQfm/charybdis) | [![CircleCI](https://circleci.com/gh/SYNQfm/charybdis.svg?style=svg&circle-token=07d34336bd24df048b532ed90e2b0b9cf9fea46c)](https://circleci.com/gh/SYNQfm/charybdis)| [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/charybdis/badge.svg?t=cuzDts)](https://coveralls.io/github/SYNQfm/charybdis) | CDN log store | Jessica | [here](https://github.com/SYNQfm/charybdis/wiki)
 [Calingi](https://github.com/SYNQfm/calingi) | [![CircleCI](https://circleci.com/gh/SYNQfm/calingi.svg?style=svg&circle-token=35f2b9d5ba20859dfee3af32129b8f746645f665)](https://circleci.com/gh/SYNQfm/calingi)| [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/calingi/badge.svg?t=AgvRqu)](https://coveralls.io/github/SYNQfm/calingi) | CDN log parse | Jessica | [here](https://github.com/SYNQfm/calingi/wiki)
 [Aerico](https://github.com/SYNQfm/aerico) | [![CircleCI](https://circleci.com/gh/SYNQfm/aerico.svg?style=svg&circle-token=6bf28fed9b7e034017e2c7229049f774b3e80bc3)](https://circleci.com/gh/SYNQfm/aerico) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/aerico/badge.svg?t=Go4IJe)](https://coveralls.io/github/SYNQfm/aerico) | Imports V1 Videos to V2 | Bruce | [here](https://github.com/SYNQfm/aerico/wiki)
-[Anansi](https://github.com/SYNQfm/anansi) | [![CircleCI](https://circleci.com/gh/SYNQfm/anansi.svg?style=svg&circle-token=85d81001ef156fe3d431b47181bcc8bfa27bfb57)](https://circleci.com/gh/SYNQfm/anansi) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/anansi/badge.svg?t=QZb3mG)](https://coveralls.io/github/SYNQfm/anansi) | Metadata / Video quality analsysi tool | Shan | [here](https://github.com/SYNQfm/anansi/wiki)
+[Anansi](https://github.com/SYNQfm/anansi) | [![CircleCI](https://circleci.com/gh/SYNQfm/anansi.svg?style=svg&circle-token=85d81001ef156fe3d431b47181bcc8bfa27bfb57)](https://circleci.com/gh/SYNQfm/anansi) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/anansi/badge.svg?t=QZb3mG)](https://coveralls.io/github/SYNQfm/anansi) | Metadata / Video quality analysis tool | Shan | [here](https://github.com/SYNQfm/anansi/wiki)
 
 __Frontend__
 
@@ -97,7 +97,7 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
   
 ### Scheduling and Tracking work
 
-* [Product Board](https://trello.com/b/obntC0BM/product-board) - High level requirements come into here and business and dev figure out whats possible, scope, and cards required.  This is where all the vetting goes and by the time it hits the development roadmap, most things are hashed out.
+* [Product Board](https://trello.com/b/obntC0BM/product-board) - High level requirements come into here and business and dev figure out what is possible, scope, and cards required.  This is where all the vetting goes and by the time it hits the development roadmap, most things are hashed out.
 * [Dev Roadmap](https://trello.com/b/2YvamUq6/dev-roadmap) - This is where we track our milestones, epics and week to week tasks.
 * GitHub Issues - specific work needed to accomplish and are usually tied to a Trello card
 
