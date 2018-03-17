@@ -61,7 +61,7 @@ __Frontend__
 
 Name                                                        | Build | Code Coverage | Description  |  Maintainer(s) | Wiki Link
 :-----------------------------------------------------------|------ | ------------- | ------------ | -------------- | -----------
-[Duwende](https://github.com/SYNQfm/duwende) | | | ReactJS based Dashboard for SYNQ | Fiona, Josh | 
+[Duwende](https://github.com/SYNQfm/duwende) |[![CircleCI](https://circleci.com/gh/SYNQfm/duwende.svg?style=svg&circle-token=7824d007524d1618e7c8c702a6a2bdd7af0c914d)](https://circleci.com/gh/SYNQfm/duwende) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/duwende/badge.svg?branch=master&t=nBpAUi)](https://coveralls.io/github/SYNQfm/duwende?branch=master) | ReactJS based Dashboard for SYNQ | Fiona, Josh | 
 [Harpy](https://github.com/SYNQfm/harpy) | | | Static HTML Homepage | Josh | |
 
 __Ops Services__
