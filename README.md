@@ -1,10 +1,8 @@
-Welcome to Synq.fm's R&D team. This is your one stop shop for getting to values, system, tools, processes and technology better.
-
-*NOTE : This workspace is always changing to reflect our latest practices and technologies*
+Welcome to Synq.fm's R&D team. This is your one stop shop for getting to values, system, tools, processes and technology.
 
 ## Our Mission
 
-Be the fastest, most cost effective way to connect licensed video content between owners/licensors and distributors.
+Be the fastest, most cost effective way to connect licensed video content between owners, licensors, distributors and end-users.
 
 ## Core Behaviors
 
@@ -68,7 +66,6 @@ __Ops Services__
  
 Name                                                         | Description  |  Maintainer(s) |  Wiki Link  
 :----------------------------------------------------------- | ------------ | -------------- | ----------- 
-[Manticore](https://github.com/SYNQfm/manticore) | Lambda monitoring script(s)  | Josh, Glen  | [here](https://github.com/SYNQfm/manticore/wiki) 
 [Imp](https://github.com/SYNQfm/imp) | DNS, Ansible | Glen, Bruce | [here](https://github.com/SYNQfm/imp/wiki) 
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Search -> Serpent"
