@@ -42,20 +42,6 @@
 
 ## Best Practices
 
-__Branching / PRs__
-
-* Use good naming convention such as `bruce-fix-s3-bug`
-* Strive for atomic changes per branch, try to limit it to 2 fixes max
-* PRs should have passing testing and good code coverage (>70%) before they are merged (these are usually enforced)
-* "Squash and Merge" branches into master, and delete the merged branch at that time
-* Delete unused branches, maintain as few working branches as possible
-
-__Code Reviews__
-
-* Anyone can nominate a code area to review, and the code owner would run the review
-* Code reviews should take 1-3 hours and be done at one time
-* We should do at most one review every 2 weeks
-
 __Meetings__
 
 * Should come with an agenda, the organizer should keep it focused
