@@ -4,18 +4,19 @@ This document describes our development philosophy and the reasoning behind the 
 
 ## Our Mission
 
-`To deliver business value quickly by shipping production code continuously`
+`To deliver business value quickly and iteratively`
 
 ## How and why we do it
 
-In order to accomplish our goal, we do the below things.  Click on each item to see more details
+`Ship production code continuously`
 
+In order to accomplish our goal, we do the below things.  Click on each item to see more details
 
 What   | Reasoning | Tooling | Category
 :------- | ----- | --------- | -------
 [Tight CI/CD](ci.md) | The way we can ship the code quickly and confidently | GithHub, CircleCI, Nanobox + Digital Ocean or Heroku | CI/CD
 [High code coverage](ci.md) | CI is useless without good quality coverage, and we can't ship to production quickly if we are confident we won't break everything | CircleCI, Coveralls | CI/CD
-[Atomic (or close) PRs](code.md) | Pushing smaller changes reduces chance of breakage but also delivering it fast | GitHub | Code
+[Atomic (or close) PRs](code.md) | Pushing smaller changes reduces chance of breakage but also allows us to delivery value quickly and iteratively | GitHub | Code
 [Refactor constantly](code.md) | Code debt slows us down and to counter our fast PR turnaround | GitHub | Code
 [Automated System/UI Testing](auto.md) | Once code is in production, is it really working?  Running things like Runscope against the API gives us confidence that new changes didn't mess up prod | CircleCI, Runscope, GhostInspector, TestLodge | Code
 [Peer Reviews](docs.md) | Make sure the code meets our needs, sharing knowledge | GitHub, Slack | Docs
