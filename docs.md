@@ -2,7 +2,7 @@
 
 [Dev Team Info](https://trello.com/b/ShiJG8T8/dev-team-info) board    
 [Dev Roadmap](https://trello.com/b/2YvamUq6/dev-roadmap) board    
-[Stoplight](https://app.stoplight.io/) (or read our OAS [spec](https://github.com/SYNQfm/spec-documentation/tree/master/obaku-specification))    
+[API Docs with Stoplight](https://app.stoplight.io/) (OAS [spec](https://github.com/SYNQfm/spec-documentation/tree/master/obaku-specification))    
 
 ## Branching / PR
 
