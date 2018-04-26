@@ -1,10 +1,28 @@
-Welcome to Synq.fm's R&D team. This is your one stop shop for getting to values, system, tools, processes and technology.
+Welcome to Synq.fm's R&D team's getting started guide.  This document describes our development philosophy and the reasoning behind the way we do certain things and show very specific examples of how we live by our philosophy.  Anyone can suggest changes to this document, but its good to read this first to understand the why on our process
 
 ## Our Mission
 
-Be the fastest, most cost effective way to connect licensed video content between owners, licensors, distributors and end-users.
+`To deliver business value quickly and iteratively`
 
-## Core Behaviors
+## How and why we do it
+
+`Ship production code continuously`
+
+In order to accomplish our goal, we do the below things.  Click on each item to see more details
+
+What   | Reasoning | Tooling | Category
+:------- | ----- | --------- | -------
+[(Near) Atomic Changes](code.md) | Pushing smaller changes allows us to delivery incremental value, also reduces change of breakage | GitHub | Code
+[High code coverage](code.md) | CI is useless without good quality coverage, and we can't ship to production confidently without it | CircleCI, Coveralls | Code
+[Refactor constantly](devops.md) | Code debt slows us down and to counter our fast PR turnaround | GitHub | Code
+[Branches and PRs](docs.md) | introduce small changes safely, ensure the code fits our philosophy, knowledge sharing | GitHub, Slack | Docs
+[Good documentation](docs.md) | moving quickly means we work on a lot of different things, coming back to it later or having another teammmate look at it, they need to know | GitHub Markdown, Wiki, Stoplight | Docs
+[Aligned Development](docs) | Make sure what we're working on brings business value | Trello, GitHub | Docs
+[Tight CI/CD](devops.md) | The way we can ship the code quickly and confidently | GithHub, CircleCI, Nanobox + Digital Ocean or Heroku | DevOps
+[Automated System/UI Testing](devops.md) | Once code is in production, is it really working?  Running things like Runscope against the API gives us confidence that new changes didn't mess up prod | CircleCI, Runscope, GhostInspector, TestLodge | DevOps
+[DevOps Culture](devops.md) | Everyone should know how stuff runs and keep an eye that services are working as expected | Slack, Runscope, PagerDuty, StatusPages | DevOps
+
+## Doing it right with Core Behaviors
 
  * __Work as a team__ - collaborate together, no silos, no finger pointing, no blame culture.  Also, have fun and enjoy each other's time once in a while.  *We succeed or fail together*
 
@@ -27,10 +45,9 @@ Be the fastest, most cost effective way to connect licensed video content betwee
 * Get access to our [Synq Hiring](https://join.slack.com/t/synq-hiring/shared_invite/enQtMjc5MjQ5NTg1ODExLWVhNWYxOTY0OTQ1M2JiZDBlZWJiMGViN2JmZGMyMTMzZWQxY2ExOGMyMTM3YzU2ZGRiZWMzZWVlYWY4ODkyMjQ) Slack team
 * Review [Mini Projects](https://trello.com/b/YmdoqTFZ/mini-projects) that you'd like to work on
 
-## Give me the code!!
+## Technology Overview
 
 [Architecture Diagram](https://trello.com/c/YofhnSkC/237-architecture-of-synq-media)
-
 
 __Core Services__
 
@@ -42,7 +59,6 @@ Name                                                        | Build | Code Cover
 [Hydra](https://github.com/SYNQfm/hydra)            | [![CircleCI](https://circleci.com/gh/SYNQfm/hydra.svg?style=svg&circle-token=3bb209f5fceb013cfe5bdffed8867fb84693c789)](https://circleci.com/gh/SYNQfm/hydra) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/hydra/badge.svg?t=xMnp9a)](https://coveralls.io/github/SYNQfm/hydra) | Transcode jobs service | Bruce, Jessica | [here](https://github.com/SYNQfm/hydra/wiki)
 [Pixie](https://github.com/SYNQfm/pixie)           | [![CircleCI](https://circleci.com/gh/SYNQfm/pixie.svg?style=svg&circle-token=48d2d9d54880593f3335c5f07752fca21a514ef8)](https://circleci.com/gh/SYNQfm/pixie) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/pixie/badge.svg?t=njYMm6)](https://coveralls.io/github/SYNQfm/pixie) | Videojs player service | Jessica, Bruce | [here](https://github.com/SYNQfm/pixie/wiki)
 [Mizuchi](https://github.com/SYNQfm/mizuchi)           | [![CircleCI](https://circleci.com/gh/SYNQfm/wraith.svg?style=svg&circle-token=40d1dd3788a0b3d067e84d124e96d5bbdeaaf139)](https://circleci.com/gh/SYNQfm/wraith) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/mizuchi/badge.svg?branch=master&t=PAqpkU)](https://coveralls.io/github/SYNQfm/mizuchi?branch=master) | Media Metadata parser | Josh | [here](https://github.com/SYNQfm/monopod/wiki)
-[Ibong Adarna](https://github.com/SYNQfm/ibong-adarna) | | | Insights Services | Jessica |
 
 __Processing Services__
 
@@ -60,7 +76,6 @@ __Frontend__
 Name                                                        | Build | Code Coverage | Description  |  Maintainer(s) | Wiki Link
 :-----------------------------------------------------------|------ | ------------- | ------------ | -------------- | -----------
 [Duwende](https://github.com/SYNQfm/duwende) |[![CircleCI](https://circleci.com/gh/SYNQfm/duwende.svg?style=svg&circle-token=7824d007524d1618e7c8c702a6a2bdd7af0c914d)](https://circleci.com/gh/SYNQfm/duwende) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/duwende/badge.svg?branch=master&t=nBpAUi)](https://coveralls.io/github/SYNQfm/duwende?branch=master) | ReactJS based Dashboard for SYNQ | Fiona, Josh | 
-[Harpy](https://github.com/SYNQfm/harpy) | | | Static HTML Homepage | Josh | |
 
 __Ops Services__
  
@@ -69,85 +84,6 @@ Name                                                         | Description  |  M
 [Imp](https://github.com/SYNQfm/imp) | DNS, Ansible | Glen, Bruce | [here](https://github.com/SYNQfm/imp/wiki) 
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Search -> Serpent"
-
-## How we software ;)
-
-### Maintaining code
-
-* Each repo has a main maintainer and a co-owner that would be their backup.  We use the CODEOWNERS settings in GitHub to track this (first name is the main maintainer)
-* The Main Maintainer is responsible for
-  * Naming of the repo
-  * Selecting the co-owner for that repo
-  * Keep tests and code coverage high
-  * Maintenance of the issues, README, and ensuring others can contribute to the repo easily (without the maintainer being there).
-  * Ensuring proper PR reviews and periodic code reviews
-  * Come up with ideas to improve the system, repo or process
-* [Cleanup Thursdays](https://trello.com/b/ZI68fM9w/cleanup-thursdays) - Set aside half a day per week for owners to fix various things. The key is to STOP WHAT YOU'RE DOING and take the time to breathe and do some much needed cleanup :). Here's a small list of things that could be done:
-  - clean up workspaces/readmes 
-  - conduct code reviews
-  - refactor
-  - increase testing
-  - fix all "#TODOS"
-  
-### Scheduling and Tracking work
-
-* [Product Board](https://trello.com/b/obntC0BM/product-board) - High level requirements come into here and business and dev figure out what is possible, scope, and cards required.  This is where all the vetting goes and by the time it hits the development roadmap, most things are hashed out.
-* [Dev Roadmap](https://trello.com/b/2YvamUq6/dev-roadmap) - This is where we track our milestones, epics and week to week tasks.
-* GitHub Issues - specific work needed to accomplish and are usually tied to a Trello card
-
-### Communicating
-
-* Using Slack
-  * Primarily in #general or #developers
-  * Daily "Standups" via Geekbot (posted to #standup)
-* [Weekly Dev Meetings](https://trello.com/b/ShiJG8T8/dev-meetings)
-  * Review current status of Milestones
-  * Discuss any issues/blockers concerning the team
-  * Go over major features/architecture/design decisions
-  * Review future milestones, planning and discussions
-* Yearly Dev Summit Meeting
-  * Time to get together and enjoy each other in real life
-  * Intense 4 day planning sessions to go over key iniatitives for the new year
-  
-### Test / Deploy / Run
-
-* We use [CircleCI](https://circleci.com/dashboard) for Continous Integration
-* We use [Coveralls](https://coveralls.io/) to monitor test coverage
-* Aim for continuous deployment. Maintainers determine the release cadence but changes _should_ be deployed at least once a week
-  * Some services use [Heroku](https://dashboard.heroku.com/teams/synqfm/apps) with automatic deploys on changes to `master`
-  * Some services use [Nanobox](https://dashboard.nanobox.io/)
-* We use [Runscope](https://www.runscope.com/radar/si8c3oxplpmd) to continuously monitor our APIs 
-* We use [PagerDuty](https://app.pagerduty.com/) to manage on call and alerts
-* We use [StatusPage](https://manage.statuspage.io/pages/x9f990zglm69) to communicate public API [status](https://synq.statuspage.io/) information to customers
-
-### Supporting Prospects/Customers
-
-* We use [Zendesk](https://synqsupport.zendesk.com) for support email and the [synq-onboarding](https://synq-onboarding.slack.com) slack channel to help customers.
-* We use Hubspot to track our customers and various interactions and converting our leads into signed deals.
-
-## Be kind, Rewind!
-
-Here are some best practices for various topics
-
-__Branching / PRs__
-
-* Use good naming convention such as `bruce-fix-s3-bug`
-* Strive for atomic changes per branch, try to limit it to 2 fixes max
-* PRs should have passing testing and good code coverage (>70%) before they are merged (these are usually enforced)
-* "Squash and Merge" branches into master, and delete the merged branch at that time
-* Delete unused branches, maintain as few working branches as possible
-
-__Code Reviews__
-
-* Anyone can nominate a code area to review, and the code owner would run the review
-* Code reviews should take 1-3 hours and be done at one time
-* We should do at most one review every 2 weeks
-
-__Meetings__
-
-* Should come with an agenda, the organizer should keep it focused
-* Keep it as short as possible
-* Think if you could do this over slack?  If so, why call the meeting?
 
 ## Resources
 
