@@ -31,7 +31,10 @@ Refer back to the [getting started guide](README.md) for the full list, but code
 * Did you do some rework in this PR?  Cleanups and removing code debt gets a :100:
 
 #### Branches and PRs
-* What we're talking about here :)
+* Are these being reviewed in a timely manner?
+* Are we reviewing and merging quickly?
+* Are there a lot of other PRs still open?
+* Are there excess number of branches
 
 #### Good documentation
 * "Code is the documentation" so is the code itself structured properly? (code styles linting is enforced via CI, except for Golang).
