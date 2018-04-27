@@ -1,5 +1,28 @@
 Welcome to Synq.fm's R&D team's getting started guide.  This document describes our development philosophy and the reasoning behind the way we do certain things and show very specific examples of how we live by our philosophy.  Anyone can suggest changes to this document, but its good to read this first to understand the why on our process
 
+## Doing it right with Core Behaviors
+
+If you are on the Synq Engineering team you already exhibit some (or all) of these behaviors, but if you don't exhibit all, don't worry. We understand some of these behaviors rely on a bridge of trust, and we're happy to build that with you.
+
+ * __Psychological Safety__ - It starts here, without Psychological Safety we cannot Communicate and we cannot Care. These are some examples of creating a psychologically safe team, everyone must be responsible and exhibit these behaviors at Synq. Some examples:
+     * Encourage team mate participation.
+     * Engage and investigate all ideas equally.
+     * Define problems collectively as a group.
+     * Make sure everyone has a chance to participate.
+     * For more details and examples read [here](https://en.wikipedia.org/wiki/Psychological_safety)
+     
+
+ * __Communication__ - Communication can take many forms, but its important that we always be communicating at Synq. Without communication none of this is possible. The only claus here is that we don't want to be jerks, if you are feeling upset please take time to construct your narrative before sharing it (see psychological safety). Some examples:
+      * Creating PRs.
+      * Writing documentaiton.
+      * Communicating in person or online.
+      
+ * __Care about...__ - If you don't care about Synq, about your craft, about engineering, or about your coworkers, working here will be tough. You don't have to care about everything, but caring about something is important. Without caring you would be motivated to do the work thats required of you here. Some examples:
+      * Care about Synq.
+      * Care about your coworkers and their success.
+      * Care about standards or quality.
+      * Care about the craftmanship of your work.
+
 ## Our Mission
 
 `To deliver business value quickly and iteratively`
@@ -33,14 +56,6 @@ What   | Reasoning | Tooling
 Tight CI/CD | The way we can ship the code quickly and confidently | GithHub, CircleCI, Nanobox + Digital Ocean or Heroku
 Automated System/UI Testing | Once code is in production, is it really working?  Running things like Runscope against the API gives us confidence that new changes didn't mess up prod | CircleCI, Runscope, GhostInspector, TestLodge
 DevOps Culture| Everyone should know how stuff runs and keep an eye that services are working as expected | Slack, Runscope, PagerDuty, StatusPages
-
-## Doing it right with Core Behaviors
-
- * __Work as a team__ - collaborate together, no silos, no finger pointing, no blame culture.  Also, have fun and enjoy each other's time once in a while.  *We succeed or fail together*
-
- * __Execute Quickly, Improve constantly__ - Get things done quickly and be vigilant about constant improvement.  *Don't be afraid of "failure"*
-
- * __Care about your craft__ - Add tests as you see fit, care about quality and correctness, be consistent, follow standards, add documentation.  *The little things matter*
 
 ## Technology Overview
 
