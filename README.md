@@ -31,7 +31,7 @@ If you retain anything from this article, is the 3 core behaviors from above.  W
 
 ## How and why we do it
 
-In order to accomplish our mission, we do things in the 3 major categories listed below
+Here are things we specifically do to help achieve our mission
 
 [__Code__](code.md)
 
