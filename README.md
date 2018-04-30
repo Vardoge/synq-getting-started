@@ -91,10 +91,11 @@ Name                                                        | Build | Code Cover
 
 __Shared Services__
  
-Name                                                         | Description  |  Maintainer(s) |  Wiki Link  
-:----------------------------------------------------------- | ------------ | -------------- | ----------- 
-[Imp](https://github.com/SYNQfm/imp) | DNS, Ansible | Glen, Bruce | [here](https://github.com/SYNQfm/imp/wiki) 
-[Golang SDK](https://github.com/SYNQfm/SYNQ-Golang) | Shared Golang libraries | Bruce, Josh 
+Name                                                         | Build | Description  |  Maintainer(s) |  Wiki Link  
+:----------------------------------------------------------- | ------| ------------ | -------------- | ----------- 
+[Imp](https://github.com/SYNQfm/imp) | N/A | DNS, Ansible | Glen, Bruce | [here](https://github.com/SYNQfm/imp/wiki) 
+[Golang SDK](https://github.com/SYNQfm/SYNQ-Golang) | [![CircleCI](https://circleci.com/gh/SYNQfm/SYNQ-Golang.svg?style=svg)](https://circleci.com/gh/SYNQfm/SYNQ-Golang)
+[![Coverage Status](https://coveralls.io/repos/github/SYNQfm/SYNQ-Golang/badge.svg?branch=master)](https://coveralls.io/github/SYNQfm/SYNQ-Golang?branch=master) | Shared Golang libraries | Bruce, Josh 
 
 
 
