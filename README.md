@@ -89,11 +89,14 @@ Name                                                        | Build | Code Cover
 :-----------------------------------------------------------|------ | ------------- | ------------ | -------------- | -----------
 [Duwende](https://github.com/SYNQfm/duwende) |[![CircleCI](https://circleci.com/gh/SYNQfm/duwende.svg?style=svg&circle-token=7824d007524d1618e7c8c702a6a2bdd7af0c914d)](https://circleci.com/gh/SYNQfm/duwende) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/duwende/badge.svg?branch=master&t=nBpAUi)](https://coveralls.io/github/SYNQfm/duwende?branch=master) | ReactJS based Dashboard for SYNQ | Fiona, Josh | 
 
-__Ops Services__
+__Shared Services__
  
-Name                                                         | Description  |  Maintainer(s) |  Wiki Link  
-:----------------------------------------------------------- | ------------ | -------------- | ----------- 
-[Imp](https://github.com/SYNQfm/imp) | DNS, Ansible | Glen, Bruce | [here](https://github.com/SYNQfm/imp/wiki) 
+Name                                                         | Build | Code Coverage |Description  |  Maintainer(s) |  Wiki Link  
+:----------------------------------------------------------- | ------| --------------| ------------ | -------------- | ----------- 
+[Imp](https://github.com/SYNQfm/imp) | N/A | N/A | DNS, Ansible | Glen, Bruce | [here](https://github.com/SYNQfm/imp/wiki) 
+[Golang SDK](https://github.com/SYNQfm/SYNQ-Golang) | [![CircleCI](https://circleci.com/gh/SYNQfm/SYNQ-Golang.svg?style=svg)](https://circleci.com/gh/SYNQfm/SYNQ-Golang) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/SYNQ-Golang/badge.svg?branch=master)](https://coveralls.io/github/SYNQfm/SYNQ-Golang?branch=master) | Shared Golang libraries | Bruce, Josh | 
+
+
 
 Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wiki/Lists_of_legendary_creatures), ideally matching the first (or more) letter(s) of the service "Search -> Serpent"
 
