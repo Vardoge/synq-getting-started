@@ -27,7 +27,7 @@ If you are on the Synq Engineering team you already exhibit some (or all) of the
       * Care about standards or quality.
       * Care about the craftmanship of your work.
 
-If you retain anything from this article, is the 3 core behaviors from above.  We live by this, we hire by this, we fire by this.
+If you retain anything from this article, is the 3 core behaviors from above.  We live by this, we hire by this, we fire by this.  You can review past hiring/firing decisions [here](https://trello.com/b/0Vb4DSJ0/hiring)
 
 ## How and why we do it
 
