@@ -38,24 +38,24 @@ In order to accomplish our mission, we do things in the 3 major categories liste
 What   | Reasoning | Tooling   | Behavior
 :------- | ------- | --------- | ---
 (Near) Atomic Changes | Pushing smaller changes allows us to delivery incremental value, also reduces change of breakage | GitHub | Comm
-High code coverage | CI is useless without good quality coverage, and we can't ship to production confidently without it | CircleCI, Coveralls
-Refactor constantly | Code debt slows us down and to counter our fast PR turnaround | GitHub
+High code coverage | CI is useless without good quality coverage, and we can't ship to production confidently without it | CircleCI, Coveralls | Care
+Refactor constantly | Code debt slows us down and to counter our fast PR turnaround | GitHub | Care, Comm
 
 [__Docs__](docs.md)
 
 What   | Reasoning | Tooling | Behavior
 :------- | ----- | --------- | --------
-Branches and PRs | introduce small changes safely, ensure the code fits our philosophy, knowledge sharing | GitHub, Slack
-Good documentation | moving quickly means we work on a lot of different things, coming back to it later or having another teammmate look at it, they need to know | GitHub Markdown, Wiki, Stoplight
-Aligned Development | Make sure what we're working on brings business value | Trello, GitHub
+Branches and PRs | introduce small changes safely, ensure the code fits our philosophy, knowledge sharing | GitHub, Slack | Comm,Care,Safe
+Good documentation | moving quickly means we work on a lot of different things, coming back to it later or having another teammmate look at it, they need to know | GitHub Markdown, Wiki, Stoplight | Comm
+Aligned Development | Make sure what we're working on brings business value | Trello, GitHub | Comm
 
 [__DevOps__](devops.md)
 
 What   | Reasoning | Tooling | Behavior
 :------- | ----- | --------- | --------
-Tight CI/CD | The way we can ship the code quickly and confidently | GithHub, CircleCI, Nanobox + Digital Ocean or Heroku
-Automated System/UI Testing | Once code is in production, is it really working?  Running things like Runscope against the API gives us confidence that new changes didn't mess up prod | CircleCI, Runscope, GhostInspector, TestLodge
-DevOps Culture| Everyone should know how stuff runs and keep an eye that services are working as expected | Slack, Runscope, PagerDuty, StatusPages
+Tight CI/CD | The way we can ship the code quickly and confidently | GithHub, CircleCI, Nanobox + Digital Ocean or Heroku | Care
+Automated System/UI Testing | Once code is in production, is it really working?  Running things like Runscope against the API gives us confidence that new changes didn't mess up prod | CircleCI, Runscope, GhostInspector, TestLodge | Care
+DevOps Culture| Everyone should know how stuff runs and keep an eye that services are working as expected | Slack, Runscope, PagerDuty, StatusPages | Comm, Care, Safe
 
 ## Technology Overview
 
