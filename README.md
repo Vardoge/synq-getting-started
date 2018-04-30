@@ -45,7 +45,7 @@ Refactor constantly | Code debt slows us down and to counter our fast PR turnaro
 
 What   | Reasoning | Tooling | Behavior
 :------- | ----- | --------- | --------
-Branches and PRs | introduce small changes safely, ensure the code fits our philosophy, knowledge sharing | GitHub, Slack | Comm,Care,Safe
+Branches and PRs | introduce small changes safely, ensure the code fits our philosophy, knowledge sharing | GitHub, Slack | Comm, Care, Safe
 Good documentation | moving quickly means we work on a lot of different things, coming back to it later or having another teammmate look at it, they need to know | GitHub Markdown, Wiki, Stoplight | Comm
 Aligned Development | Make sure what we're working on brings business value | Trello, GitHub | Comm
 
