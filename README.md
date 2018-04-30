@@ -1,4 +1,8 @@
-Welcome to Synq.fm's R&D team's getting started guide.  This document describes our development philosophy and the reasoning behind the way we do certain things and show very specific examples of how we live by our philosophy.  Anyone can suggest changes to this document, but its good to read this first to understand the why on our process
+Welcome to Synq.fm's R&D team's getting started guide.  This document describes our development philosophy and outlines things we care about as a team.
+
+## Our Mission
+
+`To deliver business value quickly and iteratively`
 
 ## Doing it right with Core Behaviors
 
@@ -12,7 +16,7 @@ If you are on the Synq Engineering team you already exhibit some (or all) of the
      * For more details and examples read [here](https://en.wikipedia.org/wiki/Psychological_safety)
      
 
- * __Communication__ - Communication can take many forms, but its important that we always be communicating at Synq. Without communication none of this is possible. The only claus here is that we don't want to be jerks, if you are feeling upset please take time to construct your narrative before sharing it (see psychological safety). Some examples:
+ * __Communication__ - Communication can take many forms, but its important that we always be communicating at Synq. Without communication none of this is possible. The only clause here is that we don't want to be jerks, if you are feeling upset please take time to construct your narrative before sharing it (see psychological safety). Some examples:
       * Creating PRs.
       * Writing documentaiton.
       * Communicating in person or online.
@@ -22,10 +26,6 @@ If you are on the Synq Engineering team you already exhibit some (or all) of the
       * Care about your coworkers and their success.
       * Care about standards or quality.
       * Care about the craftmanship of your work.
-
-## Our Mission
-
-`To deliver business value quickly and iteratively`
 
 ## How and why we do it
 
