@@ -21,7 +21,7 @@ If you are on the Synq Engineering team you already exhibit some (or all) of the
       * Writing documentaiton.
       * Communicating in person or online.
       
- * __Care about...__ - If you don't care about Synq, about your craft, about engineering, or about your coworkers, working here will be tough. You don't have to care about everything, but caring about something is important. Without caring you would be motivated to do the work thats required of you here. Some examples:
+ * __Care about...__ - If you don't care about Synq, about your craft, about engineering, or about your coworkers, working here will be tough. You don't have to care about everything, but caring about something is important. Without caring you wouldn't be motivated to do the work thats required of you here. Some examples:
       * Care about Synq.
       * Care about your coworkers and their success.
       * Care about standards or quality.
