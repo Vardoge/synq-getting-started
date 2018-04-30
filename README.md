@@ -31,9 +31,7 @@ If you retain anything from this article, is the 3 core behaviors from above.  W
 
 ## How and why we do it
 
-`Ship production code continuously`
-
-In order to accomplish our goal, we do things in 3 major categories, listed below
+In order to accomplish our mission, we do things in the 3 major categories listed below
 
 [__Code__](code.md)
 
