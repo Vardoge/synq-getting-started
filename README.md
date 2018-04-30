@@ -8,7 +8,7 @@ Welcome to Synq.fm's R&D team's getting started guide.  This document describes 
 
 If you are on the Synq Engineering team you already exhibit some (or all) of these behaviors, but if you don't exhibit all, don't worry. We understand some of these behaviors rely on a bridge of trust, and we're happy to build that with you.
 
- * __Psychological Safety__ - It starts here, without Psychological Safety we cannot Communicate and we cannot Care. These are some examples of creating a psychologically safe team, everyone must be responsible and exhibit these behaviors at Synq. Some examples:
+ * __Psychological Safety (Safe)__ - It starts here, without Psychological Safety we cannot Communicate and we cannot Care. These are some examples of creating a psychologically safe team, everyone must be responsible and exhibit these behaviors at Synq. Some examples:
      * Encourage team mate participation.
      * Engage and investigate all ideas equally.
      * Define problems collectively as a group.
@@ -16,12 +16,12 @@ If you are on the Synq Engineering team you already exhibit some (or all) of the
      * For more details and examples read [here](https://en.wikipedia.org/wiki/Psychological_safety)
      
 
- * __Communication__ - Communication can take many forms, but its important that we always be communicating at Synq. Without communication none of this is possible. The only clause here is that we don't want to be jerks, if you are feeling upset please take time to construct your narrative before sharing it (see psychological safety). Some examples:
+ * __Communication (Comm)__ - Communication can take many forms, but its important that we always be communicating at Synq. Without communication none of this is possible. The only clause here is that we don't want to be jerks, if you are feeling upset please take time to construct your narrative before sharing it (see psychological safety). Some examples:
       * Creating PRs.
       * Writing documentaiton.
       * Communicating in person or online.
       
- * __Care about...__ - If you don't care about Synq, about your craft, about engineering, or about your coworkers, working here will be tough. You don't have to care about everything, but caring about something is important. Without caring you wouldn't be motivated to do the work thats required of you here. Some examples:
+ * __Care about...(Care)__ - If you don't care about Synq, about your craft, about engineering, or about your coworkers, working here will be tough. You don't have to care about everything, but caring about something is important. Without caring you wouldn't be motivated to do the work thats required of you here. Some examples:
       * Care about Synq.
       * Care about your coworkers and their success.
       * Care about standards or quality.
@@ -35,27 +35,27 @@ In order to accomplish our mission, we do things in the 3 major categories liste
 
 [__Code__](code.md)
 
-What   | Reasoning | Tooling
-:------- | ----- | ---------
-(Near) Atomic Changes | Pushing smaller changes allows us to delivery incremental value, also reduces change of breakage | GitHub
-High code coverage | CI is useless without good quality coverage, and we can't ship to production confidently without it | CircleCI, Coveralls
-Refactor constantly | Code debt slows us down and to counter our fast PR turnaround | GitHub
+What   | Reasoning | Tooling   | Behavior
+:------- | ------- | --------- | ---
+(Near) Atomic Changes | Pushing smaller changes allows us to delivery incremental value, also reduces change of breakage | GitHub | Comm
+High code coverage | CI is useless without good quality coverage, and we can't ship to production confidently without it | CircleCI, Coveralls | Care
+Refactor constantly | Code debt slows us down and to counter our fast PR turnaround | GitHub | Care, Comm
 
 [__Docs__](docs.md)
 
-What   | Reasoning | Tooling
-:------- | ----- | ---------
-Branches and PRs | introduce small changes safely, ensure the code fits our philosophy, knowledge sharing | GitHub, Slack
-Good documentation | moving quickly means we work on a lot of different things, coming back to it later or having another teammmate look at it, they need to know | GitHub Markdown, Wiki, Stoplight
-Aligned Development | Make sure what we're working on brings business value | Trello, GitHub
+What   | Reasoning | Tooling | Behavior
+:------- | ----- | --------- | --------
+Branches and PRs | introduce small changes safely, ensure the code fits our philosophy, knowledge sharing | GitHub, Slack | Comm, Care, Safe
+Good documentation | moving quickly means we work on a lot of different things, coming back to it later or having another teammmate look at it, they need to know | GitHub Markdown, Wiki, Stoplight | Comm
+Aligned Development | Make sure what we're working on brings business value | Trello, GitHub | Comm
 
 [__DevOps__](devops.md)
 
-What   | Reasoning | Tooling
-:------- | ----- | ---------
-Tight CI/CD | The way we can ship the code quickly and confidently | GithHub, CircleCI, Nanobox + Digital Ocean or Heroku
-Automated System/UI Testing | Once code is in production, is it really working?  Running things like Runscope against the API gives us confidence that new changes didn't mess up prod | CircleCI, Runscope, GhostInspector, TestLodge
-DevOps Culture| Everyone should know how stuff runs and keep an eye that services are working as expected | Slack, Runscope, PagerDuty, StatusPages
+What   | Reasoning | Tooling | Behavior
+:------- | ----- | --------- | --------
+Tight CI/CD | The way we can ship the code quickly and confidently | GithHub, CircleCI, Nanobox + Digital Ocean or Heroku | Care
+Automated System/UI Testing | Once code is in production, is it really working?  Running things like Runscope against the API gives us confidence that new changes didn't mess up prod | CircleCI, Runscope, GhostInspector, TestLodge | Care
+DevOps Culture| Everyone should know how stuff runs and keep an eye that services are working as expected | Slack, Runscope, PagerDuty, StatusPages | Comm, Care, Safe
 
 ## Technology Overview
 
