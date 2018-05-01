@@ -13,8 +13,8 @@ If you are on the Synq Engineering team you already exhibit some (or all) of the
      * Engage and investigate all ideas equally.
      * Define problems collectively as a group.
      * Make sure everyone has a chance to participate.
-     * No blame, succeed and fail together mentality
-     * Willingness to try without fear
+     * No blame, succeed or fail together mentality.
+     * Willingness to try without fear.
      * For more details and examples read [here](https://en.wikipedia.org/wiki/Psychological_safety)
      
 
