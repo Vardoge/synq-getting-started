@@ -20,7 +20,7 @@ If you are on the Synq Engineering team you already exhibit some (or all) of the
 
  * __Communication__ - Communication can take many forms, but its important that we always be communicating at Synq. Without communication none of this is possible. The only clause here is that we don't want to be jerks, if you are feeling upset please take time to construct your narrative before sharing it (see psychological safety). Some examples:
       * Creating PRs.
-      * Writing documentaiton.
+      * Writing documentation.
       * Communicating in person or online.
       
  * __Care about...__ - If you don't care about Synq, about your craft, about engineering, or about your coworkers, working here will be tough. You don't have to care about everything, but caring about something is important. Without caring you wouldn't be motivated to do the work thats required of you here. Some examples:
