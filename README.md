@@ -18,19 +18,19 @@ If you are on the Synq Engineering team you already exhibit some (or all) of the
      * For more details and examples read [here](https://en.wikipedia.org/wiki/Psychological_safety)
      
 
- * __Communication__ - Communication can take many forms, but its important that we always be communicating at Synq. Without communication none of this is possible. The only clause here is that we don't want to be jerks, if you are feeling upset please take time to construct your narrative before sharing it (see psychological safety). Some examples:
+ * __Communication__ - Communication can take many forms, but it is important that we are always communicating at Synq. Without communication, none of this is possible. The only clause here is that we don't want to be jerks; if you are feeling upset please take time to construct your narrative before sharing it (see psychological safety). Some examples:
       * Creating PRs.
       * Writing documentation.
       * Communicating in person or online.
       
- * __Care about...__ - If you don't care about Synq, about your craft, about engineering, or about your coworkers, working here will be tough. You don't have to care about everything, but caring about something is important. Without caring you wouldn't be motivated to do the work thats required of you here. Some examples:
+ * __Care about...__ - If you don't care about Synq, about your craft, about engineering, or about your coworkers, working here will be tough. You don't have to care about everything, but caring about something is important. Without caring you wouldn't be motivated to do the work that's required of you here. Some examples:
       * Care about Synq.
       * Care about your coworkers and their success.
       * Care about standards or quality.
       * Care about the craftmanship of your work.
-      * Care about learning and growing your skills
+      * Care about learning and growing your skills.
 
-If you retain anything from this article, is the 3 core behaviors from above.  We live by this, we hire by this, we fire by this.  You can review past hiring/firing decisions [here](https://trello.com/b/0Vb4DSJ0/hiring)
+If you retain anything from this article, it is the 3 core behaviors from above.  We live by this, we hire by this, we fire by this.  You can review past hiring/firing decisions [here](https://trello.com/b/0Vb4DSJ0/hiring).
 
 ## How and why we do it
 
@@ -40,9 +40,9 @@ Here are things we specifically do to help achieve our mission
 
 What   | Reasoning | Tooling
 :------- | ----- | ---------
-(Near) Atomic Changes | Pushing smaller changes allows us to delivery incremental value, also reduces change of breakage | GitHub
+(Near) Atomic Changes | Pushing smaller changes allows us to deliver incremental value; also reduces chance of breakage | GitHub
 High code coverage | CI is useless without good quality coverage, and we can't ship to production confidently without it | CircleCI, Coveralls
-Refactor constantly | Code debt slows us down and to counter our fast PR turnaround | GitHub
+Refactor constantly | Code debt slows us down and counters our fast PR turnaround | GitHub
 
 [__Docs__](docs.md)
 
@@ -70,7 +70,7 @@ Name                                                        | Build | Code Cover
 :-----------------------------------------------------------|------ | ------------- | ------------ | -------------- | -----------
 [Akka](https://github.com/SYNQfm/akka)  | [![CircleCI](https://circleci.com/gh/SYNQfm/akka.svg?style=svg&circle-token=e19e0a215871658959ea60b8c5151e497241ba18)](https://circleci.com/gh/SYNQfm/akka) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/akka/badge.svg?t=gSJeot)](https://coveralls.io/github/SYNQfm/akka) | API Core | Bruce, Mike | [here](https://github.com/SYNQfm/akka/wiki)
 [Wraith](https://github.com/SYNQfm/wraith) | [![CircleCI](https://circleci.com/gh/SYNQfm/wraith.svg?style=svg&circle-token=40d1dd3788a0b3d067e84d124e96d5bbdeaaf139)](https://circleci.com/gh/SYNQfm/wraith) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/wraith/badge.svg?branch=master&t=uVtpKG)](https://coveralls.io/github/SYNQfm/wraith?branch=master) | Programmable Webhooks  | Josh, Bruce | [here](https://github.com/SYNQfm/wraith/wiki)
-[Unicorn](https://github.com/SYNQfm/unicorn) | [![CircleCI](https://circleci.com/gh/SYNQfm/unicorn.svg?style=svg&circle-token=0690b087ca33c31694a3dcea2d9e4bf9a04df3a2)](https://circleci.com/gh/SYNQfm/unicorn) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/unicorn/badge.svg?branch=master&t=u0kNmw)](https://coveralls.io/github/SYNQfm/unicorn?branch=master) | Upload API producing s3 signed urls | Jessica | [here](https://github.com/SYNQfm/unicorn/wiki)
+[Unicorn](https://github.com/SYNQfm/unicorn) | [![CircleCI](https://circleci.com/gh/SYNQfm/unicorn.svg?style=svg&circle-token=0690b087ca33c31694a3dcea2d9e4bf9a04df3a2)](https://circleci.com/gh/SYNQfm/unicorn) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/unicorn/badge.svg?branch=master&t=u0kNmw)](https://coveralls.io/github/SYNQfm/unicorn?branch=master) | Upload API producing s3 signed urls | Bruce, Jessica | [here](https://github.com/SYNQfm/unicorn/wiki)
 [Hydra](https://github.com/SYNQfm/hydra)            | [![CircleCI](https://circleci.com/gh/SYNQfm/hydra.svg?style=svg&circle-token=3bb209f5fceb013cfe5bdffed8867fb84693c789)](https://circleci.com/gh/SYNQfm/hydra) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/hydra/badge.svg?t=xMnp9a)](https://coveralls.io/github/SYNQfm/hydra) | Transcode jobs service | Bruce, Jessica | [here](https://github.com/SYNQfm/hydra/wiki)
 [Pixie](https://github.com/SYNQfm/pixie)           | [![CircleCI](https://circleci.com/gh/SYNQfm/pixie.svg?style=svg&circle-token=48d2d9d54880593f3335c5f07752fca21a514ef8)](https://circleci.com/gh/SYNQfm/pixie) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/pixie/badge.svg?t=njYMm6)](https://coveralls.io/github/SYNQfm/pixie) | Videojs player service | Jessica, Bruce | [here](https://github.com/SYNQfm/pixie/wiki)
 [Mizuchi](https://github.com/SYNQfm/mizuchi)           | [![CircleCI](https://circleci.com/gh/SYNQfm/wraith.svg?style=svg&circle-token=40d1dd3788a0b3d067e84d124e96d5bbdeaaf139)](https://circleci.com/gh/SYNQfm/wraith) | [![Coverage Status](https://coveralls.io/repos/github/SYNQfm/mizuchi/badge.svg?branch=master&t=PAqpkU)](https://coveralls.io/github/SYNQfm/mizuchi?branch=master) | Media Metadata parser | Josh | [here](https://github.com/SYNQfm/monopod/wiki)
