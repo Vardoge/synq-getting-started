@@ -106,5 +106,6 @@ Repo naming scheme is based on [legendary creatures](https://en.wikipedia.org/wi
 ## Resources
 
 [Technologies to Explore](https://github.com/SYNQfm/getting-started/wiki/Technologies-to-Explore) - if you read something cool, put it here    
+[Troubleshooting/FAQ](faq.md)
 [Useful Links](links.md)    
 [General Wiki](https://github.com/SYNQfm/getting-started/wiki)
