@@ -22,6 +22,7 @@ If you are on the Synq Engineering team you already exhibit some (or all) of the
       * Creating PRs.
       * Writing documentation.
       * Communicating in person or online.
+      * Giving and receiving feedback constructively and in real time
       
  * __Care about...__ - If you don't care about Synq, about your craft, about engineering, or about your coworkers, working here will be tough. You don't have to care about everything, but caring about something is important. Without caring you wouldn't be motivated to do the work that's required of you here. Some examples:
       * Care about Synq.
