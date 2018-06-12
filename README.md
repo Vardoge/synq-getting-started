@@ -50,7 +50,7 @@ Refactor constantly | Code debt slows us down and counters our fast PR turnaroun
 What   | Reasoning | Tooling
 :------- | ----- | ---------
 Branches and PRs | introduce small changes safely, ensure the code fits our philosophy, knowledge sharing | GitHub, Slack
-Good documentation | moving quickly means we work on a lot of different things, coming back to it later or having another teammmate look at it, they need to know | GitHub Markdown, Wiki, Stoplight
+Effective documentation | moving quickly means we work on a lot of different things, coming back to it later or having another teammmate look at it, they need to know | GitHub Markdown, StackOverflow, Stoplight
 Aligned Development | Make sure what we're working on brings business value | Trello, GitHub
 
 [__DevOps__](devops.md)
