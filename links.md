@@ -22,6 +22,7 @@ Here are some nice articles and documentation to get you acquainted
 * If you need to reference the Module struct inside the module itself, use `__Module__%{}`
 * On iex, you can do `r SomeModule` to reload the module
 * On iex, `h SomeFunc` gives the help for the function.
+* run `iex -S mix` to start Elixir's interactive shell with your environment
 
 
 ### Misc Links
