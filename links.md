@@ -1,5 +1,5 @@
 ## Elixir
-Our primary backend lanague is Elixir and we use the Phoenix framework.  Here are some nice articles and documentation to get you acquainted
+Here are some nice articles and documentation to get you acquainted
 
 
 [Elixir Lang](http://elixir-lang.org/getting-started/introduction.html) - excellent documentation     
