@@ -28,7 +28,7 @@ If you are on the Synq Engineering team you already exhibit some (or all) of the
       * Care about Synq.
       * Care about your coworkers and their success.
       * Care about standards or quality.
-      * Care about the craftmanship of your work.
+      * Care about the craftsmanship of your work.
       * Care about learning and growing your skills.
 
 If you retain anything from this article, it is the 3 core behaviors from above.  We live by this, we hire by this, we fire by this.  You can review past hiring/firing decisions [here](https://trello.com/b/0Vb4DSJ0/hiring).
